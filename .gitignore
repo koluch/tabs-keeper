@@ -88,3 +88,13 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
+dist
