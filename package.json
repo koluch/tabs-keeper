@@ -3,12 +3,13 @@
   "description": "Brunch.io application",
   "private": true,
   "author": "Brunch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "",
   "scripts": {
     "start:debug": "brunch watch --server",
     "start": "brunch watch --server --production",
-    "build": "brunch build --production"
+    "pack": "zip -r tabs-keeper.zip dist",
+    "build": "rm -rf ./dist && brunch build --production && npm run pack"
   },
   "dependencies": {
     "classnames": "^2.2.6"

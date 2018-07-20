@@ -98,3 +98,5 @@ nbproject
 Thumbs.db
 
 dist
+
+*.zip
