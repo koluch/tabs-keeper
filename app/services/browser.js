@@ -6564,11 +6564,10 @@ const DebugBrowser = {
 };
 
 const ProductionBrowser = {
-  queryTabs: () => browser.windows.getCurrent({ populate: true }).then((window) => window.tabs),
-  activateTab: (id) => { throw new Error('Not implemented yet') },
-  closeTab: (id) => { throw new Error('Not implemented yet') },
+  queryTabs: () => { return browser.windows.getCurrent({ populate: true }).then((window) => window.tabs); },
+  activateTab: (id) => { return browser.tabs.update(id, {active: true}) },
+  closeTab: (id) => { return browser.tabs.remove(id) },
 };
-
 
 const Browser = process.env.NODE_ENV === 'production' ? ProductionBrowser : DebugBrowser;
 
