@@ -6,8 +6,7 @@
   "version": "0.1.0",
   "repository": "",
   "scripts": {
-    "start:debug": "brunch watch --server",
-    "start": "brunch watch --server --production",
+    "start": "brunch watch --server",
     "clean": "rm -rf ./dist",
     "pack": "VERSION=`node -p -e \"require('./package.json').version\"` && zip -r tabs-keeper-${VERSION}.zip dist",
     "build": "npm run clean && tsc && brunch build --production && npm run pack"
@@ -24,6 +23,7 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "less-brunch": "^2.10.0",
+    "tslint": "^5.11.0",
     "typescript": "^2.9.2",
     "uglify-js-brunch": "^2",
     "web-ext-types": "^2.1.0"

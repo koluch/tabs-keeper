@@ -1,3 +1,7 @@
+export interface IWindow {
+  tabs: ITab[],
+}
+
 export interface ITab {
     id: number,
     // index: number,
