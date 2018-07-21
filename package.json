@@ -8,7 +8,7 @@
   "scripts": {
     "start:debug": "brunch watch --server",
     "start": "brunch watch --server --production",
-    "pack": "zip -r tabs-keeper.zip dist",
+    "pack": "VERSION=`node -p -e \"require('./package.json').version\"` && zip -r tabs-keeper-${VERSION}.zip dist",
     "build": "rm -rf ./dist && brunch build --production && npm run pack"
   },
   "dependencies": {
