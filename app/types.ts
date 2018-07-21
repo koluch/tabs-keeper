@@ -1,3 +1,7 @@
+export interface ISession {
+  windows: IWindow[],
+}
+
 export interface IWindow {
   id: number,
   focused: boolean,

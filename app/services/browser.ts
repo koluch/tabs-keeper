@@ -1,4 +1,4 @@
-import {ITab, IWindow} from '../types';
+import {ISession, ITab, IWindow} from '../types';
 
 let DEBUG_WINDOWS: IWindow[] = [
   {
@@ -2176,14 +2176,14 @@ let DEBUG_WINDOWS: IWindow[] = [
 ];
 
 interface IBrowser {
-  queryTabs: () => Promise<IWindow[]>,
+  getCurrentSession: () => Promise<ISession>,
   activateTab: (tabId: number) => Promise<void>,
   activateWindow: (windowId: number) => Promise<void>,
   closeTab: (tabId: number) => Promise<void>,
 }
 
 const DebugBrowser: IBrowser = {
-  queryTabs: () => Promise.resolve(DEBUG_WINDOWS),
+  getCurrentSession: () => Promise.resolve({ windows: DEBUG_WINDOWS }),
   activateTab: (id: number) => {
     DEBUG_WINDOWS.forEach((window: IWindow) => {
       window.tabs.forEach((tab: ITab) => {
@@ -2195,7 +2195,7 @@ const DebugBrowser: IBrowser = {
   activateWindow: (windowId: number) => {
     DEBUG_WINDOWS.forEach((window: IWindow) => {
       window.focused = window.id === windowId;
-    })
+    });
     return Promise.resolve(undefined)
   },
   closeTab: (id: number) => {
@@ -2210,11 +2210,11 @@ const DebugBrowser: IBrowser = {
 };
 
 const ProductionBrowser: IBrowser = {
-  queryTabs: (): Promise<IWindow[]> => {
+  getCurrentSession: (): Promise<ISession> => {
     return browser.windows
       .getAll({ populate: true })
       .then((windows) => {
-        return windows.map((window) => {
+        const sessionWindows: IWindow[] = windows.map((window) => {
           let tabs: ITab[] = [];
 
           const id = window.id;
@@ -2244,7 +2244,11 @@ const ProductionBrowser: IBrowser = {
             focused: window.focused,
             tabs: tabs
           };
-        })
+        });
+
+        return {
+          windows: sessionWindows,
+        };
       });
   },
   activateTab: (id: number) => { return browser.tabs.update(id, {active: true}).then(() => undefined) },

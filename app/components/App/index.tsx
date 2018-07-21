@@ -2,14 +2,14 @@ import {Component, h} from 'preact';
 import Header, {HEIGHT as HEADER_HEIGHT} from '../Header/index';
 import TabList from '../TabList/index';
 import Browser from '../../services/browser';
-import {ITab, IWindow} from "../../types";
+import {ISession, ITab, IWindow} from "../../types";
 import {getElementPosition, getScrollPosition} from "../../helpers/browser";
 
 const styles = require('./index.less');
 
 interface IProps {}
 interface IState {
-  windows: IWindow[],
+  session: ISession | null,
 }
 
 export default class extends Component<IProps, IState> {
@@ -19,7 +19,7 @@ export default class extends Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
     this.state = {
-      windows: [],
+      session: null,
     }
   }
 
@@ -28,7 +28,7 @@ export default class extends Component<IProps, IState> {
   }
 
   componentDidUpdate(prevProps: IProps, prevState: IState) {
-    if (prevState.windows.length === 0 && this.state.windows.length > 0) {
+    if (prevState.session === null && this.state.session !== null) {
       const activeTabRef = this.activeTabRef;
 
       // todo: figure out why this doesn't work without timeout
@@ -44,13 +44,17 @@ export default class extends Component<IProps, IState> {
   }
 
   updateTabs() {
-    Browser.queryTabs().then((windows) => {
-      this.setState({ windows })
+    Browser.getCurrentSession().then((session) => {
+      this.setState({ session })
     })
   }
 
   handleActivateTab = (tabId: number) => {
-    for (const window of this.state.windows) {
+    if (this.state.session === null) {
+      console.error('Unable to activate tab when session is null');
+      return;
+    }
+    for (const window of this.state.session.windows) {
       for (const nextTab of window.tabs) {
         if (nextTab.id === tabId) {
           Promise.all([
@@ -69,7 +73,10 @@ export default class extends Component<IProps, IState> {
   };
 
   handleRegisterActiveTabRef = (windowId: number, ref: HTMLDivElement | null) => {
-    const window = this.state.windows.find(({ id }) => id === windowId);
+    if (this.state.session === null) {
+      return;
+    }
+    const window = this.state.session.windows.find(({ id }) => id === windowId);
     if (!window || !window.focused) {
       return;
     }
@@ -77,15 +84,24 @@ export default class extends Component<IProps, IState> {
   };
 
   render() {
+    const session = this.state.session;
+
+    if (session === null) {
+      // todo: make proper layout for this message
+      return (
+        <div>No session selected</div>
+      )
+    }
+
     return (
       <div className={styles.root}>
-        <Header windows={this.state.windows} />
+        <Header windows={session.windows} />
         <div
           className={styles.content}
           style={{ marginTop: `${HEADER_HEIGHT}px`}}
         >
           <TabList
-            windows={this.state.windows}
+            windows={session.windows}
             onActivateTab={this.handleActivateTab}
             onCloseTab={this.handleCloseTab}
             onRegisterActiveTabRef={this.handleRegisterActiveTabRef}
