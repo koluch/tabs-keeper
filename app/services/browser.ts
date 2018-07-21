@@ -2,9 +2,12 @@ import {ITab, IWindow} from '../types';
 
 let DEBUG_WINDOWS: IWindow[] = [
   {
+    id: 1,
+    focused: true,
     tabs: [
       {
         "id": 3,
+        "windowId": 1,
         "active": false,
         "pinned": true,
         "title": "bq | Latest",
@@ -13,6 +16,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 4,
+        "windowId": 1,
         "active": false,
         "pinned": true,
         "title": "Письмо «Nikolay, please add me to your LinkedIn network» — Женя Софронов — Яндекс.Почта",
@@ -21,6 +25,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 5,
+        "windowId": 1,
         "active": false,
         "pinned": true,
         "title": "Диалоги",
@@ -29,6 +34,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 2,
+        "windowId": 1,
         "active": false,
         "pinned": true,
         "title": "лекарства - Google Sheets",
@@ -37,6 +43,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 325,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "судьба ужина по-английски - Поклонник деепричастий",
@@ -45,6 +52,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 296,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Network Dependencies · he-he-org/he-he-2",
@@ -53,6 +61,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 300,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "NVD - CVE-2018-3809",
@@ -61,6 +70,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 277,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "(32) Новости",
@@ -69,6 +79,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 8,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Хорошо прорисованные женщины: shakko_kitsune",
@@ -77,6 +88,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 9,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Живопись из фильма \"Титаник\": shakko_kitsune - Page 3",
@@ -85,6 +97,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 11,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Чем круты «Авиньонские девицы» Пикассо? | Шакко | Яндекс Дзен",
@@ -93,6 +106,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 12,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Пабло Руис Пикассо - NeWestMuseum",
@@ -101,6 +115,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 13,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "кельтский камень - Поклонник деепричастий",
@@ -109,6 +124,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 14,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "шаламов по-английски - Поклонник деепричастий",
@@ -117,6 +133,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 15,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Зав. игровым салоном: ksoftware",
@@ -125,6 +142,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 16,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Музей истории техники в Ростове. Кайф: ksoftware",
@@ -133,6 +151,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 18,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Using achievement stats to estimate sales on steam – Tyler Glaiel – Medium",
@@ -141,6 +160,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 20,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Печали: akuklev",
@@ -149,6 +169,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 21,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Fabrice Bellard - Wikipedia",
@@ -157,6 +178,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 22,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "открытая запись - Поклонник деепричастий",
@@ -165,6 +187,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 23,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Ну вот, maxim умучали и в твиторе. И чего вы его так все не любите,…: sorhed",
@@ -173,6 +196,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 24,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Почему я удалил все посты в ЖЖ и Твиттере: maxim",
@@ -181,6 +205,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 25,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Заголовок: lambdaterm1",
@@ -189,6 +214,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 26,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -197,6 +223,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 27,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "ПитерФотоФест - 2018",
@@ -205,6 +232,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 28,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Об Байеса - 2 - Не кинокритик. Не палеонтолог.",
@@ -213,6 +241,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 29,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "другая америка - Поклонник деепричастий Page 2",
@@ -221,6 +250,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 30,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Course | DSE200x | edX",
@@ -229,6 +259,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 31,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "juan_gandhi | шо за Шноль",
@@ -237,6 +268,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 32,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Пятое издание «Ководства» Лебедева",
@@ -245,6 +277,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 33,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Measure Performance with the RAIL Model  |  Web Fundamentals  |  Google Developers",
@@ -253,6 +286,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 34,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Update on Async Rendering - React Blog",
@@ -261,6 +295,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 35,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Duran - Публикации",
@@ -269,6 +304,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 36,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Facebook",
@@ -277,6 +313,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 37,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "афиша клуба",
@@ -285,6 +322,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 38,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Сергей Мардан",
@@ -293,6 +331,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 39,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Fredegund: Assassination-obsessed Queen",
@@ -301,6 +340,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 40,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Facebook",
@@ -309,6 +349,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 41,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "ШЛЮХА (рассказ) Приятель позвал в бар смотреть... - Максим Матковский",
@@ -317,6 +358,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 42,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Великие споры - InLiberty",
@@ -325,6 +367,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 43,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "juan_gandhi | TIL from Duolingo",
@@ -333,6 +376,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 44,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Слои пользы: ksoftware",
@@ -341,6 +385,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 45,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Пикник «Афиши» 4 августа 2018 — официальный сайт фестиваля",
@@ -349,6 +394,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 46,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Вышел новый альбом Gorillaz. Послушайте его прямо сейчас — Meduza",
@@ -357,6 +403,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 47,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -365,6 +412,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 48,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "ВИЗУАЛЬНАЯ МЕДИТАЦИЯ",
@@ -373,6 +421,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 49,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Миротворец. Портрет Апхичатпхонга Вирасетакуна - Искусство кино",
@@ -381,6 +430,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 50,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -389,6 +439,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 51,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Почему в России не надо повышать налоги? Экономический обозреватель Борис Грозовский отвечает заместителю главреда «Медузы» Александру Поливанову — Meduza",
@@ -397,6 +448,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 52,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "«Новая газета»: в Пскове поставили памятники на могилах десантников, погибших летом 2014 года — Meduza",
@@ -405,6 +457,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 53,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Андрей Ерёменко. Генерал против всех",
@@ -413,6 +466,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 54,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "шарик и кисет - Поклонник деепричастий",
@@ -421,6 +475,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 55,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "мимоза - Поклонник деепричастий",
@@ -429,6 +484,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 56,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "» Scoperto il primo dipinto firmato e autografato da Leonardo Da Vinci",
@@ -437,6 +493,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 57,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -445,6 +502,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 58,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Сеанс кинотерапии. «Арарат», режиссер Атом Эгоян - Искусство кино",
@@ -453,6 +511,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 59,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "panda-grammar - npm",
@@ -461,6 +520,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 60,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -469,6 +529,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 61,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Как приукрашивали портреты маслом после распространения фотографии: shakko_kitsune - Page 2",
@@ -477,6 +538,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 62,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Насильник, грабитель, поп-звезда: Убит XXXTentacion. Он был самым парадоксальным молодым рэпером Америки — Meduza",
@@ -485,6 +547,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 63,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Recursive descent parser - Wikipedia",
@@ -493,6 +556,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 64,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "LR parser - Wikipedia",
@@ -501,6 +565,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 65,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "parsimmon/API.md at master · jneen/parsimmon · GitHub",
@@ -509,6 +574,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 66,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Как в России будут повышать пенсионный возраст? И зачем? — Meduza",
@@ -517,6 +583,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 67,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "«Они хотят сделать дестабилизацию обстановки». СБУ показала «переговоры организаторов покушения на Бабченко»: Пытаемся это пересказать — Meduza",
@@ -525,6 +592,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 68,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -533,6 +601,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 69,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -541,6 +610,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 70,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -549,6 +619,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 71,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "нет законов - Поклонник деепричастий Page 2",
@@ -557,6 +628,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 72,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Official page for Language Server Protocol",
@@ -565,6 +637,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 73,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/6410472941942767616/sharedKey/dlv2StPe/?midToken=AQHzSA83YkIhgg&trk=eml-email_m2m_invite_single_01-null-0-accept%7Ecta&trkEmail=eml-email_m2m_invite_single_01-null-0-accept%7Ecta-null-2yk8nm%7Eji4kturi%7Exc-null-neptune%2Fmynetwork%2Einvite%7Eaccept&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BDrAIZne2QOC0D%2BxJlH6RoA%3D%3D",
@@ -573,6 +646,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 74,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Чем целлюлит Рубенса отличается от целлюлита Ван Дейка и целлюлита Йорданса?: shakko_kitsune",
@@ -581,6 +655,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 75,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "о конкурсах красоты - Поклонник деепричастий Page 2",
@@ -589,6 +664,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 76,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Бренда «Евросеть» больше не будет. Чем нам запомнится эта компания — Meduza",
@@ -597,6 +673,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 77,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Abstrakte Kunst Poster bei AllPosters.de",
@@ -605,6 +682,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 78,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "‎NimbusMind: Meditation & Calm on the App Store",
@@ -613,6 +691,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 79,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Генрих Ягода. Грязная работа",
@@ -621,6 +700,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 80,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Yes, design systems will replace design jobs — DesignSystems.com",
@@ -629,6 +709,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 81,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Как изучать негодяев • Arzamas",
@@ -637,6 +718,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 82,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "«Считают своим моральным долгом потушить пожар»: как добровольные пожарные спасают огромные территории от огня — Такие Дела",
@@ -645,6 +727,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 83,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Error Boundaries - React",
@@ -653,6 +736,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 84,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "GitHub - hlaueriksson/jamstack-cms: A JAMstack experiment with a Headless CMS",
@@ -661,6 +745,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 85,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Стена",
@@ -669,6 +754,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 86,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Антон Долин - Несравненный Эгон Шиле. 100 лет со дня... | Facebook",
@@ -677,6 +763,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 87,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "АРХСТОЯНИЕ 2018",
@@ -685,6 +772,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 88,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
@@ -693,6 +781,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 89,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Как Гитлер пришел к власти | История | DW | 29.01.2013",
@@ -701,6 +790,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 90,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Фотограф, которого никто не знал",
@@ -709,6 +799,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 91,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "ФАКУЛЬТЕТЫ ИСКУССТВ - LES",
@@ -717,6 +808,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 92,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Александр Введенский — «В ленинградское отделение...»",
@@ -725,6 +817,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 93,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Побочные эффекты осознанности 1. У вас... - Sergey Shalashenko | Facebook",
@@ -733,6 +826,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 94,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Introducing GitFlow",
@@ -741,6 +835,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 95,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "React Application Performance Analysis — Part 1 – Chingu – Medium",
@@ -749,6 +844,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 96,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "How to Benchmark React Components: The Quick and Dirty Guide",
@@ -757,6 +853,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 97,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Yes, Toilet Spray After You Flush Includes Poop Particles | SELF",
@@ -765,6 +862,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 98,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Sneak Peek: Beyond React 16 - React Blog",
@@ -773,6 +871,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 99,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Forwarding Refs - React",
@@ -781,6 +880,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 100,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Gatsby + Apollo + GraphCool + Netlify: The Web’s Promised Land",
@@ -789,6 +889,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 101,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Björk's Vault of Dank Memes public group | Facebook",
@@ -797,6 +898,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 102,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Getting started - i18next documentation",
@@ -805,6 +907,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 103,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "The PRPL Pattern  |  Web Fundamentals  |  Google Developers",
@@ -813,6 +916,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 104,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Our insights into Technology and Business | Castle Digital Partners",
@@ -821,6 +925,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 105,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Татьяна Мэй - Не знаю, кому сказать спасибо, но маленькая... | Facebook",
@@ -829,6 +934,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 106,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Поздравляю всех причастных с Днём... - Владимир Манилов | Facebook",
@@ -837,6 +943,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 107,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Synchronize with the Server's Clock in the Browser",
@@ -845,6 +952,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 108,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "о жизни и литературе - Поклонник деепричастий",
@@ -853,6 +961,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 109,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "«АукцЫон». Единственный Летний Концерт в Aurora Concert Hall",
@@ -861,6 +970,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 110,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Как Юрий Осинин спас Питер: tema",
@@ -869,6 +979,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 111,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "78 Новости - Петербуржец Юрий Осинин по своему желанию...",
@@ -877,6 +988,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 112,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "«100 лет дизайна» — кінопоказ у Москві — розклад на Яндекс.Афіші",
@@ -885,6 +997,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 113,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Архитектурная Керамика.",
@@ -893,6 +1006,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 114,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Экспонат без названия",
@@ -901,6 +1015,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 115,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Безумные миры Дэвида Линча — Кино на DTF",
@@ -909,6 +1024,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 116,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Видеозаписи Поэмание",
@@ -917,6 +1033,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 117,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "«О восприятии и выявлении псевдо-интеллектуальной чуши»",
@@ -925,6 +1042,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 118,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "АРХСТОЯНИЕ 2018",
@@ -933,6 +1051,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 119,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Sneak Peek: Beyond React 16 - React Blog",
@@ -941,6 +1060,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 120,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Антон Долин - КИНОТАВР: МОИ ИТОГИ 1. Самый важный итог -... | Facebook",
@@ -949,6 +1069,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 121,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Home / The Art of Pants",
@@ -957,6 +1078,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 122,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Трудно быть богом (фильм, 2013) — Википедия",
@@ -965,6 +1087,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 123,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "GitHub - sindresorhus/query-string: Parse and stringify URL query strings",
@@ -973,6 +1096,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 124,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Better exhaustiveness checking for variant type conditions · Issue #1374 · facebook/flow · GitHub",
@@ -981,6 +1105,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 125,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Вода для чая",
@@ -989,6 +1114,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 126,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "react-jsx-parser - npm",
@@ -997,6 +1123,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 127,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "GitHub - ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
@@ -1005,6 +1132,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 128,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog",
@@ -1013,6 +1141,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 129,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Introducing MDXC: A new way to write Markdown for React - James K Nelson",
@@ -1021,6 +1150,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 130,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Artem Chernov - Мне кажется, в ближайшее время у каждого... | Facebook",
@@ -1029,6 +1159,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 131,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Искусство для пацанчиков: Эдвард Мунк | Батенька, да вы трансформер",
@@ -1037,6 +1168,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 132,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Artem Chernov - А вот и Питерфотофест. Конец августа.... | Facebook",
@@ -1045,6 +1177,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 133,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Födor Katasonov - Виленский был одним из самых крутых и... | Facebook",
@@ -1053,6 +1186,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 134,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Семимостье в Санкт-Петербурге",
@@ -1061,6 +1195,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 135,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Книжный клуб",
@@ -1069,6 +1204,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 136,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
@@ -1077,6 +1213,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 137,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "React.Element type is incompatible with object type · Issue #5547 · facebook/flow · GitHub",
@@ -1085,6 +1222,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 141,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "(3) Антон Долин - Большая удача – «Три сестры» Константин Богомолов...",
@@ -1093,6 +1231,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 142,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Кому выгодно повышение пенсионного возраста - РИА Новости, 19.06.2018",
@@ -1101,6 +1240,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 143,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Татьяна Мэй - Варлам Шаламов последние три года жизни... | Facebook",
@@ -1109,6 +1249,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 144,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Ребята, last call for a trip to North... - Larisa Melnikova | Facebook",
@@ -1117,6 +1258,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 145,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "GitHub - pandastrike/panda-grammar: Recursive descent parser combinators in JavaScript",
@@ -1125,6 +1267,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 146,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "GitHub - reduxjs/react-redux: Official React bindings for Redux",
@@ -1133,6 +1276,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 147,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "You Probably Don't Need Derived State - React Blog",
@@ -1141,6 +1285,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 148,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "A deep dive into children in React - Max Stoibers Blog",
@@ -1149,6 +1294,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 149,
+        "windowId": 1,
         "active": false,
         "pinned": false,
         "title": "Купить билеты",
@@ -1158,9 +1304,12 @@ let DEBUG_WINDOWS: IWindow[] = [
     ],
   },
   {
+    id: 2,
+    focused: false,
     tabs: [
       {
         "id": 150,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Книга: \"Омерзительное искусство. Юмор и хоррор шедевров живописи\" - Софья Багдасарова. Купить книгу, читать рецензии | ISBN 978-5-04-088717-0 | Лабиринт",
@@ -1169,6 +1318,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 151,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Артемий Лебедев - Городской дизайн.",
@@ -1177,6 +1327,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 152,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Режим работы - Глазной диагностический центр №7 (Санкт-Петербург, Моховая 38)",
@@ -1185,6 +1336,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 153,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Чехов А.П. (Author of Скучная история)",
@@ -1193,6 +1345,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 154,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Что почитать Чехова?: chto_chitat",
@@ -1201,6 +1354,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 155,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "QW Confluence",
@@ -1209,6 +1363,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 156,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Mindful - healthy mind, healthy life",
@@ -1217,6 +1372,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 157,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Кому на самом деле нужно плацебо: scinquisitor",
@@ -1225,6 +1381,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 158,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Illusion mindfulness improves cancer survival | Mind the Brain",
@@ -1233,6 +1390,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 159,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Mindfulness research's uninformative control groups | Mind the Brain",
@@ -1241,6 +1399,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 160,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Нейротеология: scinquisitor",
@@ -1249,6 +1408,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 161,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Стэнфордский тюремный эксперимент — Википедия",
@@ -1257,6 +1417,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 162,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "The Lifespan of a Lie – Trust Issues – Medium",
@@ -1265,6 +1426,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 163,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "How I Wait Years to Get My Photos",
@@ -1273,6 +1435,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 164,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "What is the best approach to design state? · Issue #1825 · reduxjs/redux · GitHub",
@@ -1281,6 +1444,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 165,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "10 Tips for Better Redux Architecture – JavaScript Scene – Medium",
@@ -1289,6 +1453,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 166,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Falcor: One Model Everywhere",
@@ -1297,6 +1462,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 167,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Five Tips for Working with Redux in Large Applications",
@@ -1305,6 +1471,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 168,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "reactjs - What is the core difference of redux & reflux in using react based application? - Stack Overflow",
@@ -1313,6 +1480,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 169,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Митинги против повышения пенсионного возраста — Meduza",
@@ -1321,6 +1489,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 170,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Сериал «Незнакомцы» от Facebook: реалистично, как «Девочки», смешно, как «Друзья» — Meduza",
@@ -1329,6 +1498,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 171,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Книга Журнал \"Искусство кино\" №5-6/2018 - купить в книжном интернет-магазине по цене 300 руб | Podpisnie.ru",
@@ -1337,6 +1507,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 172,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Лена Грачёва - редко что-то шарю, но это всё же хочу... | Facebook",
@@ -1345,6 +1516,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 173,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
@@ -1353,6 +1525,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 174,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Татьяна Мэй - А вообще, спасибо безвестному стукачу, из-за... | Facebook",
@@ -1361,6 +1534,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 175,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Stranger Things - Wikipedia",
@@ -1369,6 +1543,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 177,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Creating Library Definitions | Flow",
@@ -1377,6 +1552,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 178,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "flow-typed/definitions/npm at master · flow-typed/flow-typed · GitHub",
@@ -1385,6 +1561,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 179,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Roadmap to a v3.0.0 of flow-typed · Issue #1494 · flow-typed/flow-typed · GitHub",
@@ -1393,6 +1570,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 180,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Which interfaces are already written? · Issue #13 · flow-typed/flow-typed · GitHub",
@@ -1401,6 +1579,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 181,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Intersection doesn't work for exact object types · Issue #2626 · facebook/flow · GitHub",
@@ -1409,6 +1588,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 183,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "That's so fetch! - JakeArchibald.com",
@@ -1417,6 +1597,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 184,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "react-static/static.config.js at master · nozzle/react-static · GitHub",
@@ -1425,6 +1606,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 185,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "React Static - A progressive static-site framework for React @ OgdenJS - YouTube",
@@ -1433,6 +1615,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 187,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Setting up CSS Modules with React and Webpack",
@@ -1441,6 +1624,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 188,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "GitHub - css-modules/css-modules: Documentation about css-modules",
@@ -1449,6 +1633,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 189,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Ася Федотова",
@@ -1457,6 +1642,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 190,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Коррекция на множественное тестирование — Википедия",
@@ -1465,6 +1651,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 192,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Мандрагора — Википедия",
@@ -1473,6 +1660,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 193,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Text Fields · An Introduction to Elm",
@@ -1481,6 +1669,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 194,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Redux",
@@ -1489,6 +1678,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 195,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Cycle.js",
@@ -1497,6 +1687,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 196,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "GitHub - minedeljkovic/redux-elmish: The Elm Architecture in Redux, statically checked using flow",
@@ -1505,6 +1696,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 197,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "GitHub - brabadu/tanok: Elm Architecture-inspired wrapper for Rx.js+React",
@@ -1513,6 +1705,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 198,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "GitHub - didierfranc/react-waterfall: React store built on top of the new context API",
@@ -1521,6 +1714,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 199,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Купить б/у Apple iPad mini 3 16Gb Wi-Fi + Cellular. Цена.",
@@ -1529,6 +1723,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 257,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Trade-in и продажа техники в Санкт-Петербурге. REFRESH your tech",
@@ -1537,6 +1732,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 200,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Купить б/у iPad mini 4 128Gb Wi-Fi + Cellular. Цена.",
@@ -1545,6 +1741,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 265,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Планшет Apple iPad mini 4 128Gb Wi-Fi в интернет-магазинах — Планшеты — Яндекс.Маркет",
@@ -1553,6 +1750,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 307,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Apple iPad mini 4 128Gb Wi-Fi Silver",
@@ -1561,6 +1759,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 303,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
@@ -1569,6 +1768,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 302,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Apple iPad mini 4 Wi-Fi 128GB (серебристый) характеристики, техническое описание планшета - интернет-магазин Связной",
@@ -1577,6 +1777,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 301,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Планшеты Apple iPad – купить iPad по отличной цене",
@@ -1585,6 +1786,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 275,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
@@ -1593,6 +1795,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 245,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Сравнение товаров — Яндекс.Маркет",
@@ -1601,6 +1804,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 246,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Сравнение товаров — Яндекс.Маркет",
@@ -1609,6 +1813,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 261,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Планшет Apple iPad (2018) 32Gb Wi-Fi + Cellular — Планшеты — купить по выгодной цене на Яндекс.Маркете",
@@ -1617,6 +1822,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 242,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Compare Apple iPad mini 3 vs. Apple iPad mini 4 - GSMArena.com",
@@ -1625,6 +1831,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 202,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Платформы для сборки ПК - Компьютерные комплектующие",
@@ -1633,6 +1840,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 204,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Антон Долин - (Опять странный вопрос) А существует же наверняка...",
@@ -1641,6 +1849,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 205,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Умер Клод Ланцман — режиссер «Шоа», важнейшего документального фильма про Холокост — Meduza",
@@ -1649,6 +1858,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 206,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Sourcetree | Free Git GUI for Mac and Windows",
@@ -1657,6 +1867,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 207,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Зои / Родина",
@@ -1665,6 +1876,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 209,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Mirrors Yamaha Y80 Y50 Y75 Y80 V50 V75 Japan Mint 689127704338 | eBay",
@@ -1673,6 +1885,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 213,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "windows 10 key | eBay",
@@ -1681,6 +1894,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 214,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "WINDOWS 7 Ultimate 32/64 Bit Activation key INSTANT DELIVERY 5MINT+DOWNLOAD Link | eBay",
@@ -1689,6 +1903,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 215,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Watch Out For These Dirty Tricks From Discounted Software Resellers",
@@ -1697,6 +1912,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 216,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Microsoft Windows 7 Ultimate 32/64 bit MS Activation Key Full Version Win 7 Ult 885370258851 | eBay",
@@ -1705,6 +1921,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 219,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Бизнес-линч за 14.09.2017",
@@ -1713,6 +1930,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 220,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Новый органон — Википедия",
@@ -1721,6 +1939,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 221,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Пылающий",
@@ -1729,6 +1948,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 222,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Список вопросов - дизайн - Miscellaneous - QW Confluence",
@@ -1737,6 +1957,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 223,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Осознанный хип-хоп — Википедия",
@@ -1745,6 +1966,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 225,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "И я в моем теплом теле (Введенский) — Wikilivres.ru",
@@ -1753,6 +1975,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 231,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Киноцентр Родина",
@@ -1761,6 +1984,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 251,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Отзывы о торгово-сервисной компании Refresh your tech - Магазины - Санкт-Петербург",
@@ -1769,6 +1993,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 298,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "serve - npm",
@@ -1777,6 +2002,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 306,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Смартфон Digma VOX FIRE 4G — Мобильные телефоны — купить по выгодной цене на Яндекс.Маркете",
@@ -1785,6 +2011,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 352,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "tabs.remove() - Mozilla | MDN",
@@ -1793,6 +2020,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 349,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Your second extension - Mozilla | MDN",
@@ -1801,6 +2029,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 347,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Debugging with Firefox Developer Tools",
@@ -1809,6 +2038,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 348,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Firefox Is Back. It’s Time to Give It a Try. - The New York Times",
@@ -1817,6 +2047,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 350,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Владик on Twitter: \"Короче, один лайк - один факт о реальной травматологии\"",
@@ -1825,6 +2056,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 354,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Introducing FilterBubbler: A WebExtension built using React/Redux – Mozilla Hacks – the Web developer blog",
@@ -1833,6 +2065,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 358,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Close icons - Download 4829 free & premium icons on Iconfinder",
@@ -1841,6 +2074,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 363,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "lusakasa/saka-extension-boilerplate: Opinionated boilerplate for building extensions for Chrome and Firefox",
@@ -1849,6 +2083,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 367,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Создание и вызов событий - Руководство Web-разработчика | MDN",
@@ -1857,6 +2092,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 368,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "medium.com | 502: Bad gateway",
@@ -1865,6 +2101,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 369,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Tabs Manager – Figma",
@@ -1873,6 +2110,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 395,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "developit/preact: ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
@@ -1881,6 +2119,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 397,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Brunch: Commands — Brunch",
@@ -1889,6 +2128,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 401,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Plugins — Brunch",
@@ -1897,6 +2137,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 404,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Node Security Platform | Advisory",
@@ -1905,6 +2146,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 408,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Tabs Keeper",
@@ -1913,6 +2155,7 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 415,
+        "windowId": 2,
         "active": false,
         "pinned": false,
         "title": "Add-ons Manager",
@@ -1921,30 +2164,38 @@ let DEBUG_WINDOWS: IWindow[] = [
       },
       {
         "id": 416,
+        "windowId": 2,
         "active": true,
         "pinned": false,
         "title": "Debugging with Firefox Developer Tools",
         "url": "about:debugging#addons",
         "favIconUrl": null
       }
-    ]
+    ],
   }
 ];
 
 interface IBrowser {
   queryTabs: () => Promise<IWindow[]>,
   activateTab: (tabId: number) => Promise<void>,
+  activateWindow: (windowId: number) => Promise<void>,
   closeTab: (tabId: number) => Promise<void>,
 }
 
 const DebugBrowser: IBrowser = {
   queryTabs: () => Promise.resolve(DEBUG_WINDOWS),
   activateTab: (id: number) => {
-    DEBUG_WINDOWS.forEach((tabSet: IWindow) => {
-      tabSet.tabs.forEach((tab: ITab) => {
+    DEBUG_WINDOWS.forEach((window: IWindow) => {
+      window.tabs.forEach((tab: ITab) => {
         tab.active = tab.id === id;
       })
     });
+    return Promise.resolve(undefined)
+  },
+  activateWindow: (windowId: number) => {
+    DEBUG_WINDOWS.forEach((window: IWindow) => {
+      window.focused = window.id === windowId;
+    })
     return Promise.resolve(undefined)
   },
   closeTab: (id: number) => {
@@ -1964,14 +2215,15 @@ const ProductionBrowser: IBrowser = {
       .getAll({ populate: true })
       .then((windows) => {
         return windows.map((window) => {
-          if (window.tabs === null || window.tabs === undefined) {
-            console.error(`windows.tabs should never be null, since we use "populate: true" option`);
-            return {
-              tabs: [],
-            };
+          let tabs: ITab[] = [];
+
+          const id = window.id;
+          if (id === null || id === undefined) {
+            throw new Error(`Window id should never be null`);
           }
-          return {
-            tabs: window.tabs.map(({id, active, url, title, favIconUrl, pinned}): ITab => {
+
+          if (window.tabs !== null && window.tabs !== undefined) {
+            tabs = window.tabs.map(({id, windowId, active, url, title, favIconUrl, pinned}): ITab => {
               if (id === null || id === undefined) {
                 throw new Error(`This extension doesn't support tabs with null id's. This should actually never happen`)
               }
@@ -1981,13 +2233,22 @@ const ProductionBrowser: IBrowser = {
               if (title === null || title === undefined) {
                 throw new Error(`URL should not be null, since we require 'tabs' permission`)
               }
-              return {id, active, url, title, favIconUrl: favIconUrl || null, pinned};
-            })
+              return {id, windowId, active, url, title, favIconUrl: favIconUrl || null, pinned};
+            });
+          } else {
+            console.error(`windows.tabs should never be null, since we use "populate: true" option`);
+          }
+
+          return {
+            id,
+            focused: window.focused,
+            tabs: tabs
           };
         })
       });
   },
   activateTab: (id: number) => { return browser.tabs.update(id, {active: true}).then(() => undefined) },
+  activateWindow: (id: number) => { return browser.windows.update(id, {focused: true}).then(() => undefined) },
   closeTab: (id: number) => { return browser.tabs.remove(id).then(() => undefined) },
 };
 

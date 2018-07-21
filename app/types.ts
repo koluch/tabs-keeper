@@ -1,4 +1,6 @@
 export interface IWindow {
+  id: number,
+  focused: boolean,
   tabs: ITab[],
 }
 
@@ -9,6 +11,7 @@ export interface ITab {
     // highlighted: boolean,
     active: boolean,
     pinned: boolean,
+    windowId: number,
     // status: "complete",
     // hidden: boolean,
     // discarded: boolean,

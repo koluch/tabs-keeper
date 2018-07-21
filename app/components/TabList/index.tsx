@@ -9,7 +9,7 @@ interface IProps {
   windows: IWindow[],
   onActivateTab: (tabId: number) => void,
   onCloseTab: (tabId: number) => void,
-  onRegisterActiveTabRef: (ref: HTMLDivElement | null) => void,
+  onRegisterActiveTabRef: (windowId: number, ref: HTMLDivElement | null) => void,
 }
 
 export default class extends Component<IProps> {
@@ -23,7 +23,7 @@ export default class extends Component<IProps> {
           onClose={() => this.props.onCloseTab(tab.id)}
           onRegisterRef={(ref) => {
             if (tab.active) {
-              this.props.onRegisterActiveTabRef(ref);
+              this.props.onRegisterActiveTabRef(window.id, ref);
             }
           }}
         />
