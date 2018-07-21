@@ -15,8 +15,6 @@ exports.paths = {
 
 exports.plugins = {
   babel: {
-    presets: ['env', 'preact'],
-    plugins: ['transform-class-properties', 'transform-object-rest-spread'],
   },
   less: {
     modules: true

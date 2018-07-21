@@ -1,5 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+import {ITab} from '../types';
+
 let DEBUG_TABS = [
     {
         "id": 3,
@@ -1922,44 +1922,56 @@ let DEBUG_TABS = [
         "favIconUrl": null
     }
 ];
-const DebugBrowser = {
-    queryTabs: () => Promise.resolve(DEBUG_TABS),
-    activateTab: (id) => {
-        DEBUG_TABS.forEach((tab) => {
-            tab.active = tab.id === id;
-        });
-        return Promise.resolve(undefined);
-    },
-    closeTab: (id) => {
-        DEBUG_TABS = DEBUG_TABS.filter((tab) => tab.id !== id);
-        return Promise.resolve(undefined);
-    },
+
+interface IBrowser {
+  queryTabs: () => Promise<ITab[]>,
+  activateTab: (tabId: number) => Promise<void>,
+  closeTab: (tabId: number) => Promise<void>,
+}
+
+const DebugBrowser: IBrowser = {
+  queryTabs: () => Promise.resolve(DEBUG_TABS),
+  activateTab: (id: number) => {
+    DEBUG_TABS.forEach((tab) => {
+      tab.active = tab.id === id;
+    });
+    return Promise.resolve(undefined)
+  },
+  closeTab: (id: number) => {
+    DEBUG_TABS = DEBUG_TABS.filter((tab) => tab.id !== id);
+    return Promise.resolve(undefined)
+  },
 };
-const ProductionBrowser = {
-    queryTabs: () => {
-        return browser.windows
-            .getCurrent({ populate: true })
-            .then((window) => {
-            if (window.tabs === null || window.tabs === undefined) {
-                throw new Error(`windows.tabs should never be null, since we use "populate: true" option`);
-            }
-            return window.tabs.map(({ id, active, url, title, favIconUrl, pinned }) => {
-                if (id === null || id === undefined) {
-                    throw new Error(`This extension doesn't support tabs with null id's. This should actually never happen`);
-                }
-                if (url === null || url === undefined) {
-                    throw new Error(`URL should not be null, since we require 'tabs' permission`);
-                }
-                if (title === null || title === undefined) {
-                    throw new Error(`URL should not be null, since we require 'tabs' permission`);
-                }
-                return { id, active, url, title, favIconUrl: favIconUrl || null, pinned };
-            });
+
+const ProductionBrowser: IBrowser = {
+  queryTabs: (): Promise<ITab[]> => {
+    return browser.windows
+      .getCurrent({ populate: true })
+      .then((window) => {
+        if (window.tabs === null || window.tabs === undefined) {
+          throw new Error(`windows.tabs should never be null, since we use "populate: true" option`)
+        }
+
+        return window.tabs.map(({id, active, url, title, favIconUrl, pinned}): ITab => {
+          if (id === null || id === undefined) {
+            throw new Error(`This extension doesn't support tabs with null id's. This should actually never happen`)
+          }
+          if (url === null || url === undefined) {
+            throw new Error(`URL should not be null, since we require 'tabs' permission`)
+          }
+          if (title === null || title === undefined) {
+            throw new Error(`URL should not be null, since we require 'tabs' permission`)
+          }
+          return {id, active, url, title, favIconUrl: favIconUrl || null, pinned};
         });
-    },
-    activateTab: (id) => { return browser.tabs.update(id, { active: true }).then(() => undefined); },
-    closeTab: (id) => { return browser.tabs.remove(id).then(() => undefined); },
+      });
+  },
+  activateTab: (id: number) => { return browser.tabs.update(id, {active: true}).then(() => undefined) },
+  closeTab: (id: number) => { return browser.tabs.remove(id).then(() => undefined) },
 };
+
+
+
 const Browser = process.env.NODE_ENV === 'production' ? ProductionBrowser : DebugBrowser;
-exports.default = Browser;
-//# sourceMappingURL=browser.js.map
+
+export default Browser

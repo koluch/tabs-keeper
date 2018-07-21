@@ -1,0 +1,16 @@
+{
+  "lib": ["es2015.promise"],
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "typeRoots": ["node_modules/@types", "node_modules/web-ext-types"],
+    "strictNullChecks": true
+  },
+  "include": [
+    "./app/**/*"
+  ]
+}

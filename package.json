@@ -8,23 +8,24 @@
   "scripts": {
     "start:debug": "brunch watch --server",
     "start": "brunch watch --server --production",
+    "clean": "rm -rf ./dist",
     "pack": "VERSION=`node -p -e \"require('./package.json').version\"` && zip -r tabs-keeper-${VERSION}.zip dist",
-    "build": "rm -rf ./dist && brunch build --production && npm run pack"
+    "build": "npm run clean && tsc && brunch build --production && npm run pack"
   },
   "dependencies": {
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "preact": "^8.2.9"
   },
   "devDependencies": {
-    "auto-reload-brunch": "^2",
+    "@types/classnames": "^2.2.6",
+    "@types/node": "^10.5.2",
     "babel-brunch": "^6.1.1",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-preact": "^1.1.0",
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "less-brunch": "^2.10.0",
-    "preact": "^8.2.9",
-    "uglify-js-brunch": "^2"
+    "typescript": "^2.9.2",
+    "uglify-js-brunch": "^2",
+    "web-ext-types": "^2.1.0"
   }
 }
