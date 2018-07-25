@@ -1,15 +1,22 @@
 import {Component, h} from 'preact';
-import Header, {HEIGHT as HEADER_HEIGHT} from '../Header/index';
+import Header, {HEIGHT as HEADER_HEIGHT, UITab} from '../Header/index';
 import TabList from '../TabList/index';
 import Browser from '../../services/browser';
-import {ISession, ITab, IWindow} from "../../types";
+import SessionStorage from '../../services/sessionStorage';
+import {ISession, ISavedSessionHeader, ITab, IWindow, ISavedSession, INewTab} from "../../types";
 import {getElementPosition, getScrollPosition} from "../../helpers/browser";
+import toast from '../../helpers/toast';
+import SavedSessionsList from '../SavedSessionsList';
 
 const styles = require('./index.less');
 
 interface IProps {}
 interface IState {
+  activeUITab: UITab,
   session: ISession | null,
+  savedSessionHeaders: ISavedSessionHeader[],
+  activeSavedSessionHeader: ISavedSessionHeader | null,
+  activeSavedSession: ISavedSession | null,
 }
 
 export default class extends Component<IProps, IState> {
@@ -19,12 +26,22 @@ export default class extends Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
     this.state = {
+      activeUITab: 'CURRENT',
       session: null,
+      savedSessionHeaders: [],
+      activeSavedSessionHeader: null,
+      activeSavedSession: null,
     }
   }
 
   componentDidMount() {
     this.updateTabs();
+    this.updateSavedSession();
+
+    // Force render to update durations
+    setInterval(() => {
+      this.setState({});
+    }, 10000)
   }
 
   componentDidUpdate(prevProps: IProps, prevState: IState) {
@@ -46,6 +63,14 @@ export default class extends Component<IProps, IState> {
   updateTabs() {
     Browser.getCurrentSession().then((session) => {
       this.setState({ session })
+    })
+  }
+
+  updateSavedSession() {
+    SessionStorage.getList().then((savedSessionHeaders) => {
+      this.setState({
+        savedSessionHeaders,
+      })
     })
   }
 
@@ -72,6 +97,10 @@ export default class extends Component<IProps, IState> {
     Browser.closeTab(tabId).then(() => this.updateTabs())
   };
 
+  handleCloseWindow = (windowId: number) => {
+    Browser.closeWindow(windowId).then(() => this.updateTabs())
+  };
+
   handleRegisterActiveTabRef = (windowId: number, ref: HTMLDivElement | null) => {
     if (this.state.session === null) {
       return;
@@ -82,6 +111,86 @@ export default class extends Component<IProps, IState> {
     }
     this.activeTabRef = ref;
   };
+
+  handleSaveCurrentSession = () => {
+    if (this.state.session === null) {
+      console.error(`Unable to save null session`);
+      return;
+    }
+
+    SessionStorage.save(this.state.session).then(() => {
+      toast('Session saved!');
+      this.updateSavedSession();
+    }).catch((e) => {
+      console.error(e);
+      toast('Unable to save session!', 'ERROR');
+    })
+  };
+
+  handleSelectSavedSession = (activeSavedSessionHeader: ISavedSessionHeader | null) => {
+    this.setState({
+      activeSavedSessionHeader,
+      activeSavedSession: null,
+    }, () => {
+      if (activeSavedSessionHeader) {
+        // todo: async set state, check for is mounted?
+        SessionStorage.get(activeSavedSessionHeader.id).then((savedSession: ISavedSession | null) => {
+          if (savedSession) {
+            this.setState({
+              activeSavedSession: savedSession,
+            })
+          } else {
+            toast(`Unable to find session with id ${activeSavedSessionHeader.id} in storage`);
+          }
+        })
+      }
+    })
+  };
+
+  handleReopenWindow = (tabs: INewTab[]) => {
+    Browser.openWindow(tabs).then(() => {
+      toast('Window reopened!');
+      this.updateTabs();
+    }).catch((e) => {
+      console.error(e);
+      toast('Unable to reopen window!', 'ERROR');
+    });
+  };
+
+  handleReopenTabs = (tabs: INewTab[]) => {
+    Browser.openTabs(tabs).then(() => {
+      toast('Tabs reopened!');
+      this.updateTabs();
+    }).catch((e) => {
+      console.error(e);
+      toast('Unable to reopen tabs!', 'ERROR');
+    });
+  };
+
+  renderCurrentSession(session: ISession) {
+    return (
+      <TabList
+        windows={session.windows}
+        onActivateTab={this.handleActivateTab}
+        onCloseTab={this.handleCloseTab}
+        onCloseWindow={this.handleCloseWindow}
+        onRegisterActiveTabRef={this.handleRegisterActiveTabRef}
+      />
+    );
+  }
+
+  renderSavedSessionsList() {
+    return (
+      <SavedSessionsList
+        savedSessionHeaders={this.state.savedSessionHeaders}
+        activeSavedSessionHeader={this.state.activeSavedSessionHeader}
+        activeSavedSession={this.state.activeSavedSession}
+        onSelectSession={this.handleSelectSavedSession}
+        onReopenWindow={this.handleReopenWindow}
+        onReopenTabs={this.handleReopenTabs}
+      />
+    );
+  }
 
   render() {
     const session = this.state.session;
@@ -95,17 +204,22 @@ export default class extends Component<IProps, IState> {
 
     return (
       <div className={styles.root}>
-        <Header windows={session.windows} />
+        <Header
+          windows={session.windows}
+          activeUITab={this.state.activeUITab}
+          onSwitchUITab={(uiTab: UITab) => {
+            this.setState({
+              activeUITab: uiTab,
+            })
+          }}
+          onClickSaveCurrent={this.handleSaveCurrentSession}
+        />
         <div
           className={styles.content}
           style={{ marginTop: `${HEADER_HEIGHT}px`}}
         >
-          <TabList
-            windows={session.windows}
-            onActivateTab={this.handleActivateTab}
-            onCloseTab={this.handleCloseTab}
-            onRegisterActiveTabRef={this.handleRegisterActiveTabRef}
-          />
+          {this.state.activeUITab === 'CURRENT' && this.renderCurrentSession(session)}
+          {this.state.activeUITab === 'SAVED' && this.renderSavedSessionsList()}
         </div>
       </div>
     )

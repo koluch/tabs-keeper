@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #dbdbdb;
+  }
+
+  &.isActive {
+    background: #f8f8f8;
+  }
+}

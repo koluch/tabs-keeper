@@ -37,11 +37,20 @@
   height: 12px;
 }
 
-.windowTitle {
-  font-weight: bold;
-  margin-bottom: 8px;
+.windowHeader {
+  padding: 4px 0;
+}
 
-  &:not(:first-child) {
-    margin-top: 24px;
+.windowTitle {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.window {
+  opacity: 0.6;
+  margin-bottom: 12px;
+
+  &.isActive {
+    opacity: 1;
   }
 }

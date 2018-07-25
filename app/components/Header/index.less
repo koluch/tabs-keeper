@@ -1,17 +1,54 @@
+@background: white;
+@border-color: #c0c0c0;
+
 .root {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
-  align-items: center;
-  background: white;
+  flex-direction: column;
+  background: @background;
   z-index: 1;
-  padding: 0px 12px;
-  font-weight: bold;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid @border-color;
   border-radius: 5px 5px 0 0;
   font-size: 14px;
   line-height: 14px;
   box-sizing: border-box;
+}
+
+.tabs {
+  display: flex;
+  background: #f3f3f3;
+  border-bottom: 1px solid @border-color;
+  padding: 0px 10px;
+}
+
+.tab {
+  border: 1px solid @border-color;
+  border-bottom-width: 0;
+  margin: 3px 3px 0;
+  padding: 3px 5px;
+  margin-bottom: -1px;
+  font-size: 12px;
+  border-radius: 2px 2px 0 0;
+  user-select: none;
+
+  &.isActive {
+    cursor: default;
+    background: @background;
+  }
+
+  &:not(.isActive) {
+    cursor: pointer;
+  }
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 12px;
+  font-weight: bold;
+  flex: 1;
 }

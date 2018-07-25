@@ -20,3 +20,11 @@ exports.plugins = {
     modules: true
   }
 };
+
+exports.notifications = false;
+
+exports.overrides = {
+  testing: {
+    optimize: false,
+  }
+};
