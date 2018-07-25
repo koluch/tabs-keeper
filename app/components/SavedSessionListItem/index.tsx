@@ -2,6 +2,7 @@ import {Component, h} from 'preact';
 import cn from 'classnames';
 import {ISavedSession, ISavedSessionHeader} from "../../types";
 import * as dateHelper from "../../helpers/date";
+import plural from "../../helpers/plural";
 
 const styles = require('./index.less');
 
@@ -23,7 +24,7 @@ export default class extends Component<IProps> {
           {dateHelper.formatDate(savedSessionHeader.date)} ({dateHelper.humanizeDuration(new Date().getTime() - savedSessionHeader.date)})
         </div>
         <div>
-          {savedSessionHeader.windowsCount} windows, {savedSessionHeader.tabsCount} tabs
+          {savedSessionHeader.windowsCount} {plural(savedSessionHeader.windowsCount,'window')}, {savedSessionHeader.tabsCount} {plural(savedSessionHeader.tabsCount,'tab')}
         </div>
       </div>
     )

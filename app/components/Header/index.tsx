@@ -1,6 +1,7 @@
 import { h, Component } from 'preact';
 import {ITab, IWindow} from "../../types";
 import cn from 'classnames';
+import plural from "../../helpers/plural";
 const styles = require('./index.less');
 
 export type UITab = 'CURRENT' | 'SAVED';
@@ -35,12 +36,13 @@ export default class extends Component<IProps> {
   }
 
   renderCurrentSessionInfo() {
+    const windowsCount = this.props.windows.length;
     const tabsCount = this.props.windows
-    .map(({ tabs }) => tabs.length)
-    .reduce((acc, x) => acc + x, 0);
+      .map(({ tabs }) => tabs.length)
+      .reduce((acc, x) => acc + x, 0);
     return (
       <div className={styles.info}>
-        <div>{tabsCount} tabs</div>
+        <div>{windowsCount} {plural(windowsCount,'window')}, {tabsCount} {plural(windowsCount,'tab')}</div>
         <button onClick={this.props.onClickSaveCurrent}>Save</button>
       </div>
     )
