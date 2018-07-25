@@ -193,7 +193,7 @@ export default class extends Component<IProps, IState> {
   }
 
   render() {
-    const session = this.state.session;
+    const { session, savedSessionHeaders }= this.state;
 
     if (session === null) {
       // todo: make proper layout for this message
@@ -206,6 +206,7 @@ export default class extends Component<IProps, IState> {
       <div className={styles.root}>
         <Header
           windows={session.windows}
+          savedSessionHeaders={savedSessionHeaders}
           activeUITab={this.state.activeUITab}
           onSwitchUITab={(uiTab: UITab) => {
             this.setState({

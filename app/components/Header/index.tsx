@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import {ITab, IWindow} from "../../types";
+import {ISavedSession, ISavedSessionHeader, ITab, IWindow} from "../../types";
 import cn from 'classnames';
 import plural from "../../helpers/plural";
 const styles = require('./index.less');
@@ -9,6 +9,7 @@ export type UITab = 'CURRENT' | 'SAVED';
 interface IProps {
   activeUITab: UITab,
   windows: IWindow[],
+  savedSessionHeaders: ISavedSessionHeader[],
   onSwitchUITab: (uiTab: UITab) => void,
   onClickSaveCurrent: () => void,
 }
@@ -49,9 +50,10 @@ export default class extends Component<IProps> {
   }
 
   renderSavedSessionsInfo() {
+    const sessionsCount = this.props.savedSessionHeaders.length;
     return (
       <div className={styles.info}>
-
+        {sessionsCount} {plural(sessionsCount, 'saved session')}
       </div>
     )
   }
