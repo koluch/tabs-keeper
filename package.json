@@ -3,13 +3,13 @@
   "description": "This extension allows to list, manipulate and save currently open tabs",
   "private": true,
   "author": "Nikolai Mavrenkov <koluch@koluch.ru> (https://koluch.ru)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": "https://github.com/koluch/tabs-keeper",
   "scripts": {
     "start": "brunch watch --server",
     "start:production": "NODE_ENV=testing brunch watch --server --production",
     "clean": "rm -rf ./dist",
-    "pack": "VERSION=`node -p -e \"require('./package.json').version\"` && zip -r tabs-keeper-${VERSION}.zip dist",
+    "pack": "VERSION=`node -p -e \"require('./package.json').version\"` && cd dist && zip -r ../tabs-keeper-${VERSION}.zip ./*",
     "build": "npm run clean && tsc && brunch build --production && npm run pack"
   },
   "dependencies": {

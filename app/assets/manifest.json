@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Tabs Manager",
-  "version": "0.1.0",
-  "description": "This extension allows to list and manipulate currently open tabs",
+  "version": "0.2.1",
+  "description": "This extension allows to list, manipulate and save currently open tabs",
   "applications": {
     "gecko": {
       "id": "{b712e42b-de01-4c7e-895c-a420a6671f84}"
