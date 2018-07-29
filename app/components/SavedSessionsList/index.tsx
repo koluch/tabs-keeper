@@ -12,6 +12,9 @@ interface IProps {
   onSelectSession: (sessionHeader: ISavedSessionHeader | null) => void,
   onReopenWindow: (tabs: INewTab[]) => void,
   onReopenTabs: (tabs: INewTab[]) => void,
+  onDeleteSession: (sessionId: number) => void,
+  onDeleteWindow: (sessionId: number, windowId: number) => void,
+  onDeleteTab: (sessionId: number, tabId: number) => void,
 }
 
 export default class extends Component<IProps> {
@@ -38,6 +41,12 @@ export default class extends Component<IProps> {
           console.error(`Unable to open tab with id ${tabId}`)
         }
       };
+      const handleCloseWindow = (windowId: number) => {
+        this.props.onDeleteWindow(activeSavedSession.header.id, windowId);
+      };
+      const handleCloseTab = (tabId: number) => {
+        this.props.onDeleteTab(activeSavedSession.header.id, tabId);
+      };
 
       return (
         <div className={styles.tabList}>
@@ -49,6 +58,8 @@ export default class extends Component<IProps> {
             windows={activeSavedSession.windows}
             onReopenWindow={this.props.onReopenWindow}
             onActivateTab={handleActivateTab}
+            onCloseWindow={handleCloseWindow}
+            onCloseTab={handleCloseTab}
           />
         </div>
       )
@@ -66,17 +77,16 @@ export default class extends Component<IProps> {
         {[...this.props.savedSessionHeaders].reverse().map((sessionHeader: ISavedSessionHeader) => {
           const isActive = activeSavedSessionHeader ? activeSavedSessionHeader.id === sessionHeader.id : false;
 
-          return (
-            <div>
-              <SavedSessionListItem
-                key={sessionHeader.id}
-                isActive={isActive}
-                onClick={() => { this.props.onSelectSession(isActive ? null : sessionHeader) }}
-                savedSessionHeader={sessionHeader}
-              />
-              {isActive && this.renderActiveSession(this.props.activeSavedSession)}
-            </div>
-          );
+          return [
+            <SavedSessionListItem
+              key={sessionHeader.id}
+              isActive={isActive}
+              onClick={() => { this.props.onSelectSession(isActive ? null : sessionHeader) }}
+              onClickDelete={() => { this.props.onDeleteSession(sessionHeader.id) }}
+              savedSessionHeader={sessionHeader}
+            />,
+            isActive ? this.renderActiveSession(this.props.activeSavedSession) : null,
+          ]
         })}
       </div>
     )

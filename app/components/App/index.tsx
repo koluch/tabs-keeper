@@ -36,7 +36,7 @@ export default class extends Component<IProps, IState> {
 
   componentDidMount() {
     this.updateTabs();
-    this.updateSavedSession();
+    this.updateSavedSessions();
 
     // Force render to update durations
     setInterval(() => {
@@ -66,12 +66,27 @@ export default class extends Component<IProps, IState> {
     })
   }
 
-  updateSavedSession() {
+  updateSavedSessions() {
     SessionStorage.getList().then((savedSessionHeaders) => {
       this.setState({
         savedSessionHeaders,
       })
     })
+  }
+
+  updateActiveSavedSessions() {
+    const {activeSavedSessionHeader} = this.state;
+    if (activeSavedSessionHeader) {
+      SessionStorage.get(activeSavedSessionHeader.id).then((savedSession: ISavedSession | null) => {
+        if (savedSession) {
+          this.setState({
+            activeSavedSession: savedSession,
+          })
+        } else {
+          toast(`Unable to find session with id ${activeSavedSessionHeader.id} in storage`);
+        }
+      })
+    }
   }
 
   handleActivateTab = (tabId: number) => {
@@ -118,12 +133,12 @@ export default class extends Component<IProps, IState> {
       return;
     }
 
-    SessionStorage.save(this.state.session).then(() => {
+    SessionStorage.create(this.state.session).then(() => {
       toast('Session saved!');
-      this.updateSavedSession();
+      this.updateSavedSessions();
     }).catch((e) => {
       console.error(e);
-      toast('Unable to save session!', 'ERROR');
+      toast('Unable to create session!', 'ERROR');
     })
   };
 
@@ -167,6 +182,45 @@ export default class extends Component<IProps, IState> {
     });
   };
 
+  handleDeleteSavedSession = (sessionId: number) => {
+    SessionStorage.delete(sessionId).then(() => {
+      toast('Session deleted!');
+      this.updateSavedSessions();
+    }).catch((e) => {
+      console.error(e);
+      toast('Unable to delete session!', 'ERROR');
+    });
+  };
+
+  handleDeleteSavedSessionWindow = (sessionId: number, windowId: number) => {
+    SessionStorage.update(sessionId, (session) => ({
+      ...session,
+      windows: session.windows.filter(({id}) => id !== windowId)
+    })).then(() => {
+      this.updateActiveSavedSessions();
+      this.updateSavedSessions();
+    }).catch((e) => {
+      console.error(e);
+      toast('Unable to delete session window!', 'ERROR');
+    });
+  };
+
+  handleDeleteSavedSessionTab = (sessionId: number, tabId: number) => {
+    SessionStorage.update(sessionId, (session) => ({
+      ...session,
+      windows: session.windows.map((window) => ({
+        ...window,
+        tabs: window.tabs.filter(({ id }) => id !== tabId)
+      }))
+    })).then(() => {
+      this.updateActiveSavedSessions();
+      this.updateSavedSessions();
+    }).catch((e) => {
+      console.error(e);
+      toast('Unable to delete session tab!', 'ERROR');
+    });
+  };
+
   renderCurrentSession(session: ISession) {
     return (
       <TabList
@@ -188,12 +242,20 @@ export default class extends Component<IProps, IState> {
         onSelectSession={this.handleSelectSavedSession}
         onReopenWindow={this.handleReopenWindow}
         onReopenTabs={this.handleReopenTabs}
+        onDeleteSession={this.handleDeleteSavedSession}
+        onDeleteWindow={this.handleDeleteSavedSessionWindow}
+        onDeleteTab={this.handleDeleteSavedSessionTab}
       />
     );
   }
 
   render() {
     const { session, savedSessionHeaders }= this.state;
+
+    console.log("~~~~~~~~~~~~")
+    console.log("this.state.activeSavedSessionHeader", this.state.activeSavedSessionHeader)
+    console.log("this.state.activeSavedSession", this.state.activeSavedSession)
+    console.log("this.state.savedSessionHeaders", this.state.savedSessionHeaders)
 
     if (session === null) {
       // todo: make proper layout for this message

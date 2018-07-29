@@ -26,7 +26,7 @@ export default class extends Component<IProps> {
             Reopen
           </button>
         )}
-        {onCloseWindow && <CloseIcon onClick={() => onCloseWindow(window.id)} />}
+        {onCloseWindow && <CloseIcon className={styles.closeIcon} onClick={() => onCloseWindow(window.id)} />}
       </div>
     )
   }

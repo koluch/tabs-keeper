@@ -3,12 +3,13 @@ import StorageObject = browser.storage.StorageObject;
 
 interface ISessionStorage {
   getList: () => Promise<ISavedSessionHeader[]>,
-  save: (session: ISession) => Promise<ISavedSession>,
+  create: (session: ISession) => Promise<ISavedSession>,
   get: (sessionId: number) => Promise<ISavedSession | null>,
-  write: (session: ISavedSession) => void,
+  update: (sessionId: number, updater: (session: ISession) => ISession) => Promise<void>,
+  delete: (sessionId: number) => Promise<void>,
 }
 
-const DEBUG_SESSIONS: ISavedSession[] = [
+let DEBUG_SESSIONS: ISavedSession[] = [
   {
     "windows": [
       {
@@ -12388,39 +12389,60 @@ const DEBUG_SESSIONS: ISavedSession[] = [
   },
 ];
 
+function makeSessionHeader(session: ISession): ISavedSessionHeader {
+  const date = new Date().getTime();
+  return {
+    id: date,
+    date,
+    windowsCount: session.windows.length,
+    tabsCount: session.windows.map(({ tabs }) => tabs.length).reduce((acc, x) => acc + x, 0)
+  };
+}
+
+function updateSessionHeader(sessionHeader: ISavedSessionHeader, session: ISession): ISavedSessionHeader {
+  return {
+    ...sessionHeader,
+    windowsCount: session.windows.length,
+    tabsCount: session.windows.map(({ tabs }) => tabs.length).reduce((acc, x) => acc + x, 0)
+  };
+}
+
 const DebugStorage: ISessionStorage = {
   getList: () => {
     return Promise.resolve(DEBUG_SESSIONS.map(({ header }) => header))
   },
-  save: (session: ISession) => {
+  create: (session: ISession) => {
     const date = new Date().getTime();
-    const header: ISavedSessionHeader = {
-      id: date,
-      date,
-      windowsCount: session.windows.length,
-      tabsCount: session.windows.map(({ tabs }) => tabs.length).reduce((acc, x) => acc + x, 0)
-    };
+    const header: ISavedSessionHeader = makeSessionHeader(session);
     const newSession: ISavedSession = {
       ...session,
       header,
     };
 
     DEBUG_SESSIONS.push(newSession);
-    console.log("DEBUG_SESSIONS", DEBUG_SESSIONS)
     return Promise.resolve(newSession)
   },
   get: (sessionId: number) => {
     const session = DEBUG_SESSIONS.find(({ header }) => header.id === sessionId);
     return session ? Promise.resolve(session) : Promise.resolve(null)
   },
-  write: async (session: ISavedSession) => {
+  update: (sessionId: number, updater: (session: ISession) => ISession) => {
     for (let i = 0; i < DEBUG_SESSIONS.length; i += 1) {
       const nextSession = DEBUG_SESSIONS[i];
-      if (nextSession.header.id === session.header.id) {
-        DEBUG_SESSIONS[i] = session;
-        break;
+      if (nextSession.header.id === sessionId) {
+        const updatedSession = updater(nextSession);
+        const updatedHeader = updateSessionHeader(nextSession.header, updatedSession);
+        DEBUG_SESSIONS[i] = {
+          ...updatedSession,
+          header: updatedHeader
+        };
+        return Promise.resolve();
       }
     }
+    throw new Error(`Unable to update session with id ${sessionId}, since it's not found`);
+  },
+  delete: (sessionId: number) => {
+    DEBUG_SESSIONS = DEBUG_SESSIONS.filter(({ header }) => header.id !== sessionId);
     return Promise.resolve();
   },
 };
@@ -12435,15 +12457,9 @@ const ProductionStorage: ISessionStorage = {
       return [];
     })
   },
-  save: (session: ISession) => {
+  create: (session: ISession) => {
     return ProductionStorage.getList().then((list) => {
-      const date = new Date().getTime();
-      const header: ISavedSessionHeader = {
-        id: date,
-        date,
-        windowsCount: session.windows.length,
-        tabsCount: session.windows.map(({ tabs }) => tabs.length).reduce((acc, x) => acc + x, 0)
-      };
+      const header: ISavedSessionHeader = makeSessionHeader(session);
       const newSession: ISavedSession = {
         ...session,
         header,
@@ -12465,10 +12481,43 @@ const ProductionStorage: ISessionStorage = {
       return null
     })
   },
-  write: async (session: ISavedSession) => {
-    await browser.storage.local.set({
-      [`SESSION_${session.header.id}`]: JSON.stringify(session),
+  update: (sessionId: number, updater: (session: ISession) => ISession) => {
+    return ProductionStorage.get(sessionId).then((savedSession) => {
+      if (savedSession) {
+        const updatedSession = updater(savedSession);
+        const updatedHeader = updateSessionHeader(savedSession.header, updatedSession);
+        const updatedSavedSessionSession = {
+          ...updatedSession,
+          header: updatedHeader
+        };
+
+        return ProductionStorage.getList().then((headerList) => {
+          const updatedHeaderList = headerList.map((header) => (
+            header.id === updatedHeader.id ? updatedHeader : header
+          ));
+          return browser.storage.local.set({
+            LIST: JSON.stringify(updatedHeaderList),
+            [`SESSION_${savedSession.header.id}`]: JSON.stringify(updatedSavedSessionSession),
+          });
+        })
+      }
+      throw new Error(`Unable to update session with id ${sessionId}, since it's not found`);
     });
+  },
+  delete: (sessionId: number) => {
+    return ProductionStorage.getList()
+      .then((list) => {
+        return browser.storage.local.set({
+          LIST: JSON.stringify(list.filter(({ id }) => id !== sessionId)),
+          [`SESSION_${sessionId}`]: null,
+        });
+      })
+      .then(() => {
+        return browser.storage.local.remove(`SESSION_${sessionId}`);
+      })
+      .then(() => {
+        return Promise.resolve();
+      });
   },
 };
 
