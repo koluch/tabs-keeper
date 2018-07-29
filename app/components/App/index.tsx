@@ -7,6 +7,7 @@ import {ISession, ISavedSessionHeader, ITab, IWindow, ISavedSession, INewTab} fr
 import {getElementPosition, getScrollPosition} from "../../helpers/browser";
 import toast from '../../helpers/toast';
 import SavedSessionsList from '../SavedSessionsList';
+import plural from "../../helpers/plural";
 
 const styles = require('./index.less');
 
@@ -174,7 +175,7 @@ export default class extends Component<IProps, IState> {
 
   handleReopenTabs = (tabs: INewTab[]) => {
     Browser.openTabs(tabs).then(() => {
-      toast('Tabs reopened!');
+      toast(`${plural(tabs.length, 'Tab')} reopened!`);
       this.updateTabs();
     }).catch((e) => {
       console.error(e);
