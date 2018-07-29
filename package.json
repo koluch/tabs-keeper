@@ -1,10 +1,10 @@
 {
-  "name": "brunch-app",
-  "description": "Brunch.io application",
+  "name": "tabs-keeper",
+  "description": "This extension allows to list, manipulate and save currently open tabs",
   "private": true,
-  "author": "Brunch",
+  "author": "Nikolai Mavrenkov <koluch@koluch.ru> (https://koluch.ru)",
   "version": "0.2.0",
-  "repository": "",
+  "repository": "https://github.com/koluch/tabs-keeper",
   "scripts": {
     "start": "brunch watch --server",
     "start:production": "NODE_ENV=testing brunch watch --server --production",
