@@ -1,0 +1,5 @@
+# Building
+
+```
+npm run build
+```
