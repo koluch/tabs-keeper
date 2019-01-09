@@ -3,7 +3,7 @@
   "description": "This extension allows to list, manipulate and save currently open tabs",
   "private": true,
   "author": "Nikolai Mavrenkov <koluch@koluch.ru> (https://koluch.ru)",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "repository": "https://github.com/koluch/tabs-keeper",
   "scripts": {
     "start": "brunch watch --server",
