@@ -347,17 +347,14 @@ const ProductionBrowser: IBrowser = {
           }
 
           if (window.tabs !== null && window.tabs !== undefined) {
-            tabs = window.tabs.map(({id, windowId, active, url, title, favIconUrl, pinned}): ITab => {
+            tabs = window.tabs.map(({ id, windowId, active, url, title, favIconUrl, pinned }): ITab => {
               if (id === null || id === undefined) {
                 throw new Error(`This extension doesn't support tabs with null id's. This should actually never happen`)
               }
               if (url === null || url === undefined) {
                 throw new Error(`URL should not be null, since we require 'tabs' permission`)
               }
-              if (title === null || title === undefined) {
-                throw new Error(`URL should not be null, since we require 'tabs' permission`)
-              }
-              return {id, windowId, active, url, title, favIconUrl: favIconUrl || null, pinned};
+              return {id, windowId, active, url, title: title || null, favIconUrl: favIconUrl || null, pinned};
             });
           } else {
             console.error(`windows.tabs should never be null, since we use "populate: true" option`);

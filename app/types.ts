@@ -45,7 +45,7 @@ export interface INewTab {
   //     microphone: boolean
   // },
   url: string,
-  title: string,
+  title: string | null,
   favIconUrl: string | null,
 }
 

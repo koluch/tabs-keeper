@@ -36,7 +36,7 @@ export default class extends Component<IProps> {
           href={tab.url}
           title={tab.url}
         >
-          {tab.title}
+          {tab.title || '<no title>'}
         </a>
         {onClose && <CloseIcon onClick={onClose} />}
       </div>

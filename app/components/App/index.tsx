@@ -64,6 +64,8 @@ export default class extends Component<IProps, IState> {
   updateTabs() {
     Browser.getCurrentSession().then((session) => {
       this.setState({ session })
+    }).catch((e) => {
+      console.error(`Unable to get current session`, e);
     })
   }
 

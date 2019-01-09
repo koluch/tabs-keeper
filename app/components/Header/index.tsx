@@ -1,7 +1,8 @@
-import { h, Component } from 'preact';
-import {ISavedSession, ISavedSessionHeader, ITab, IWindow} from "../../types";
+import {Component, h} from 'preact';
+import {ISavedSessionHeader, IWindow} from "../../types";
 import cn from 'classnames';
 import plural from "../../helpers/plural";
+
 const styles = require('./index.less');
 
 export type UITab = 'CURRENT' | 'SAVED';
