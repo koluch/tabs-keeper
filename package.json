@@ -10,7 +10,8 @@
     "start:production": "NODE_ENV=testing brunch watch --server --production",
     "clean": "rm -rf ./dist",
     "pack": "VERSION=`node -p -e \"require('./package.json').version\"` && cd dist && zip -r ../tabs-keeper-${VERSION}.zip ./*",
-    "build": "npm run clean && tsc && brunch build --production && npm run pack"
+    "build": "npm run clean && tsc && brunch build --production && npm run pack",
+    "prettier": "prettier --write 'app/**/*.ts?(x)'"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -24,6 +25,7 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "less-brunch": "^2.10.0",
+    "prettier": "^1.15.3",
     "tslint": "^5.11.0",
     "typescript": "^2.9.2",
     "uglify-js-brunch": "^2",

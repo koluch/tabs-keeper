@@ -1,7 +1,7 @@
 export const getScrollPosition = () => {
   return {
-    x: (window.pageXOffset || window.document.documentElement.scrollLeft),
-    y: (window.pageYOffset || window.document.documentElement.scrollTop),
+    x: window.pageXOffset || window.document.documentElement.scrollLeft,
+    y: window.pageYOffset || window.document.documentElement.scrollTop
   };
 };
 
@@ -15,7 +15,11 @@ export function getElementPosition(elm: HTMLElement) {
       y += node.offsetTop;
       x += node.offsetLeft;
     } else {
-      throw new Error(`Wront parent node type, it should only be HTMLElement: ${node.offsetParent}`)
+      throw new Error(
+        `Wront parent node type, it should only be HTMLElement: ${
+          node.offsetParent
+        }`
+      );
     }
   }
   return { x, y };

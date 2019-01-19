@@ -1,13 +1,13 @@
-import {IDate} from "../types";
+import { IDate } from "../types";
 
 export function formatDate(date: IDate) {
   const d = new Date(date);
   return `${d.toLocaleDateString()} ${d.toLocaleTimeString()}`;
 }
 
-export function humanizeDuration (durationMs: number) {
-  function numberEnding (number: number) {
-    return (number > 1) ? 's' : '';
+export function humanizeDuration(durationMs: number) {
+  function numberEnding(number: number) {
+    return number > 1 ? "s" : "";
   }
 
   let durationSec = Math.floor(durationMs / 1000);
@@ -29,5 +29,5 @@ export function humanizeDuration (durationMs: number) {
     return `${minutes} minute${numberEnding(minutes)} ago`;
   }
 
-  return 'less than a minute ago';
+  return "less than a minute ago";
 }
