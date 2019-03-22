@@ -1,11 +1,11 @@
-export const getScrollPosition = () => {
+export function getScrollPosition(): {x: number; y: number} {
   return {
     x: window.pageXOffset || window.document.documentElement.scrollLeft,
     y: window.pageYOffset || window.document.documentElement.scrollTop
   };
 };
 
-export function getElementPosition(elm: HTMLElement) {
+export function getElementPosition(elm: HTMLElement): {x: number; y: number} {
   let y = elm.offsetTop;
   let x = elm.offsetLeft;
   let node: HTMLElement = elm;

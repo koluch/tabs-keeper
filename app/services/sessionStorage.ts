@@ -1,5 +1,5 @@
 import { ISavedSession, ISession, ISavedSessionHeader } from "../types";
-import StorageObject = browser.storage.StorageObject;
+// import StorageObject = browser.storage.StorageObject;
 
 interface ISessionStorage {
   getList: () => Promise<ISavedSessionHeader[]>;
@@ -13988,7 +13988,6 @@ const DebugStorage: ISessionStorage = {
     return Promise.resolve(DEBUG_SESSIONS.map(({ header }) => header));
   },
   create: (session: ISession) => {
-    const date = new Date().getTime();
     const header: ISavedSessionHeader = makeSessionHeader(session);
     const newSession: ISavedSession = {
       ...session,
@@ -14036,7 +14035,7 @@ const ProductionStorage: ISessionStorage = {
   getList: () => {
     return browser.storage.local.get("LIST").then(results => {
       if (results["LIST"]) {
-        const listStr = <string>results["LIST"];
+        const listStr = results["LIST"] as string;
         return JSON.parse(listStr);
       }
       return [];
@@ -14063,7 +14062,7 @@ const ProductionStorage: ISessionStorage = {
   get: (sessionId: number) => {
     return browser.storage.local.get(`SESSION_${sessionId}`).then(
       results => {
-        const listStr = <string>results[`SESSION_${sessionId}`];
+        const listStr = results[`SESSION_${sessionId}`] as string;
         return JSON.parse(listStr);
       },
       () => {

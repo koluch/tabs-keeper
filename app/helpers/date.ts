@@ -1,12 +1,12 @@
 import { IDate } from "../types";
 
-export function formatDate(date: IDate) {
+export function formatDate(date: IDate): string {
   const d = new Date(date);
   return `${d.toLocaleDateString()} ${d.toLocaleTimeString()}`;
 }
 
-export function humanizeDuration(durationMs: number) {
-  function numberEnding(number: number) {
+export function humanizeDuration(durationMs: number): string {
+  function numberEnding(number: number): string {
     return number > 1 ? "s" : "";
   }
 

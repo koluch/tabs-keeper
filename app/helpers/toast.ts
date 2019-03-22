@@ -26,7 +26,7 @@ const colors = {
 export default function(
   message: string,
   type: "SUCCESS" | "ERROR" | "WARNING" = "SUCCESS"
-) {
+): void {
   let preventClosing = false;
 
   const rootEl = document.createElement("div");
@@ -82,7 +82,7 @@ export default function(
   buttonEl.textContent = "\u2716";
   rootEl.appendChild(buttonEl);
 
-  const onClose = () => {
+  const onClose = (): void => {
     rootEl.style.opacity = "0";
     setTimeout(() => {
       containerEl.removeChild(rootEl);

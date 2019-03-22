@@ -374,7 +374,7 @@ const ProductionBrowser: IBrowser = {
       const sessionWindows: IWindow[] = windows.map(window => {
         let tabs: ITab[] = [];
 
-        const id = window.id;
+        const { id } = window;
         if (id === null || id === undefined) {
           throw new Error(`Window id should never be null`);
         }
@@ -420,7 +420,7 @@ const ProductionBrowser: IBrowser = {
         return {
           id,
           focused: window.focused,
-          tabs: tabs
+          tabs,
         };
       });
 
