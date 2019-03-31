@@ -12,7 +12,7 @@
     "pack": "VERSION=`node -p -e \"require('./package.json').version\"` && cd dist && zip -r ../tabs-keeper-${VERSION}.zip ./*",
     "build": "npm run clean && tsc && brunch build --production && npm run pack",
     "prettier": "prettier --write 'app/**/*.ts?(x)'",
-    "test:lint": "eslint ./app/**/*.ts",
+    "test:lint": "eslint --ext .ts,.tsx ./app/\n",
     "test": "npm run test:lint"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
     "babel-preset-env": "^1.7.0",
     "brunch": "^2.10.17",
     "clean-css-brunch": "^2",
-    "eslint": "^5.15.3",
+    "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.1.0",
     "less-brunch": "^2.10.0",
     "prettier": "^1.15.3",

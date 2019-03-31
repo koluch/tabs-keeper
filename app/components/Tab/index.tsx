@@ -15,7 +15,9 @@ interface IProps {
 export default class extends Component<IProps> {
   handleClickTitle = (e: MouseEvent) => {
     e.preventDefault();
-    this.props.onActivate && this.props.onActivate();
+    if (this.props.onActivate) {
+      this.props.onActivate();
+    }
   };
 
   render() {
