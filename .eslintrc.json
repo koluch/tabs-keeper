@@ -1,6 +1,8 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "extends": [
     "eslint:all",
     "prettier",
@@ -8,7 +10,10 @@
   ],
   "parserOptions": {
     "sourceType": "module",
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "env": {
     "webextensions": true,
@@ -23,8 +28,6 @@
     "@typescript-eslint/ban-ts-ignore": "error",
     "@typescript-eslint/camelcase":  "error",
     "@typescript-eslint/class-name-casing": "error",
-    "@typescript-eslint/explicit-function-return-type":  ["error", { "allowExpressions": true }],
-    "@typescript-eslint/explicit-member-accessibility": "error",
     "@typescript-eslint/generic-type-naming":  "error",
     "@typescript-eslint/interface-name-prefix":  ["error", "always"],
     "@typescript-eslint/member-delimiter-style": "error",
@@ -32,7 +35,6 @@
     "@typescript-eslint/member-ordering": "error",
     "@typescript-eslint/no-angle-bracket-type-assertion":  "error",
     "@typescript-eslint/no-array-constructor": "error",
-    "@typescript-eslint/no-empty-interface":  "error",
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-extraneous-class":  "error",
     "@typescript-eslint/no-for-in-array": "error",
@@ -42,16 +44,12 @@
     "@typescript-eslint/no-non-null-assertion": "error",
     "@typescript-eslint/no-object-literal-type-assertion":  "error",
     "@typescript-eslint/no-parameter-properties": "error",
-    "@typescript-eslint/no-require-imports":  "error",
     "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/no-triple-slash-reference":  "error",
-    "@typescript-eslint/no-type-alias": "error",
     "@typescript-eslint/no-unnecessary-qualifier":  "error",
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
-    "@typescript-eslint/no-unused-vars":  "error",
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-useless-constructor":  "error",
-    "@typescript-eslint/no-var-requires": "error",
     "@typescript-eslint/prefer-function-type":  "error",
     "@typescript-eslint/prefer-interface": "error",
     "@typescript-eslint/prefer-namespace-keyword":  "error",
@@ -62,10 +60,25 @@
     "one-var": ["error", "never"],
     "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
     "no-unused-vars": "off",
-    "no-console": ["error", { "allow": ["warn", "error"] }],
 
+    "@typescript-eslint/no-unused-vars":  "warn",
     "no-warning-comments": "warn",
+    "prefer-destructuring": "warn",
+    "no-else-return": "warn",
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
 
+    "lines-between-class-members": "off",
+    "no-invalid-this": "off",
+    "@typescript-eslint/explicit-function-return-type":  ["off", { "allowExpressions": true }],
+    "@typescript-eslint/no-type-alias": "off",
+    "line-comment-position": "off",
+    "no-inline-comments": "off",
+    "init-declarations": "off",
+    "class-methods-use-this": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-empty-interface":  "off",
+    "@typescript-eslint/no-require-imports":  "off",
     "dot-notation": "off",
     "sort-imports": "off",
     "no-process-env": "off",

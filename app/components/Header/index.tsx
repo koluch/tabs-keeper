@@ -75,6 +75,7 @@ export default class extends Component<IProps> {
       case "SAVED":
         return this.renderSavedSessionsInfo();
       default:
+        return null;
     }
   }
 
