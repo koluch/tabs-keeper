@@ -2,6 +2,9 @@ import { Component, h } from "preact";
 import { ISavedSessionHeader, IWindow } from "../../types";
 import cn from "classnames";
 import plural from "../../helpers/plural";
+import GroupOperations from "../GroupOperations";
+import MainOperations from "../MainOperations";
+import { ISelection } from "../../helpers/selection";
 
 const styles = require("./index.less");
 
@@ -11,11 +14,20 @@ interface IProps {
   activeUITab: UITab;
   windows: IWindow[];
   savedSessionHeaders: ISavedSessionHeader[];
+  search: string;
+  selection: ISelection;
+  isSelectionMode: boolean;
+  onSelectionClose: () => void;
+  onSelectionInvert: () => void;
+  onSelectionAddAll: () => void;
+  onSelectionRemoveAll: () => void;
+  onChangeSearch: (search: string) => void;
   onSwitchUITab: (uiTab: UITab) => void;
   onClickSaveCurrent: () => void;
+  onClickSelectionMode: () => void;
 }
 
-export const HEIGHT = 48;
+export const HEIGHT = 82;
 
 export default class extends Component<IProps> {
   renderTabs() {
@@ -50,11 +62,22 @@ export default class extends Component<IProps> {
       .reduce((acc, x) => acc + x, 0);
     return (
       <div className={styles.info}>
-        <div>
-          {windowsCount} {plural(windowsCount, "window")}, {tabsCount}{" "}
-          {plural(windowsCount, "tab")}
-        </div>
-        <button onClick={this.props.onClickSaveCurrent}>Save</button>
+        <MainOperations
+          search={this.props.search}
+          isSelectionMode={this.props.isSelectionMode}
+          onClickSelectionMode={this.props.onClickSelectionMode}
+          onClickSaveCurrent={this.props.onClickSaveCurrent}
+          onChangeSearch={this.props.onChangeSearch}
+        />
+        <GroupOperations
+          windows={this.props.windows}
+          selection={this.props.selection}
+          isSelectionMode={this.props.isSelectionMode}
+          onClose={this.props.onSelectionClose}
+          onInvert={this.props.onSelectionInvert}
+          onAddAll={this.props.onSelectionAddAll}
+          onRemoveAll={this.props.onSelectionRemoveAll}
+        />
       </div>
     );
   }

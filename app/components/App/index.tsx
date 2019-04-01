@@ -4,22 +4,48 @@ import TabList from "../TabList/index";
 import Browser from "../../services/browser";
 import SessionStorage from "../../services/sessionStorage";
 import {
-  ISession,
-  ISavedSessionHeader,
-  ITab,
-  IWindow,
+  INewTab,
   ISavedSession,
-  INewTab
+  ISavedSessionHeader,
+  ISession,
+  ITab,
+  IWindow
 } from "../../types";
-import { getElementPosition, getScrollPosition } from "../../helpers/browser";
+import { getScrollPosition } from "../../helpers/browser";
 import toast from "../../helpers/toast";
 import SavedSessionsList from "../SavedSessionsList";
 import plural from "../../helpers/plural";
+import * as selection from "../../helpers/selection";
 
 const styles = require("./index.less");
 
+function filterWindows(windows: IWindow[], search: string): IWindow[] {
+  return windows
+    .map(window => ({
+      ...window,
+      tabs: window.tabs.filter(tab => {
+        const titleMatches =
+          tab.title !== null &&
+          tab.title.toLocaleLowerCase().includes(search.toLocaleLowerCase());
+        const urlMatches = tab.url
+          .toLocaleLowerCase()
+          .includes(search.toLocaleLowerCase());
+        return titleMatches || urlMatches;
+      })
+    }))
+    .filter(window => window.tabs.length > 0);
+}
+
+function getAllTabs(windows: IWindow[]): ITab[] {
+  return Array.prototype.concat.apply([], windows.map(({ tabs }) => tabs));
+}
+
 interface IProps {}
 interface IState {
+  search: string;
+  isSelectionMode: boolean;
+  selection: selection.ISelection;
+
   activeUITab: UITab;
   session: ISession | null;
   savedSessionHeaders: ISavedSessionHeader[];
@@ -34,6 +60,9 @@ export default class extends Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
     this.state = {
+      search: "",
+      selection: selection.create(),
+      isSelectionMode: true,
       activeUITab: "CURRENT",
       session: null,
       savedSessionHeaders: [],
@@ -124,6 +153,14 @@ export default class extends Component<IProps, IState> {
     }
   };
 
+  handleChangeTabSelection = (tabId: number, selected: boolean) => {
+    this.setState((state: IState) => ({
+      selection: selected
+        ? selection.add(state.selection, tabId)
+        : selection.remove(state.selection, tabId)
+    }));
+  };
+
   handleCloseTab = (tabId: number) => {
     Browser.closeTab(tabId).then(() => this.updateTabs());
   };
@@ -161,6 +198,12 @@ export default class extends Component<IProps, IState> {
         console.error(e);
         toast("Unable to create session!", "ERROR");
       });
+  };
+
+  handleChangeSelectionMode = () => {
+    this.setState((state: IState) => ({
+      isSelectionMode: !state.isSelectionMode
+    }));
   };
 
   handleSelectSavedSession = (
@@ -263,10 +306,94 @@ export default class extends Component<IProps, IState> {
       });
   };
 
+  handleChangeSearch = (search: string): void => {
+    this.setState({ search });
+  };
+
+  handleSwitchUITab = (uiTab: UITab) => {
+    this.setState({
+      activeUITab: uiTab
+    });
+  };
+
+  handleSelectionClose = () => {
+    Promise.all(
+      selection
+        .getIds(this.state.selection)
+        .map(id =>
+          Browser.closeTab(id).then(() => this.handleChangeTabSelection(id, false))
+        )
+    ).then(() => this.updateTabs());
+  };
+
+  handleSelectionInvert = () => {
+    this.setState((state: IState) => {
+      const { session, search } = state;
+      if (session) {
+        let newSelection = state.selection;
+
+        for (const tab of getAllTabs(filterWindows(session.windows, search))) {
+          if (selection.isSelected(state.selection, tab.id)) {
+            newSelection = selection.remove(newSelection, tab.id);
+          } else {
+            newSelection = selection.add(newSelection, tab.id);
+          }
+        }
+
+        return {
+          selection: newSelection
+        };
+      }
+
+      return null;
+    });
+  };
+
+  handleSelectionAddAll = () => {
+    this.setState((state: IState) => {
+      const { session, search } = state;
+      if (session) {
+        let newSelection = state.selection;
+
+        for (const tab of getAllTabs(filterWindows(session.windows, search))) {
+          newSelection = selection.add(newSelection, tab.id);
+        }
+
+        return {
+          selection: newSelection
+        };
+      }
+
+      return null;
+    });
+  };
+
+  handleSelectionRemoveAll = () => {
+    this.setState((state: IState) => {
+      const { session, search } = state;
+      if (session) {
+        let newSelection = state.selection;
+
+        for (const tab of getAllTabs(filterWindows(session.windows, search))) {
+          newSelection = selection.remove(newSelection, tab.id);
+        }
+
+        return {
+          selection: newSelection
+        };
+      }
+
+      return null;
+    });
+  };
+
   renderCurrentSession(session: ISession) {
     return (
       <TabList
-        windows={session.windows}
+        windows={filterWindows(session.windows, this.state.search)}
+        isSelectionMode={this.state.isSelectionMode}
+        selection={this.state.selection}
+        onChangeTabSelection={this.handleChangeTabSelection}
         onActivateTab={this.handleActivateTab}
         onCloseTab={this.handleCloseTab}
         onCloseWindow={this.handleCloseWindow}
@@ -292,18 +419,7 @@ export default class extends Component<IProps, IState> {
   }
 
   render() {
-    const { session, savedSessionHeaders } = this.state;
-
-    console.log("~~~~~~~~~~~~");
-    console.log(
-      "this.state.activeSavedSessionHeader",
-      this.state.activeSavedSessionHeader
-    );
-    console.log("this.state.activeSavedSession", this.state.activeSavedSession);
-    console.log(
-      "this.state.savedSessionHeaders",
-      this.state.savedSessionHeaders
-    );
+    const { session, search, activeUITab, savedSessionHeaders } = this.state;
 
     if (session === null) {
       // todo: make proper layout for this message
@@ -313,23 +429,27 @@ export default class extends Component<IProps, IState> {
     return (
       <div className={styles.root}>
         <Header
-          windows={session.windows}
+          windows={filterWindows(session.windows, search)}
+          selection={this.state.selection}
           savedSessionHeaders={savedSessionHeaders}
-          activeUITab={this.state.activeUITab}
-          onSwitchUITab={(uiTab: UITab) => {
-            this.setState({
-              activeUITab: uiTab
-            });
-          }}
+          activeUITab={activeUITab}
+          search={search}
+          isSelectionMode={this.state.isSelectionMode}
+          onChangeSearch={this.handleChangeSearch}
+          onSwitchUITab={this.handleSwitchUITab}
+          onSelectionClose={this.handleSelectionClose}
+          onSelectionInvert={this.handleSelectionInvert}
+          onSelectionAddAll={this.handleSelectionAddAll}
+          onSelectionRemoveAll={this.handleSelectionRemoveAll}
           onClickSaveCurrent={this.handleSaveCurrentSession}
+          onClickSelectionMode={this.handleChangeSelectionMode}
         />
         <div
           className={styles.content}
           style={{ marginTop: `${HEADER_HEIGHT}px` }}
         >
-          {this.state.activeUITab === "CURRENT" &&
-            this.renderCurrentSession(session)}
-          {this.state.activeUITab === "SAVED" && this.renderSavedSessionsList()}
+          {activeUITab === "CURRENT" && this.renderCurrentSession(session)}
+          {activeUITab === "SAVED" && this.renderSavedSessionsList()}
         </div>
       </div>
     );

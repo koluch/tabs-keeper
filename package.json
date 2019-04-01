@@ -6,17 +6,21 @@
   "version": "0.2.6",
   "repository": "https://github.com/koluch/tabs-keeper",
   "scripts": {
-    "start": "brunch watch --server",
-    "start:production": "NODE_ENV=testing brunch watch --server --production",
     "clean": "rm -rf ./dist",
-    "pack": "VERSION=`node -p -e \"require('./package.json').version\"` && cd dist && zip -r ../tabs-keeper-${VERSION}.zip ./*",
-    "build": "npm run clean && tsc && brunch build --production && npm run pack",
+    "prepare": "npm run clean",
+    "start": "npm run prepare && brunch watch --server",
+    "start:production": "npm run prepare && NODE_ENV=testing brunch watch --server --production",
+    "build:tsc": "tsc",
+    "build:brunch": "brunch build --production",
+    "build:pack": "VERSION=`node -p -e \"require('./package.json').version\"` && cd dist && zip -r ../tabs-keeper-${VERSION}.zip ./*",
+    "build": "npm run prepare && npm run build:tsc && npm run build:brunch && npm run build:pack",
     "prettier": "prettier --write 'app/**/*.ts?(x)'",
     "test:lint": "eslint --ext .ts,.tsx ./app/\n",
     "test": "npm run test:lint"
   },
   "dependencies": {
     "classnames": "^2.2.6",
+    "redux-zero": "^5.0.1",
     "preact": "^8.2.9"
   },
   "devDependencies": {

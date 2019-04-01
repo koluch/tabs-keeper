@@ -56,10 +56,10 @@
     "@typescript-eslint/restrict-plus-operands":  "error",
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/unified-signatures":  "error",
+    "eqeqeq": ["error", "always", { "null": "ignore" }],
 
     "one-var": ["error", "never"],
     "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
-    "no-unused-vars": "off",
 
     "@typescript-eslint/no-unused-vars":  "warn",
     "no-warning-comments": "warn",
@@ -67,6 +67,8 @@
     "no-else-return": "warn",
     "no-console": ["warn", { "allow": ["warn", "error"] }],
 
+    "no-unused-vars": "off",
+    "no-eq-null": "off",
     "lines-between-class-members": "off",
     "no-invalid-this": "off",
     "@typescript-eslint/explicit-function-return-type":  ["off", { "allowExpressions": true }],

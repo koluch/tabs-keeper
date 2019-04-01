@@ -1,5 +1,13 @@
 import { INewTab, ISession, ITab, IWindow } from "../types";
 
+function delay<T>(result: T) {
+  return new Promise<T>((resolve) => {
+    setTimeout(() => {
+      resolve(result);
+    }, Math.floor(Math.random() * 400))
+  })
+}
+
 let DEBUG_WINDOWS: IWindow[] = [
   {
     id: 1,
@@ -314,11 +322,11 @@ const DebugBrowser: IBrowser = {
       };
     });
     DEBUG_WINDOWS = DEBUG_WINDOWS.filter(({ tabs }) => tabs.length > 0);
-    return Promise.resolve(undefined);
+    return Promise.resolve(undefined).then(delay);
   },
   closeWindow: (windowId: number) => {
     DEBUG_WINDOWS = DEBUG_WINDOWS.filter(({ id }) => id !== windowId);
-    return Promise.resolve(undefined);
+    return Promise.resolve(undefined).then(delay);
   },
   openWindow: (tabs: INewTab[]) => {
     const maxTabId = Math.max(
