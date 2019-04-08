@@ -8,12 +8,15 @@
   "scripts": {
     "clean": "rm -rf ./dist",
     "prepare": "npm run clean",
-    "start": "npm run prepare && brunch watch --server",
-    "start:production": "npm run prepare && NODE_ENV=testing brunch watch --server --production",
+    "generate-manifest:development": "node generate-manifest.js development",
+    "generate-manifest:production": "node generate-manifest.js production",
+    "start:generate-manifest": "",
+    "start": "npm run prepare && npm run generate-manifest:development && brunch watch --server",
+    "start:production": "npm run prepare && npm run generate-manifest:production && NODE_ENV=testing brunch watch --server --production",
     "build:tsc": "tsc",
     "build:brunch": "brunch build --production",
     "build:pack": "VERSION=`node -p -e \"require('./package.json').version\"` && cd dist && zip -r ../tabs-keeper-${VERSION}.zip ./*",
-    "build": "npm run prepare && npm run build:tsc && npm run build:brunch && npm run build:pack",
+    "build": "npm run prepare && npm run generate-manifest:production && npm run build:tsc && npm run build:brunch && npm run build:pack",
     "prettier": "prettier --write 'app/**/*.ts?(x)'",
     "test:lint": "eslint --ext .ts,.tsx ./app/\n",
     "test": "npm run test:lint"
