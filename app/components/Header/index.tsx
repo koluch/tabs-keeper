@@ -23,7 +23,6 @@ interface IProps {
   onSelectionRemoveAll: () => void;
   onChangeSearch: (search: string) => void;
   onSwitchUITab: (uiTab: UITab) => void;
-  onClickSaveCurrent: () => void;
   onClickSelectionMode: () => void;
 }
 
@@ -56,17 +55,12 @@ export default class extends Component<IProps> {
   }
 
   renderCurrentSessionInfo() {
-    const windowsCount = this.props.windows.length;
-    const tabsCount = this.props.windows
-      .map(({ tabs }) => tabs.length)
-      .reduce((acc, x) => acc + x, 0);
     return (
       <div className={styles.info}>
         <MainOperations
           search={this.props.search}
           isSelectionMode={this.props.isSelectionMode}
           onClickSelectionMode={this.props.onClickSelectionMode}
-          onClickSaveCurrent={this.props.onClickSaveCurrent}
           onChangeSearch={this.props.onChangeSearch}
         />
         {this.props.isSelectionMode && (

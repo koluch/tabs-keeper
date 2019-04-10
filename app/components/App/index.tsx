@@ -1,5 +1,6 @@
 import { Component, h } from "preact";
 import Header, { HEIGHT as HEADER_HEIGHT, UITab } from "../Header/index";
+import Footer, { HEIGHT as FOOTER_HEIGHT } from "../Footer/index";
 import TabList from "../TabList/index";
 import Browser from "../../services/browser";
 import SessionStorage from "../../services/sessionStorage";
@@ -442,16 +443,24 @@ export default class extends Component<IProps, IState> {
           onSelectionInvert={this.handleSelectionInvert}
           onSelectionAddAll={this.handleSelectionAddAll}
           onSelectionRemoveAll={this.handleSelectionRemoveAll}
-          onClickSaveCurrent={this.handleSaveCurrentSession}
           onClickSelectionMode={this.handleChangeSelectionMode}
         />
         <div
           className={styles.content}
-          style={{ marginTop: `${HEADER_HEIGHT + (isSelectionMode ? GROUP_OPERATIONS_HEIGHT : 0)}px` }}
+          style={{
+            marginTop: `${HEADER_HEIGHT + (isSelectionMode ? GROUP_OPERATIONS_HEIGHT : 0)}px`,
+            marginBottom: `${FOOTER_HEIGHT}px`,
+          }}
         >
           {activeUITab === "CURRENT" && this.renderCurrentSession(session)}
           {activeUITab === "SAVED" && this.renderSavedSessionsList()}
         </div>
+        {activeUITab === "CURRENT" && (
+          <Footer
+            onClickSaveCurrent={this.handleSaveCurrentSession}
+            windows={session.windows}
+          />
+        )}
       </div>
     );
   }

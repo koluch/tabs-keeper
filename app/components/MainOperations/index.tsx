@@ -10,7 +10,6 @@ interface IProps {
   isSelectionMode: boolean;
   onChangeSearch: (search: string) => void;
   onClickSelectionMode: () => void;
-  onClickSaveCurrent: () => void;
 }
 
 export default class extends Component<IProps> {
@@ -25,7 +24,6 @@ export default class extends Component<IProps> {
         </div>
         <div class={styles.section}>
           <Button size="MICRO" className={styles.button} onClick={this.props.onClickSelectionMode} icon={'/icons/selection-mode-icon.svg'} />
-          <Button size="MICRO" className={styles.button} onClick={this.props.onClickSaveCurrent} title={'Save'} />
         </div>
       </div>
     );
