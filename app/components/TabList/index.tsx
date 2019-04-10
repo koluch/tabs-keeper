@@ -24,10 +24,12 @@ interface IProps {
 
 export default class extends Component<IProps> {
   static defaultProps = {
-    isSelectionMode: false
+    isSelectionMode: false,
+    selection: selection.create(),
   };
 
-  renderWindowHeader(window: IWindow, i: number) {
+  renderWindowHeader = (window: IWindow, i: number) => {
+    console.log("this.props", this.props)
     const { isSelectionMode, onReopenWindow, onCloseWindow } = this.props;
     const isAllTabsSelected = window.tabs.every(({ id }) => selection.isSelected(this.props.selection, id));
     return (
@@ -74,6 +76,7 @@ export default class extends Component<IProps> {
             onRegisterActiveTabRef,
             onChangeTabSelection,
           } = this.props;
+          console.log("this.props.selection", this.props.selection)
           const isTabSelected = selection.isSelected(this.props.selection, tab.id);
           return (
             <Tab

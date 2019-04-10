@@ -22,6 +22,7 @@ export default class extends Component<IProps> {
     const { windows } = this.props;
     const s = this.props.selection;
     const selectedIds = selection.getIds(s);
+    console.log("5: s", s)
     const isAllSelected = windows.length > 0 && windows.every(({ tabs }) => tabs.every(({ id }) => selection.isSelected(s, id)));
     const isSelectionEmpty = selectedIds.length === 0;
     return (

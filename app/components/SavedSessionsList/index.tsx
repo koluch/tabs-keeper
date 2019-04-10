@@ -2,6 +2,7 @@ import { Component, h } from "preact";
 import { INewTab, ISavedSession, ISavedSessionHeader, ITab } from "../../types";
 import SavedSessionListItem from "../SavedSessionListItem";
 import TabList from "../TabList";
+import * as selection from "../../helpers/selection";
 
 const styles = require("./index.less");
 

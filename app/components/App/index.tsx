@@ -211,16 +211,20 @@ export default class extends Component<IProps, IState> {
   handleSelectSavedSession = (
     activeSavedSessionHeader: ISavedSessionHeader | null
   ) => {
+    console.log("handleSelectSavedSession")
     this.setState(
       {
         activeSavedSessionHeader,
         activeSavedSession: null
       },
       () => {
+        console.log("2")
         if (activeSavedSessionHeader) {
+          console.log("3")
           // todo: async set state, check for is mounted?
           SessionStorage.get(activeSavedSessionHeader.id).then(
             (savedSession: ISavedSession | null) => {
+              console.log("3")
               if (savedSession) {
                 this.setState({
                   activeSavedSession: savedSession
