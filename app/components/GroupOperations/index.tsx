@@ -1,8 +1,11 @@
 import { Component, h } from "preact";
 import * as selection from "../../helpers/selection";
 import { IWindow } from "../../types";
+import Button from "../../uikit/Button";
 
 const styles = require("./index.less");
+
+export const HEIGHT = 24;
 
 interface IProps {
   windows: IWindow[];
@@ -16,10 +19,10 @@ interface IProps {
 
 export default class extends Component<IProps> {
   render(): JSX.Element {
-    const { isSelectionMode, windows } = this.props;
+    const { windows } = this.props;
     const s = this.props.selection;
     const selectedIds = selection.getIds(s);
-    const isAllSelected = windows.every(({ tabs }) => tabs.every(({ id }) => selection.isSelected(s, id)));
+    const isAllSelected = windows.length > 0 && windows.every(({ tabs }) => tabs.every(({ id }) => selection.isSelected(s, id)));
     const isSelectionEmpty = selectedIds.length === 0;
     return (
       <div className={styles.root}>
@@ -27,17 +30,23 @@ export default class extends Component<IProps> {
           <input
             className={styles.checkbox}
             onClick={isAllSelected ? this.props.onRemoveAll : this.props.onAddAll}
-            disabled={!isSelectionMode}
             type="checkbox"
             checked={isAllSelected}
           />
-          <button disabled={!isSelectionMode} onClick={this.props.onInvert}>Invert</button>
+          <Button
+            size="MICRO"
+            onClick={this.props.onInvert}
+            title={'Invert selection'}
+          />
         </div>
         <div className={styles.section}>
-          <button disabled={!isSelectionMode || isSelectionEmpty} onClick={this.props.onClose}>
-            Close
-          </button>
-          {/* <button disabled={!isSelectionMode}>Unload sel.</button> */}
+          {!isSelectionEmpty && (
+            <Button
+              size="MICRO"
+              onClick={this.props.onClose}
+              title={'Close selected'}
+            />
+          )}
         </div>
       </div>
     );

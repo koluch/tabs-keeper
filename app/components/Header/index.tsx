@@ -27,7 +27,7 @@ interface IProps {
   onClickSelectionMode: () => void;
 }
 
-export const HEIGHT = 82;
+export const HEIGHT = 62;
 
 export default class extends Component<IProps> {
   renderTabs() {
@@ -69,15 +69,17 @@ export default class extends Component<IProps> {
           onClickSaveCurrent={this.props.onClickSaveCurrent}
           onChangeSearch={this.props.onChangeSearch}
         />
-        <GroupOperations
-          windows={this.props.windows}
-          selection={this.props.selection}
-          isSelectionMode={this.props.isSelectionMode}
-          onClose={this.props.onSelectionClose}
-          onInvert={this.props.onSelectionInvert}
-          onAddAll={this.props.onSelectionAddAll}
-          onRemoveAll={this.props.onSelectionRemoveAll}
-        />
+        {this.props.isSelectionMode && (
+          <GroupOperations
+            windows={this.props.windows}
+            selection={this.props.selection}
+            isSelectionMode={this.props.isSelectionMode}
+            onClose={this.props.onSelectionClose}
+            onInvert={this.props.onSelectionInvert}
+            onAddAll={this.props.onSelectionAddAll}
+            onRemoveAll={this.props.onSelectionRemoveAll}
+          />
+        )}
       </div>
     );
   }
@@ -104,7 +106,7 @@ export default class extends Component<IProps> {
 
   render() {
     return (
-      <div className={styles.root} style={{ height: `${HEIGHT}px` }}>
+      <div className={styles.root}>
         {this.renderTabs()}
         {this.renderInfo()}
       </div>

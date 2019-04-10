@@ -16,6 +16,7 @@ import toast from "../../helpers/toast";
 import SavedSessionsList from "../SavedSessionsList";
 import plural from "../../helpers/plural";
 import * as selection from "../../helpers/selection";
+import { HEIGHT as GROUP_OPERATIONS_HEIGHT } from "../GroupOperations";
 
 const styles = require("./index.less");
 
@@ -62,7 +63,7 @@ export default class extends Component<IProps, IState> {
     this.state = {
       search: "",
       selection: selection.create(),
-      isSelectionMode: true,
+      isSelectionMode: false,
       activeUITab: "CURRENT",
       session: null,
       savedSessionHeaders: [],
@@ -419,7 +420,7 @@ export default class extends Component<IProps, IState> {
   }
 
   render() {
-    const { session, search, activeUITab, savedSessionHeaders } = this.state;
+    const { session, search, activeUITab, savedSessionHeaders, isSelectionMode } = this.state;
 
     if (session === null) {
       // todo: make proper layout for this message
@@ -434,7 +435,7 @@ export default class extends Component<IProps, IState> {
           savedSessionHeaders={savedSessionHeaders}
           activeUITab={activeUITab}
           search={search}
-          isSelectionMode={this.state.isSelectionMode}
+          isSelectionMode={isSelectionMode}
           onChangeSearch={this.handleChangeSearch}
           onSwitchUITab={this.handleSwitchUITab}
           onSelectionClose={this.handleSelectionClose}
@@ -446,7 +447,7 @@ export default class extends Component<IProps, IState> {
         />
         <div
           className={styles.content}
-          style={{ marginTop: `${HEADER_HEIGHT}px` }}
+          style={{ marginTop: `${HEADER_HEIGHT + (isSelectionMode ? GROUP_OPERATIONS_HEIGHT : 0)}px` }}
         >
           {activeUITab === "CURRENT" && this.renderCurrentSession(session)}
           {activeUITab === "SAVED" && this.renderSavedSessionsList()}

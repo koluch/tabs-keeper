@@ -23,6 +23,7 @@ export default class extends Component<IProps> {
           value={this.props.search}
           onInput={this.handleChangeText}
           className={styles.input}
+          placeholder={'Type to search...'}
         />
       </div>
     );

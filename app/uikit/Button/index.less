@@ -1,0 +1,66 @@
+.root {
+  border: none;
+  display: flex;
+  align-items: center;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+
+  &.size-MICRO {
+    border-radius: 2px;
+    height: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 11px;
+
+    .icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &.size-DEFAULT {
+    border-radius: 2px;
+    height: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 13px;
+    //min-width: 132px;
+
+    .icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &.type-DEFAULT {
+    background: rgba(12, 12, 13, 0.1);
+
+    &:hover {
+      background: rgba(12, 12, 13, 0.2);
+    }
+
+    &:active {
+      background: rgba(12, 12, 13, 0.3);
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)
+    }
+
+    &:disabled {
+      opacity: 0.4;
+    }
+  }
+}
+
+.icon {
+  &:not(:last-child) {
+    margin-right: 4px;
+  }
+}

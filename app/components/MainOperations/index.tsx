@@ -1,6 +1,7 @@
 import { Component, h } from "preact";
 import cn from 'classnames';
 import SearchPanel from "../SearchPanel";
+import Button from "../../uikit/Button";
 
 const styles = require("./index.less");
 
@@ -23,8 +24,8 @@ export default class extends Component<IProps> {
           />
         </div>
         <div class={styles.section}>
-          <button onClick={this.props.onClickSelectionMode}>Selection {this.props.isSelectionMode ? 'off' : 'on'}</button>
-          <button onClick={this.props.onClickSaveCurrent}>Save</button>
+          <Button size="MICRO" className={styles.button} onClick={this.props.onClickSelectionMode} icon={'/icons/selection-mode-icon.svg'} />
+          <Button size="MICRO" className={styles.button} onClick={this.props.onClickSaveCurrent} title={'Save'} />
         </div>
       </div>
     );
