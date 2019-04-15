@@ -25,7 +25,10 @@ export default class extends Component<IProps> {
 
   handleClickTitle = (e: MouseEvent) => {
     e.preventDefault();
-    if (this.props.onActivate) {
+    if (this.props.isSelectionMode && this.props.onChangeSelection) {
+      this.props.onChangeSelection()
+    }
+    else if (this.props.onActivate) {
       this.props.onActivate();
     }
   };
