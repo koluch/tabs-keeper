@@ -53,6 +53,7 @@ export default class extends Component<IProps> {
         <div className={styles.section}>
           {!isSelectionEmpty && (
             <Button
+              icon={'/icons/discard-icon.svg'}
               className={styles.actionButton}
               onClick={this.props.onDiscard}
               title={'Discard selected'}
@@ -61,6 +62,7 @@ export default class extends Component<IProps> {
           )}
           {!isSelectionEmpty && (
             <Button
+              icon={'/icons/close-icon.svg'}
               className={styles.actionButton}
               onClick={this.props.onClose}
               title={'Close selected'}

@@ -5,7 +5,6 @@ const styles = require("./index.less");
 
 interface IProps {
   type: "DEFAULT" | "PRIMARY";
-  size: "MICRO" | "DEFAULT" | "PUFFY";
   icon?: string;
   title?: string;
   tooltip?: string;
@@ -17,15 +16,14 @@ interface IProps {
 export default class extends Component<IProps> {
   static defaultProps = {
     type: "DEFAULT",
-    size: "DEFAULT",
     isDisabled: false,
   };
 
   render() {
-    const { title, tooltip, type, size, onClick, icon, isDisabled, className } = this.props;
+    const { title, tooltip, type, onClick, icon, isDisabled, className } = this.props;
     return (
       <button
-        className={cn(styles.root, className, styles[`type-${type}`], styles[`size-${size}`])}
+        className={cn(styles.root, className, styles[`type-${type}`])}
         onClick={onClick}
         disabled={isDisabled}
         title={tooltip}
