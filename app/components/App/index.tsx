@@ -204,7 +204,8 @@ export default class extends Component<IProps, IState> {
 
   handleChangeSelectionMode = () => {
     this.setState((state: IState) => ({
-      isSelectionMode: !state.isSelectionMode
+      isSelectionMode: !state.isSelectionMode,
+      selection: selection.create(),
     }));
   };
 
@@ -309,7 +310,10 @@ export default class extends Component<IProps, IState> {
   };
 
   handleChangeSearch = (search: string): void => {
-    this.setState({ search });
+    this.setState({
+      search,
+      selection: selection.create(),
+    });
   };
 
   handleSwitchUITab = (uiTab: UITab) => {
