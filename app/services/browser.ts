@@ -318,8 +318,8 @@ interface IBrowser {
   getCurrentSession: () => Promise<ISession>;
   activateTab: (tabId: number) => Promise<void>;
   activateWindow: (windowId: number) => Promise<void>;
-  closeTab: (tabId: number) => Promise<void>;
-  discardTab: (tabId: number) => Promise<void>;
+  closeTabs: (tabIds: number[]) => Promise<void>;
+  discardTabs: (tabIds: number[]) => Promise<void>;
   closeWindow: (windowId: number) => Promise<void>;
   openWindow: (tabs: INewTab[]) => Promise<void>;
   openTabs: (tabs: INewTab[]) => Promise<void>;
@@ -342,22 +342,22 @@ const DebugBrowser: IBrowser = {
     });
     return Promise.resolve(undefined);
   },
-  closeTab: (id: number) => {
+  closeTabs: (ids: number[]) => {
     DEBUG_WINDOWS = DEBUG_WINDOWS.map(window => {
       return {
         ...window,
-        tabs: window.tabs.filter(tab => tab.id !== id)
+        tabs: window.tabs.filter(tab => ids.indexOf(tab.id) !== -1)
       };
     });
     DEBUG_WINDOWS = DEBUG_WINDOWS.filter(({ tabs }) => tabs.length > 0);
     return Promise.resolve(undefined).then(delay);
   },
-  discardTab: (id: number) => {
+  discardTabs: (ids: number[]) => {
     DEBUG_WINDOWS = DEBUG_WINDOWS.map(window => {
       return {
         ...window,
         tabs: window.tabs.map(tab => {
-          if (tab.id === id) {
+          if (ids.indexOf(tab.id) !== -1) {
             return {
               ...tab,
               discarded: true,
@@ -491,14 +491,14 @@ const ProductionBrowser: IBrowser = {
   activateWindow: (id: number) => {
     return browser.windows.update(id, { focused: true }).then(() => undefined);
   },
-  closeTab: (id: number) => {
-    return browser.tabs.remove(id).then(() => undefined);
+  closeTabs: (ids: number[]) => {
+    return browser.tabs.remove(ids).then(() => undefined);
   },
-  discardTab: (id: number) => {
+  discardTabs: (ids: number[]) => {
     // todo: why discard function is not supported by web-ext-types package?
     // eslint-disable-next-line
     // @ts-ignore
-    return browser.tabs.discard(id).then(() => undefined);
+    return browser.tabs.discard(ids).then(() => undefined);
   },
   closeWindow: (windowId: number) => {
     return browser.windows.remove(windowId).then(() => undefined);

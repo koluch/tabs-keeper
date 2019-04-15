@@ -164,11 +164,11 @@ export default class extends Component<IProps, IState> {
   };
 
   handleCloseTab = (tabId: number) => {
-    Browser.closeTab(tabId).then(() => this.updateTabs());
+    Browser.closeTabs([tabId]).then(() => this.updateTabs());
   };
 
   handleDiscardTab = (tabId: number) => {
-    Browser.discardTab(tabId).then(() => this.updateTabs());
+    Browser.discardTabs([tabId]).then(() => this.updateTabs());
   };
 
   handleCloseWindow = (windowId: number) => {
@@ -327,23 +327,27 @@ export default class extends Component<IProps, IState> {
   };
 
   handleSelectionClose = () => {
-    Promise.all(
-      selection
-        .getIds(this.state.selection)
-        .map(id =>
-          Browser.closeTab(id).then(() => this.handleChangeTabSelection(id, false))
-        )
-    ).then(() => this.updateTabs());
+    const ids = selection.getIds(this.state.selection);
+    Browser
+      .closeTabs(ids)
+      .then(() => {
+        for (const id of ids) {
+          this.handleChangeTabSelection(id, false)
+        }
+        return this.updateTabs();
+      });
   };
 
   handleSelectionDiscard = () => {
-    Promise.all(
-      selection
-        .getIds(this.state.selection)
-        .map(id =>
-          Browser.discardTab(id)
-        )
-    ).then(() => this.updateTabs());
+    const ids = selection.getIds(this.state.selection);
+    Browser
+      .discardTabs(ids)
+    .then(() => {
+      for (const id of ids) {
+        this.handleChangeTabSelection(id, false)
+      }
+      return this.updateTabs();
+    });
   };
 
   handleSelectionInvert = () => {
