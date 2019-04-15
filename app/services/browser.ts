@@ -346,7 +346,7 @@ const DebugBrowser: IBrowser = {
     DEBUG_WINDOWS = DEBUG_WINDOWS.map(window => {
       return {
         ...window,
-        tabs: window.tabs.filter(tab => ids.indexOf(tab.id) !== -1)
+        tabs: window.tabs.filter(tab => ids.indexOf(tab.id) === -1)
       };
     });
     DEBUG_WINDOWS = DEBUG_WINDOWS.filter(({ tabs }) => tabs.length > 0);
