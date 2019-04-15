@@ -319,6 +319,7 @@ interface IBrowser {
   activateTab: (tabId: number) => Promise<void>;
   activateWindow: (windowId: number) => Promise<void>;
   closeTab: (tabId: number) => Promise<void>;
+  discardTab: (tabId: number) => Promise<void>;
   closeWindow: (windowId: number) => Promise<void>;
   openWindow: (tabs: INewTab[]) => Promise<void>;
   openTabs: (tabs: INewTab[]) => Promise<void>;
@@ -349,6 +350,23 @@ const DebugBrowser: IBrowser = {
       };
     });
     DEBUG_WINDOWS = DEBUG_WINDOWS.filter(({ tabs }) => tabs.length > 0);
+    return Promise.resolve(undefined).then(delay);
+  },
+  discardTab: (id: number) => {
+    DEBUG_WINDOWS = DEBUG_WINDOWS.map(window => {
+      return {
+        ...window,
+        tabs: window.tabs.map(tab => {
+          if (tab.id === id) {
+            return {
+              ...tab,
+              discarded: true,
+            }
+          }
+          return tab;
+        })
+      };
+    });
     return Promise.resolve(undefined).then(delay);
   },
   closeWindow: (windowId: number) => {
@@ -475,6 +493,12 @@ const ProductionBrowser: IBrowser = {
   },
   closeTab: (id: number) => {
     return browser.tabs.remove(id).then(() => undefined);
+  },
+  discardTab: (id: number) => {
+    // todo: why discard function is not supported by web-ext-types package?
+    // eslint-disable-next-line
+    // @ts-ignore
+    return browser.tabs.discard(id).then(() => undefined);
   },
   closeWindow: (windowId: number) => {
     return browser.windows.remove(windowId).then(() => undefined);

@@ -12,6 +12,10 @@ export function getIds(selection: ISelection): number[] {
   return selection.ids;
 }
 
+export function isEmpty(selection: ISelection) {
+  return selection.ids.length === 0;
+}
+
 export function isSelected(selection: ISelection, id: number) {
   return selection.ids.find((x) => x === id) != null;
 }

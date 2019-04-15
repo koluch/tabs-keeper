@@ -2,6 +2,7 @@ import cn from "classnames";
 import { h, Component, Ref } from "preact";
 import { ITab } from "../../types";
 import CloseIcon from "../CloseIcon";
+import Icon from "../Icon";
 
 const styles = require("./index.less");
 
@@ -12,6 +13,7 @@ interface IProps {
   onChangeSelection?: (() => void) | null;
   onActivate?: (() => void) | null;
   onClose?: (() => void) | null;
+  onDiscard?: (() => void) | null;
   onRegisterRef?: ((ref: HTMLDivElement | null) => void) | null;
 }
 
@@ -36,7 +38,7 @@ export default class extends Component<IProps> {
 
   render() {
     const { tab } = this.props;
-    const { onRegisterRef, onClose } = this.props;
+    const { onRegisterRef, onClose, onDiscard } = this.props;
     return (
       <div
         className={cn(
@@ -66,7 +68,22 @@ export default class extends Component<IProps> {
         >
           {tab.title || "<no title>"}
         </a>
-        {onClose && <CloseIcon onClick={onClose} />}
+        {!tab.discarded && onDiscard && (
+          <Icon
+            src={'/icons/discard-icon.svg'}
+            className={styles.icon}
+            onClick={onDiscard}
+            placeholder={'Discard tab'}
+          />
+        )}
+        {onClose && (
+          <Icon
+            src={'/icons/close-icon.svg'}
+            className={styles.icon}
+            onClick={onClose}
+            placeholder={'Close tab'}
+          />
+        )}
       </div>
     );
   }

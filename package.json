@@ -40,6 +40,6 @@
     "prettier": "^1.15.3",
     "typescript": "^3.2.4",
     "uglify-js-brunch": "^2",
-    "web-ext-types": "^2.1.0"
+    "web-ext-types": "^2.3.0"
   }
 }

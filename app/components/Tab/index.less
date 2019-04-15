@@ -12,6 +12,10 @@
 
   &:hover {
     background: #f5f5f5;
+
+    .icon {
+      display: inline-flex;
+    }
   }
 
   &.isActive {
@@ -48,4 +52,12 @@
 .favIcon {
   width: 16px;
   height: 16px;
+}
+
+.icon {
+  display: none;
+
+  &:not(:first-child) {
+    margin-left: 4px;
+  }
 }

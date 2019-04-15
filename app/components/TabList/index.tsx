@@ -5,6 +5,7 @@ import { INewTab, ITab, IWindow } from "../../types";
 import CloseIcon from "../CloseIcon";
 import * as selection from "../../helpers/selection";
 import Button from "../../uikit/Button";
+import Icon from "../Icon";
 
 const styles = require("./index.less");
 
@@ -16,6 +17,7 @@ interface IProps {
   onReopenWindow?: (tabs: INewTab[]) => void;
   onActivateTab?: (tabId: number) => void;
   onCloseTab?: (tabId: number) => void;
+  onDiscardTab?: (tabId: number) => void;
   onCloseWindow?: (windowId: number) => void;
   onRegisterActiveTabRef?: (
     windowId: number,
@@ -53,8 +55,9 @@ export default class extends Component<IProps> {
           <Button onClick={() => onReopenWindow(window.tabs)} title={'Reopen'} />
         )}
         {(onCloseWindow && !isSelectionMode) && (
-          <CloseIcon
+          <Icon
             className={styles.closeIcon}
+            src={'/icons/close-icon.svg'}
             onClick={() => onCloseWindow(window.id)}
           />
         )}
@@ -73,6 +76,7 @@ export default class extends Component<IProps> {
             isSelectionMode,
             onActivateTab,
             onCloseTab,
+            onDiscardTab,
             onRegisterActiveTabRef,
             onChangeTabSelection,
           } = this.props;
@@ -85,6 +89,7 @@ export default class extends Component<IProps> {
               isSelected={isTabSelected}
               onChangeSelection={onChangeTabSelection ? () => onChangeTabSelection(tab.id, !isTabSelected) : null}
               onActivate={(!isSelectionMode && onActivateTab) ? () => onActivateTab(tab.id) : null}
+              onDiscard={(!isSelectionMode && onDiscardTab) ? () => onDiscardTab(tab.id) : null}
               onClose={(!isSelectionMode && onCloseTab) ? () => onCloseTab(tab.id) : null}
               onRegisterRef={
                 onRegisterActiveTabRef

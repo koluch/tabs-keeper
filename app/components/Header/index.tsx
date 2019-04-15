@@ -18,6 +18,7 @@ interface IProps {
   selection: ISelection;
   isSelectionMode: boolean;
   onSelectionClose: () => void;
+  onSelectionDiscard: () => void;
   onSelectionInvert: () => void;
   onSelectionAddAll: () => void;
   onSelectionRemoveAll: () => void;
@@ -69,6 +70,7 @@ export default class extends Component<IProps> {
             selection={this.props.selection}
             isSelectionMode={this.props.isSelectionMode}
             onClose={this.props.onSelectionClose}
+            onDiscard={this.props.onSelectionDiscard}
             onInvert={this.props.onSelectionInvert}
             onAddAll={this.props.onSelectionAddAll}
             onRemoveAll={this.props.onSelectionRemoveAll}

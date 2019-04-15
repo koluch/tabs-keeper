@@ -167,6 +167,10 @@ export default class extends Component<IProps, IState> {
     Browser.closeTab(tabId).then(() => this.updateTabs());
   };
 
+  handleDiscardTab = (tabId: number) => {
+    Browser.discardTab(tabId).then(() => this.updateTabs());
+  };
+
   handleCloseWindow = (windowId: number) => {
     Browser.closeWindow(windowId).then(() => this.updateTabs());
   };
@@ -332,6 +336,16 @@ export default class extends Component<IProps, IState> {
     ).then(() => this.updateTabs());
   };
 
+  handleSelectionDiscard = () => {
+    Promise.all(
+      selection
+        .getIds(this.state.selection)
+        .map(id =>
+          Browser.discardTab(id)
+        )
+    ).then(() => this.updateTabs());
+  };
+
   handleSelectionInvert = () => {
     this.setState((state: IState) => {
       const { session, search } = state;
@@ -410,6 +424,7 @@ export default class extends Component<IProps, IState> {
           onChangeTabSelection={this.handleChangeTabSelection}
           onActivateTab={this.handleActivateTab}
           onCloseTab={this.handleCloseTab}
+          onDiscardTab={this.handleDiscardTab}
           onCloseWindow={this.handleCloseWindow}
           onRegisterActiveTabRef={this.handleRegisterActiveTabRef}
         />
@@ -460,6 +475,7 @@ export default class extends Component<IProps, IState> {
           onChangeSearch={this.handleChangeSearch}
           onSwitchUITab={this.handleSwitchUITab}
           onSelectionClose={this.handleSelectionClose}
+          onSelectionDiscard={this.handleSelectionDiscard}
           onSelectionInvert={this.handleSelectionInvert}
           onSelectionAddAll={this.handleSelectionAddAll}
           onSelectionRemoveAll={this.handleSelectionRemoveAll}
