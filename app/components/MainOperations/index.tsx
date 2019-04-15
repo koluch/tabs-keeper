@@ -23,7 +23,7 @@ export default class extends Component<IProps> {
           />
         </div>
         <div class={styles.section}>
-          <Button size="MICRO" className={styles.button} onClick={this.props.onClickSelectionMode} icon={'/icons/selection-mode-icon.svg'} />
+          <Button className={styles.button} onClick={this.props.onClickSelectionMode} icon={'/icons/selection-mode-icon.svg'} />
         </div>
       </div>
     );

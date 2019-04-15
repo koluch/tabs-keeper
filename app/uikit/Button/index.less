@@ -1,7 +1,11 @@
+@import "../variables.less";
+
 .root {
-  border: none;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  background: white;
+  border: 1px solid var(--default-border-color);
+  border-radius: var(--default-border-radius);
 
   &:not(:disabled) {
     cursor: pointer;
@@ -11,26 +15,11 @@
     cursor: default;
   }
 
-  &.size-MICRO {
-    border-radius: 2px;
-    height: 24px;
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size: 11px;
-
-    .icon {
-      width: 16px;
-      height: 16px;
-    }
-  }
-
   &.size-DEFAULT {
-    border-radius: 2px;
-    height: 32px;
+    height: @size-x6;
     padding-left: 8px;
     padding-right: 8px;
     font-size: 13px;
-    //min-width: 132px;
 
     .icon {
       width: 16px;
@@ -38,24 +27,21 @@
     }
   }
 
-  &.type-DEFAULT {
-    background: rgba(12, 12, 13, 0.1);
+  &:hover,
+  &:active {
+    border: 1px solid #bebebe;
+  }
 
-    &:hover {
-      background: rgba(12, 12, 13, 0.2);
-    }
+  &:active {
+    border: 1px solid #e8e8e8;
+  }
 
-    &:active {
-      background: rgba(12, 12, 13, 0.3);
-    }
+  &:focus {
+    box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)
+  }
 
-    &:focus {
-      box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)
-    }
-
-    &:disabled {
-      opacity: 0.4;
-    }
+  &:disabled {
+    opacity: 0.4;
   }
 }
 

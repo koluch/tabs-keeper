@@ -211,20 +211,16 @@ export default class extends Component<IProps, IState> {
   handleSelectSavedSession = (
     activeSavedSessionHeader: ISavedSessionHeader | null
   ) => {
-    console.log("handleSelectSavedSession")
     this.setState(
       {
         activeSavedSessionHeader,
         activeSavedSession: null
       },
       () => {
-        console.log("2")
         if (activeSavedSessionHeader) {
-          console.log("3")
           // todo: async set state, check for is mounted?
           SessionStorage.get(activeSavedSessionHeader.id).then(
             (savedSession: ISavedSession | null) => {
-              console.log("3")
               if (savedSession) {
                 this.setState({
                   activeSavedSession: savedSession
@@ -394,33 +390,49 @@ export default class extends Component<IProps, IState> {
   };
 
   renderCurrentSession(session: ISession) {
+    const { isSelectionMode } = this.state;
+
     return (
-      <TabList
-        windows={filterWindows(session.windows, this.state.search)}
-        isSelectionMode={this.state.isSelectionMode}
-        selection={this.state.selection}
-        onChangeTabSelection={this.handleChangeTabSelection}
-        onActivateTab={this.handleActivateTab}
-        onCloseTab={this.handleCloseTab}
-        onCloseWindow={this.handleCloseWindow}
-        onRegisterActiveTabRef={this.handleRegisterActiveTabRef}
-      />
+      <div
+        style={{
+          marginTop: `${HEADER_HEIGHT + (isSelectionMode ? GROUP_OPERATIONS_HEIGHT : 0)}px`,
+          marginBottom: `${FOOTER_HEIGHT}px`,
+        }}
+      >
+        <TabList
+          windows={filterWindows(session.windows, this.state.search)}
+          isSelectionMode={this.state.isSelectionMode}
+          selection={this.state.selection}
+          onChangeTabSelection={this.handleChangeTabSelection}
+          onActivateTab={this.handleActivateTab}
+          onCloseTab={this.handleCloseTab}
+          onCloseWindow={this.handleCloseWindow}
+          onRegisterActiveTabRef={this.handleRegisterActiveTabRef}
+        />
+      </div>
     );
   }
 
   renderSavedSessionsList() {
     return (
-      <SavedSessionsList
-        savedSessionHeaders={this.state.savedSessionHeaders}
-        activeSavedSessionHeader={this.state.activeSavedSessionHeader}
-        activeSavedSession={this.state.activeSavedSession}
-        onSelectSession={this.handleSelectSavedSession}
-        onReopenWindow={this.handleReopenWindow}
-        onReopenTabs={this.handleReopenTabs}
-        onDeleteSession={this.handleDeleteSavedSession}
-        onDeleteWindow={this.handleDeleteSavedSessionWindow}
-        onDeleteTab={this.handleDeleteSavedSessionTab}
-      />
+      <div
+        style={{
+          marginTop: `${HEADER_HEIGHT}px`,
+          marginBottom: `${FOOTER_HEIGHT}px`,
+        }}
+      >
+        <SavedSessionsList
+          savedSessionHeaders={this.state.savedSessionHeaders}
+          activeSavedSessionHeader={this.state.activeSavedSessionHeader}
+          activeSavedSession={this.state.activeSavedSession}
+          onSelectSession={this.handleSelectSavedSession}
+          onReopenWindow={this.handleReopenWindow}
+          onReopenTabs={this.handleReopenTabs}
+          onDeleteSession={this.handleDeleteSavedSession}
+          onDeleteWindow={this.handleDeleteSavedSessionWindow}
+          onDeleteTab={this.handleDeleteSavedSessionTab}
+        />
+      </div>
     );
   }
 
@@ -451,10 +463,6 @@ export default class extends Component<IProps, IState> {
         />
         <div
           className={styles.content}
-          style={{
-            marginTop: `${HEADER_HEIGHT + (isSelectionMode ? GROUP_OPERATIONS_HEIGHT : 0)}px`,
-            marginBottom: `${FOOTER_HEIGHT}px`,
-          }}
         >
           {activeUITab === "CURRENT" && this.renderCurrentSession(session)}
           {activeUITab === "SAVED" && this.renderSavedSessionsList()}

@@ -1,4 +1,5 @@
 import { Component, h } from "preact";
+import TextInput from "../../uikit/TextInput";
 
 const styles = require("./index.less");
 
@@ -17,15 +18,11 @@ export default class extends Component<IProps> {
 
   render(): JSX.Element {
     return (
-      <div className={styles.root}>
-        <input
-          type="text"
-          value={this.props.search}
-          onInput={this.handleChangeText}
-          className={styles.input}
-          placeholder={'Type to search...'}
-        />
-      </div>
+      <TextInput
+        value={this.props.search}
+        placeholder={'Type to search'}
+        onChange={this.props.onChangeSearch}
+      />
     );
   }
 }

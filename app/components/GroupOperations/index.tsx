@@ -22,7 +22,6 @@ export default class extends Component<IProps> {
     const { windows } = this.props;
     const s = this.props.selection;
     const selectedIds = selection.getIds(s);
-    console.log("5: s", s)
     const isAllSelected = windows.length > 0 && windows.every(({ tabs }) => tabs.every(({ id }) => selection.isSelected(s, id)));
     const isSelectionEmpty = selectedIds.length === 0;
     return (
@@ -35,7 +34,6 @@ export default class extends Component<IProps> {
             checked={isAllSelected}
           />
           <Button
-            size="MICRO"
             onClick={this.props.onInvert}
             title={'Invert selection'}
           />
@@ -43,7 +41,6 @@ export default class extends Component<IProps> {
         <div className={styles.section}>
           {!isSelectionEmpty && (
             <Button
-              size="MICRO"
               onClick={this.props.onClose}
               title={'Close selected'}
             />

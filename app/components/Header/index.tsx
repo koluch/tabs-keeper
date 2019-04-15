@@ -26,7 +26,7 @@ interface IProps {
   onClickSelectionMode: () => void;
 }
 
-export const HEIGHT = 62;
+export const HEIGHT = 58;
 
 export default class extends Component<IProps> {
   renderTabs() {
@@ -82,7 +82,9 @@ export default class extends Component<IProps> {
     const sessionsCount = this.props.savedSessionHeaders.length;
     return (
       <div className={styles.info}>
-        {sessionsCount} {plural(sessionsCount, "saved session")}
+        <div className={styles.savedSessionsInfo}>
+          {sessionsCount} {plural(sessionsCount, "saved session")}
+        </div>
       </div>
     );
   }
@@ -100,7 +102,7 @@ export default class extends Component<IProps> {
 
   render() {
     return (
-      <div className={styles.root}>
+      <div className={styles.root} style={{ minHeight: HEIGHT }}>
         {this.renderTabs()}
         {this.renderInfo()}
       </div>

@@ -3,6 +3,7 @@ import { INewTab, ISavedSession, ISavedSessionHeader, ITab } from "../../types";
 import SavedSessionListItem from "../SavedSessionListItem";
 import TabList from "../TabList";
 import * as selection from "../../helpers/selection";
+import Button from "../../uikit/Button";
 
 const styles = require("./index.less");
 
@@ -56,8 +57,8 @@ export default class extends Component<IProps> {
       return (
         <div className={styles.tabList}>
           <div className={styles.sessionControls}>
-            <button onClick={handleReopenAllWindows}>Reopen all windows</button>
-            <button onClick={handleReopenAllTabs}>Reopen all tabs</button>
+            <Button className={styles.button} onClick={handleReopenAllWindows} title={'Reopen all windows'} />
+            <Button className={styles.button} onClick={handleReopenAllTabs} title={'Reopen all tabs'} />
           </div>
           <TabList
             windows={activeSavedSession.windows}

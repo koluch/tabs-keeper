@@ -26,7 +26,7 @@ export default class extends Component<IProps> {
           {`${windowsCount} windows, ${tabsCount} tabs`}
         </div>
         <div className={styles.section}>
-          <Button size="MICRO" className={styles.button} onClick={this.props.onClickSaveCurrent} title={'Save'} />
+          <Button className={styles.button} onClick={this.props.onClickSaveCurrent} title={'Save'} />
         </div>
       </div>
     );

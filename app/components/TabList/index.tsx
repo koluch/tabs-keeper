@@ -4,6 +4,7 @@ import Tab from "../Tab/index";
 import { INewTab, ITab, IWindow } from "../../types";
 import CloseIcon from "../CloseIcon";
 import * as selection from "../../helpers/selection";
+import Button from "../../uikit/Button";
 
 const styles = require("./index.less");
 
@@ -29,7 +30,6 @@ export default class extends Component<IProps> {
   };
 
   renderWindowHeader = (window: IWindow, i: number) => {
-    console.log("this.props", this.props)
     const { isSelectionMode, onReopenWindow, onCloseWindow } = this.props;
     const isAllTabsSelected = window.tabs.every(({ id }) => selection.isSelected(this.props.selection, id));
     return (
@@ -50,7 +50,7 @@ export default class extends Component<IProps> {
         )}
         <span className={styles.windowTitle}>Window #{i + 1}</span>
         {onReopenWindow && (
-          <button onClick={() => onReopenWindow(window.tabs)}>Reopen</button>
+          <Button onClick={() => onReopenWindow(window.tabs)} title={'Reopen'} />
         )}
         {(onCloseWindow && !isSelectionMode) && (
           <CloseIcon
@@ -76,7 +76,6 @@ export default class extends Component<IProps> {
             onRegisterActiveTabRef,
             onChangeTabSelection,
           } = this.props;
-          console.log("this.props.selection", this.props.selection)
           const isTabSelected = selection.isSelected(this.props.selection, tab.id);
           return (
             <Tab
