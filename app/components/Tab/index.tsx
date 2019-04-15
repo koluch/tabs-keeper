@@ -39,7 +39,11 @@ export default class extends Component<IProps> {
     const { onRegisterRef, onClose } = this.props;
     return (
       <div
-        className={cn(styles.tab, tab.active && styles.isActive)}
+        className={cn(
+          styles.tab,
+          tab.active && styles.isActive,
+          tab.discarded && styles.isDiscarded,
+        )}
         ref={onRegisterRef ? ref => onRegisterRef(ref) : undefined}
       >
         {this.props.isSelectionMode && (
