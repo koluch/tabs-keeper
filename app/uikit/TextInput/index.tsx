@@ -28,7 +28,7 @@ export default class extends Component<IProps> {
       <input
         className={cn(styles.root)}
         value={value}
-        onChange={this.handleChange}
+        onInput={this.handleChange}
         disabled={isDisabled}
         placeholder={placeholder}
       />

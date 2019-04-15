@@ -9,13 +9,6 @@ interface IProps {
 }
 
 export default class extends Component<IProps> {
-  handleChangeText = (e: KeyboardEvent) => {
-    const { target } = e;
-    if (target instanceof HTMLInputElement) {
-      this.props.onChangeSearch(target.value);
-    }
-  };
-
   render(): JSX.Element {
     return (
       <TextInput
