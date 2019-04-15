@@ -4,11 +4,12 @@ import cn from "classnames";
 const styles = require("./index.less");
 
 interface IProps {
-  type?: "DEFAULT" | "PRIMARY";
-  size?: "MICRO" | "DEFAULT" | "PUFFY";
+  type: "DEFAULT" | "PRIMARY";
+  size: "MICRO" | "DEFAULT" | "PUFFY";
   icon?: string;
   title?: string;
-  isDisabled?: boolean;
+  tooltip?: string;
+  isDisabled: boolean;
   onClick: () => void;
   className?: string;
 }
@@ -21,12 +22,13 @@ export default class extends Component<IProps> {
   };
 
   render() {
-    const { title, type, size, onClick, icon, isDisabled, className } = this.props;
+    const { title, tooltip, type, size, onClick, icon, isDisabled, className } = this.props;
     return (
       <button
         className={cn(styles.root, className, styles[`type-${type}`], styles[`size-${size}`])}
         onClick={onClick}
         disabled={isDisabled}
+        title={tooltip}
       >
         {icon && <img className={styles.icon} src={icon} />}
         {title && <div className={styles.title}>{title}</div>}
