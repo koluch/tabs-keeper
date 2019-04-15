@@ -7,7 +7,7 @@ interface IProps {
   src: string;
   className?: string;
   onClick: (e: MouseEvent) => void;
-  placeholder?: string,
+  placeholder?: string;
 }
 
 export default (props: IProps) => (
