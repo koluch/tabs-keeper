@@ -47,7 +47,8 @@ export default class extends Component<IProps> {
           />
           <Button
             onClick={this.props.onInvert}
-            title={'Invert selection'}
+            icon={'/icons/invert-icon.svg'}
+            title={'Invert'}
           />
         </div>
         <div className={styles.section}>
@@ -56,7 +57,7 @@ export default class extends Component<IProps> {
               icon={'/icons/discard-icon.svg'}
               className={styles.actionButton}
               onClick={this.props.onDiscard}
-              title={'Discard selected'}
+              title={'Discard'}
               isDisabled={isAllSelectedDiscarded}
             />
           )}
@@ -65,7 +66,7 @@ export default class extends Component<IProps> {
               icon={'/icons/close-icon.svg'}
               className={styles.actionButton}
               onClick={this.props.onClose}
-              title={'Close selected'}
+              title={'Close'}
             />
           )}
         </div>
