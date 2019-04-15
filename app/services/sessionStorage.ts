@@ -24,6 +24,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "bq | Latest",
             url: "https://bazqux.com/",
             favIconUrl: "https://bazqux.com/favicon.ico"
@@ -33,6 +34,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title:
               "Письмо «Nikolay, please add me to your LinkedIn network» — Женя Софронов — Яндекс.Почта",
             url:
@@ -45,6 +47,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "Диалоги",
             url: "https://vk.com/im?sel=-45728460",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_im_2x.ico?6"
@@ -54,6 +57,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "лекарства - Google Sheets",
             url:
               "https://docs.google.com/spreadsheets/d/1zJfc1q4VptJJLs5EDr4zHfYvPJes_r6qmR3vzj40bLU/edit#gid=1092909149",
@@ -65,6 +69,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "судьба ужина по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3132384.html",
             favIconUrl:
@@ -75,6 +80,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Network Dependencies · he-he-org/he-he-2",
             url: "https://github.com/he-he-org/he-he-2/network/dependencies",
             favIconUrl: "https://assets-cdn.github.com/favicon.ico"
@@ -84,6 +90,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "NVD - CVE-2018-3809",
             url: "https://nvd.nist.gov/vuln/detail/CVE-2018-3809",
             favIconUrl:
@@ -94,6 +101,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "(32) Новости",
             url:
               "https://vk.com/feed?z=photo-48872313_456242438%2Fwall-48872313_11365",
@@ -104,6 +112,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Хорошо прорисованные женщины: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1280049.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -113,6 +122,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: 'Живопись из фильма "Титаник": shakko_kitsune - Page 3',
             url: "https://shakko-kitsune.livejournal.com/1278640.html?page=3",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -122,6 +132,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем круты «Авиньонские девицы» Пикассо? | Шакко | Яндекс Дзен",
             url:
@@ -133,6 +144,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пабло Руис Пикассо - NeWestMuseum",
             url:
               "http://www.newestmuseum.ru/data/authors/p/picasso_pablo/index.php",
@@ -143,6 +155,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "кельтский камень - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130586.html",
             favIconUrl:
@@ -153,6 +166,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шаламов по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130308.html",
             favIconUrl:
@@ -163,6 +177,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зав. игровым салоном: ksoftware",
             url: "https://ksoftware.livejournal.com/383517.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -172,6 +187,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Музей истории техники в Ростове. Кайф: ksoftware",
             url: "https://ksoftware.livejournal.com/397536.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -181,6 +197,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Using achievement stats to estimate sales on steam – Tyler Glaiel – Medium",
             url:
@@ -193,6 +210,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Печали: akuklev",
             url: "https://akuklev.livejournal.com/1282902.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -202,6 +220,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fabrice Bellard - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Fabrice_Bellard",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -211,6 +230,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "открытая запись - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3129950.html",
             favIconUrl:
@@ -221,6 +241,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ну вот, maxim умучали и в твиторе. И чего вы его так все не любите,…: sorhed",
             url: "https://sorhed.livejournal.com/619253.html",
@@ -231,6 +252,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Почему я удалил все посты в ЖЖ и Твиттере: maxim",
             url: "https://maxim.livejournal.com/531021.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -240,6 +262,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Заголовок: lambdaterm1",
             url: "https://lambdaterm1.livejournal.com/730.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -249,6 +272,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-99523325_4368",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -258,6 +282,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ПитерФотоФест - 2018",
             url: "http://piterfotofest.ru/#rec16367493",
             favIconUrl:
@@ -268,6 +293,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Об Байеса - 2 - Не кинокритик. Не палеонтолог.",
             url: "https://plakhov.livejournal.com/227597.html",
             favIconUrl:
@@ -278,6 +304,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "другая америка - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3129470.html?page=2#comments",
             favIconUrl:
@@ -288,6 +315,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Course | DSE200x | edX",
             url:
               "https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/",
@@ -299,6 +327,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | шо за Шноль",
             url: "https://juan-gandhi.dreamwidth.org/4264984.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -308,6 +337,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пятое издание «Ководства» Лебедева",
             url: "https://www.artlebedev.ru/izdal/kovodstvo5/",
             favIconUrl: "https://img.artlebedev.ru/icons/favicon-set.ico"
@@ -317,6 +347,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Measure Performance with the RAIL Model  |  Web Fundamentals  |  Google Developers",
             url:
@@ -329,6 +360,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Update on Async Rendering - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html",
@@ -339,6 +371,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Duran - Публикации",
             url:
               "https://www.facebook.com/ArtByDuran/photos/a.2159449564069966.1073741829.318130841535190/2159452500736339/?type=3&theater",
@@ -350,6 +383,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -360,6 +394,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "афиша клуба",
             url: "https://vk.com/page-63477485_52138480",
             favIconUrl:
@@ -370,6 +405,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сергей Мардан",
             url: "https://www.facebook.com/sergeynudol?fref=jewel",
             favIconUrl:
@@ -380,6 +416,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fredegund: Assassination-obsessed Queen",
             url: "https://www.rejectedprincesses.com/princesses/fredegund",
             favIconUrl:
@@ -390,6 +427,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -400,6 +438,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "ШЛЮХА (рассказ) Приятель позвал в бар смотреть... - Максим Матковский",
             url:
@@ -412,6 +451,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Великие споры - InLiberty",
             url: "https://www.inliberty.ru/public/spory/",
             favIconUrl: "https://www.inliberty.ru/i/favicon/favicon-32x32.png"
@@ -421,6 +461,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | TIL from Duolingo",
             url: "https://juan-gandhi.dreamwidth.org/4260093.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -430,6 +471,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Слои пользы: ksoftware",
             url: "https://ksoftware.livejournal.com/396031.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -439,6 +481,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пикник «Афиши» 4 августа 2018 — официальный сайт фестиваля",
             url: "https://picnic.afisha.ru/faq",
             favIconUrl:
@@ -449,6 +492,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Вышел новый альбом Gorillaz. Послушайте его прямо сейчас — Meduza",
             url:
@@ -460,6 +504,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3578",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -469,6 +514,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ВИЗУАЛЬНАЯ МЕДИТАЦИЯ",
             url: "https://outcinema.ru/visual-meditation",
             favIconUrl:
@@ -479,6 +525,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Миротворец. Портрет Апхичатпхонга Вирасетакуна - Искусство кино",
             url: "http://kinoart.ru/archive/2010/11/n11-article12",
@@ -489,6 +536,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall2064116_418",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -498,6 +546,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Почему в России не надо повышать налоги? Экономический обозреватель Борис Грозовский отвечает заместителю главреда «Медузы» Александру Поливанову — Meduza",
             url:
@@ -509,6 +558,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Новая газета»: в Пскове поставили памятники на могилах десантников, погибших летом 2014 года — Meduza",
             url:
@@ -520,6 +570,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Андрей Ерёменко. Генерал против всех",
             url: "https://kartaistorii.ru/eremenko/history-map",
             favIconUrl:
@@ -530,6 +581,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шарик и кисет - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124708.html",
             favIconUrl:
@@ -540,6 +592,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "мимоза - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124074.html",
             favIconUrl:
@@ -550,6 +603,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "» Scoperto il primo dipinto firmato e autografato da Leonardo Da Vinci",
             url:
@@ -562,6 +616,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3509",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -571,6 +626,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сеанс кинотерапии. «Арарат», режиссер Атом Эгоян - Искусство кино",
             url: "http://www.kinoart.ru/archive/2002/12/n12-article7",
@@ -581,6 +637,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "panda-grammar - npm",
             url: "https://www.npmjs.com/package/panda-grammar",
             favIconUrl:
@@ -591,6 +648,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-3818033_17029",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -600,6 +658,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как приукрашивали портреты маслом после распространения фотографии: shakko_kitsune - Page 2",
             url: "https://shakko-kitsune.livejournal.com/1268839.html?page=2",
@@ -610,6 +669,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Насильник, грабитель, поп-звезда: Убит XXXTentacion. Он был самым парадоксальным молодым рэпером Америки — Meduza",
             url:
@@ -621,6 +681,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Recursive descent parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Recursive_descent_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -630,6 +691,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "LR parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/LR_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -639,6 +701,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "parsimmon/API.md at master · jneen/parsimmon · GitHub",
             url:
               "https://github.com/jneen/parsimmon/blob/master/API.md#terminology",
@@ -649,6 +712,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как в России будут повышать пенсионный возраст? И зачем? — Meduza",
             url:
@@ -660,6 +724,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Они хотят сделать дестабилизацию обстановки». СБУ показала «переговоры организаторов покушения на Бабченко»: Пытаемся это пересказать — Meduza",
             url:
@@ -671,6 +736,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-112289703_13361",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -680,6 +746,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-55155418_165878",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -689,6 +756,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-110501497_16688",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -698,6 +766,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "нет законов - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3119801.html?page=2#comments",
             favIconUrl:
@@ -708,6 +777,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Official page for Language Server Protocol",
             url: "https://microsoft.github.io/language-server-protocol/",
             favIconUrl:
@@ -718,6 +788,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/6410472941942767616/sharedKey/dlv2StPe/?midToken=AQHzSA83YkIhgg&trk=eml-email_m2m_invite_single_01-null-0-accept%7Ecta&trkEmail=eml-email_m2m_invite_single_01-null-0-accept%7Ecta-null-2yk8nm%7Eji4kturi%7Exc-null-neptune%2Fmynetwork%2Einvite%7Eaccept&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BDrAIZne2QOC0D%2BxJlH6RoA%3D%3D",
             url:
@@ -729,6 +800,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем целлюлит Рубенса отличается от целлюлита Ван Дейка и целлюлита Йорданса?: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1264148.html",
@@ -739,6 +811,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о конкурсах красоты - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3120316.html?page=2#comments",
             favIconUrl:
@@ -749,6 +822,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Бренда «Евросеть» больше не будет. Чем нам запомнится эта компания — Meduza",
             url:
@@ -760,6 +834,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Abstrakte Kunst Poster bei AllPosters.de",
             url:
               "https://www.allposters.de/-st/Abstrakte-Kunst-Poster_c86168_.htm",
@@ -770,6 +845,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "‎NimbusMind: Meditation & Calm on the App Store",
             url:
               "https://itunes.apple.com/us/app/nimbusmind-meditation-calm/id1278663918?mt=8",
@@ -780,6 +856,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Генрих Ягода. Грязная работа",
             url: "https://kartaistorii.ru/yagoda/history-map",
             favIconUrl:
@@ -790,6 +867,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, design systems will replace design jobs — DesignSystems.com",
             url:
@@ -801,6 +879,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как изучать негодяев • Arzamas",
             url: "https://arzamas.academy/radio/announcements/hlevniuk",
             favIconUrl: "https://arzamas.academy/favicon-32x32.png"
@@ -810,6 +889,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Считают своим моральным долгом потушить пожар»: как добровольные пожарные спасают огромные территории от огня — Такие Дела",
             url: "https://takiedela.ru/news/2018/04/22/firefighters/",
@@ -821,6 +901,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Error Boundaries - React",
             url:
               "https://reactjs.org/docs/error-boundaries.html#how-about-event-handlers",
@@ -831,6 +912,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - hlaueriksson/jamstack-cms: A JAMstack experiment with a Headless CMS",
             url: "https://github.com/hlaueriksson/jamstack-cms",
@@ -841,6 +923,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-72326580_646949",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -850,6 +933,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - Несравненный Эгон Шиле. 100 лет со дня... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215045413584993",
@@ -861,6 +945,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/arhstoyanie-2018",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -870,6 +955,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             url: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             favIconUrl: "https://solosale.ru/favicon.ico"
@@ -879,6 +965,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Гитлер пришел к власти | История | DW | 29.01.2013",
             url:
               "https://www.dw.com/ru/%D0%BA%D0%B0%D0%BA-%D0%B3%D0%B8%D1%82%D0%BB%D0%B5%D1%80-%D0%BF%D1%80%D0%B8%D1%88%D0%B5%D0%BB-%D0%BA-%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B8/a-1581471",
@@ -889,6 +976,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Фотограф, которого никто не знал",
             url:
               "https://www.adme.ru/tvorchestvo-fotografy/fotograf-kotorogo-nikto-ne-znal-480205/",
@@ -899,6 +987,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ФАКУЛЬТЕТЫ ИСКУССТВ - LES",
             url: "https://les.media/articles/584226-fakulbtety-iskusstv",
             favIconUrl: "https://les.media/favicon-32x32.png"
@@ -908,6 +997,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Александр Введенский — «В ленинградское отделение...»",
             url: "http://slova.org.ru/vvedenskiy/v_leningradskoe_otdelenie/",
             favIconUrl: "http://slova.org.ru/favicon.ico"
@@ -917,6 +1007,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Побочные эффекты осознанности 1. У вас... - Sergey Shalashenko | Facebook",
             url:
@@ -929,6 +1020,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Introducing GitFlow",
             url: "https://datasift.github.io/gitflow/IntroducingGitFlow.html",
             favIconUrl: "https://datasift.github.io/favicon.ico"
@@ -938,6 +1030,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Application Performance Analysis — Part 1 – Chingu – Medium",
             url:
@@ -950,6 +1043,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "How to Benchmark React Components: The Quick and Dirty Guide",
             url:
@@ -962,6 +1056,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, Toilet Spray After You Flush Includes Poop Particles | SELF",
             url: "https://www.self.com/story/toilet-plume-poop-spray",
@@ -972,6 +1067,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -982,6 +1078,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Forwarding Refs - React",
             url: "https://reactjs.org/docs/forwarding-refs.html",
             favIconUrl: "https://reactjs.org/favicon.ico"
@@ -991,6 +1088,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Gatsby + Apollo + GraphCool + Netlify: The Web’s Promised Land",
             url:
@@ -1003,6 +1101,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Björk's Vault of Dank Memes public group | Facebook",
             url:
               "https://www.facebook.com/groups/bvdom/permalink/613012339032202/",
@@ -1013,6 +1112,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Getting started - i18next documentation",
             url: "https://www.i18next.com/overview/getting-started",
             favIconUrl:
@@ -1023,6 +1123,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "The PRPL Pattern  |  Web Fundamentals  |  Google Developers",
             url:
@@ -1035,6 +1136,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Our insights into Technology and Business | Castle Digital Partners",
             url: "https://blog.castle.co/",
@@ -1046,6 +1148,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Не знаю, кому сказать спасибо, но маленькая... | Facebook",
             url:
@@ -1058,6 +1161,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Поздравляю всех причастных с Днём... - Владимир Манилов | Facebook",
             url:
@@ -1070,6 +1174,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Synchronize with the Server's Clock in the Browser",
             url: "https://www.nodeguy.com/serverdate/",
             favIconUrl: "https://www.nodeguy.com/favicon.ico"
@@ -1079,6 +1184,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о жизни и литературе - Поклонник деепричастий",
             url: "https://avva.livejournal.com/1921476.html",
             favIconUrl:
@@ -1089,6 +1195,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«АукцЫон». Единственный Летний Концерт в Aurora Concert Hall",
             url:
@@ -1101,6 +1208,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Юрий Осинин спас Питер: tema",
             url: "https://tema.livejournal.com/2775878.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -1110,6 +1218,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "78 Новости - Петербуржец Юрий Осинин по своему желанию...",
             url:
               "https://www.facebook.com/78channel/videos/1872484333047698/UzpfSTEwMDAwMjA1NDg5NDg5MDoxNjgzMTM5OTg4NDMxMTQ4/",
@@ -1121,6 +1230,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«100 лет дизайна» — кінопоказ у Москві — розклад на Яндекс.Афіші",
             url:
@@ -1132,6 +1242,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Архитектурная Керамика.",
             url: "https://vk.com/arhceramik",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -1141,6 +1252,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Экспонат без названия",
             url: "http://collectionerus.ru/collections/ceramicplate/31/",
             favIconUrl: "http://collectionerus.ru/static/favicon.ico"
@@ -1150,6 +1262,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Безумные миры Дэвида Линча — Кино на DTF",
             url: "https://dtf.ru/cinema/18427-bezumnye-miry-devida-lincha",
             favIconUrl:
@@ -1160,6 +1273,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Видеозаписи Поэмание",
             url: "https://vk.com/video-148655127_456239031",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -1169,6 +1283,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "«О восприятии и выявлении псевдо-интеллектуальной чуши»",
             url:
               "http://newochem.ru/nauka/o-vospriyatii-i-vyyavlenii-psevdo-intellektualnoj-chushi/",
@@ -1180,6 +1295,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -1189,6 +1305,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -1199,6 +1316,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - КИНОТАВР: МОИ ИТОГИ 1. Самый важный итог -... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215335520797492",
@@ -1210,6 +1328,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Home / The Art of Pants",
             url: "https://theartofpants.bigcartel.com/",
             favIconUrl: "https://theartofpants.bigcartel.com/favicon.ico"
@@ -1219,6 +1338,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Трудно быть богом (фильм, 2013) — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2013)",
@@ -1229,6 +1349,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - sindresorhus/query-string: Parse and stringify URL query strings",
             url: "https://github.com/sindresorhus/query-string",
@@ -1239,6 +1360,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Better exhaustiveness checking for variant type conditions · Issue #1374 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/1374",
@@ -1249,6 +1371,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Вода для чая",
             url: "https://cha-shop.ru/stuff/water/#",
             favIconUrl:
@@ -1259,6 +1382,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "react-jsx-parser - npm",
             url: "https://www.npmjs.com/package/react-jsx-parser",
             favIconUrl:
@@ -1269,6 +1393,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
             url: "https://github.com/ai/size-limit#applications",
@@ -1279,6 +1404,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog",
             url:
@@ -1291,6 +1417,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing MDXC: A new way to write Markdown for React - James K Nelson",
             url: "http://jamesknelson.com/introducing-mdxc/",
@@ -1301,6 +1428,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - Мне кажется, в ближайшее время у каждого... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606870769634",
@@ -1312,6 +1440,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Искусство для пацанчиков: Эдвард Мунк | Батенька, да вы трансформер",
             url: "https://batenka.ru/aesthetics/artshock/art4fellas-munk/",
@@ -1322,6 +1451,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - А вот и Питерфотофест. Конец августа.... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606494360224",
@@ -1333,6 +1463,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Födor Katasonov - Виленский был одним из самых крутых и... | Facebook",
             url:
@@ -1345,6 +1476,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Семимостье в Санкт-Петербурге",
             url: "https://kudago.com/spb/place/semimoste/",
             favIconUrl: "https://static-42149e88.kudago.com/img/favicon.png"
@@ -1354,6 +1486,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Книжный клуб",
             url: "http://www.avrora.spb.ru/films/knigniy-klub",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -1363,6 +1496,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -1373,6 +1507,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React.Element type is incompatible with object type · Issue #5547 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/5547",
@@ -1383,6 +1518,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "(3) Антон Долин - Большая удача – «Три сестры» Константин Богомолов...",
             url: "https://www.facebook.com/adolin3/posts/10215396076031335",
@@ -1394,6 +1530,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Кому выгодно повышение пенсионного возраста - РИА Новости, 19.06.2018",
             url: "https://ria.ru/analytics/20180619/1522873347.html",
@@ -1404,6 +1541,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Варлам Шаламов последние три года жизни... | Facebook",
             url:
@@ -1416,6 +1554,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ребята, last call for a trip to North... - Larisa Melnikova | Facebook",
             url:
@@ -1428,6 +1567,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - pandastrike/panda-grammar: Recursive descent parser combinators in JavaScript",
             url: "https://github.com/pandastrike/panda-grammar",
@@ -1438,6 +1578,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - reduxjs/react-redux: Official React bindings for Redux",
             url: "https://github.com/reduxjs/react-redux",
@@ -1448,6 +1589,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "You Probably Don't Need Derived State - React Blog",
             url:
               "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization",
@@ -1458,6 +1600,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "A deep dive into children in React - Max Stoibers Blog",
             url: "https://mxstbr.blog/2017/02/react-children-deepdive/",
             favIconUrl: "https://mxstbr.blog/favicon.png"
@@ -1467,6 +1610,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить билеты",
             url: "http://www.teatrvo.ru/kupit-bilety/",
             favIconUrl: "http://www.teatrvo.ru/static/favicon.ico"
@@ -1482,6 +1626,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга: "Омерзительное искусство. Юмор и хоррор шедевров живописи" - Софья Багдасарова. Купить книгу, читать рецензии | ISBN 978-5-04-088717-0 | Лабиринт',
             url: "https://www.labirint.ru/books/630406/",
@@ -1492,6 +1637,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Артемий Лебедев - Городской дизайн.",
             url:
               "https://www.facebook.com/temalebedev/videos/10156571532046095/",
@@ -1502,6 +1648,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Режим работы - Глазной диагностический центр №7 (Санкт-Петербург, Моховая 38)",
             url: "http://mohovaya38.ru/rezhim_raboty/",
@@ -1512,6 +1659,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Чехов А.П. (Author of Скучная история)",
             url:
               "https://www.goodreads.com/author/show/17920932._?from_search=true",
@@ -1522,6 +1670,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Что почитать Чехова?: chto_chitat",
             url: "https://chto-chitat.livejournal.com/4259351.html",
             favIconUrl: "https://www.livejournal.com/favicon.ico?v=2"
@@ -1531,6 +1680,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "QW Confluence",
             url: "https://qworld.atlassian.net/wiki/spaces/TW/pages/461963265",
             favIconUrl:
@@ -1541,6 +1691,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Mindful - healthy mind, healthy life",
             url: "https://www.mindful.org/",
             favIconUrl:
@@ -1551,6 +1702,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Кому на самом деле нужно плацебо: scinquisitor",
             url: "https://scinquisitor.livejournal.com/94919.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -1560,6 +1712,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Illusion mindfulness improves cancer survival | Mind the Brain",
             url:
@@ -1572,6 +1725,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mindfulness research's uninformative control groups | Mind the Brain",
             url:
@@ -1584,6 +1738,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Нейротеология: scinquisitor",
             url: "https://scinquisitor.livejournal.com/1922.html",
             favIconUrl:
@@ -1594,6 +1749,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стэнфордский тюремный эксперимент — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D0%BD%D1%84%D0%BE%D1%80%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D1%8E%D1%80%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9_%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82#cite_ref-7",
@@ -1604,6 +1760,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "The Lifespan of a Lie – Trust Issues – Medium",
             url:
               "https://medium.com/s/trustissues/the-lifespan-of-a-lie-d869212b1f62",
@@ -1615,6 +1772,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "How I Wait Years to Get My Photos",
             url:
               "https://petapixel.com/2018/06/18/how-i-wait-years-to-get-my-photos/",
@@ -1625,6 +1783,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "What is the best approach to design state? · Issue #1825 · reduxjs/redux · GitHub",
             url: "https://github.com/reduxjs/redux/issues/1825",
@@ -1635,6 +1794,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "10 Tips for Better Redux Architecture – JavaScript Scene – Medium",
             url:
@@ -1647,6 +1807,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Falcor: One Model Everywhere",
             url: "https://netflix.github.io/falcor/",
             favIconUrl:
@@ -1657,6 +1818,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Five Tips for Working with Redux in Large Applications",
             url:
               "https://techblog.appnexus.com/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb",
@@ -1668,6 +1830,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "reactjs - What is the core difference of redux & reflux in using react based application? - Stack Overflow",
             url:
@@ -1680,6 +1843,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Митинги против повышения пенсионного возраста — Meduza",
             url:
               "https://meduza.io/video/2018/07/01/protestnye-aktsii-protiv-povysheniya-pensionnogo-vozrasta",
@@ -1690,6 +1854,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сериал «Незнакомцы» от Facebook: реалистично, как «Девочки», смешно, как «Друзья» — Meduza",
             url:
@@ -1701,6 +1866,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга Журнал "Искусство кино" №5-6/2018 - купить в книжном интернет-магазине по цене 300 руб | Podpisnie.ru',
             url:
@@ -1712,6 +1878,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Лена Грачёва - редко что-то шарю, но это всё же хочу... | Facebook",
             url: "https://www.facebook.com/almamorenaya/posts/881811982007203",
@@ -1723,6 +1890,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -1733,6 +1901,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - А вообще, спасибо безвестному стукачу, из-за... | Facebook",
             url:
@@ -1745,6 +1914,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Stranger Things - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Stranger_Things",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -1754,6 +1924,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Creating Library Definitions | Flow",
             url: "https://flow.org/en/docs/libdefs/creation/",
             favIconUrl:
@@ -1764,6 +1935,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "flow-typed/definitions/npm at master · flow-typed/flow-typed · GitHub",
             url:
@@ -1775,6 +1947,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Roadmap to a v3.0.0 of flow-typed · Issue #1494 · flow-typed/flow-typed · GitHub",
             url: "https://github.com/flow-typed/flow-typed/issues/1494",
@@ -1785,6 +1958,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Which interfaces are already written? · Issue #13 · flow-typed/flow-typed · GitHub",
             url:
@@ -1796,6 +1970,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Intersection doesn't work for exact object types · Issue #2626 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/2626",
@@ -1806,6 +1981,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "That's so fetch! - JakeArchibald.com",
             url: "https://jakearchibald.com/2015/thats-so-fetch/",
             favIconUrl: "https://jakearchibald.com/favicon.ico"
@@ -1815,6 +1991,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "react-static/static.config.js at master · nozzle/react-static · GitHub",
             url:
@@ -1826,6 +2003,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Static - A progressive static-site framework for React @ OgdenJS - YouTube",
             url: "https://www.youtube.com/watch?v=OqbJ5swVpDQ",
@@ -1836,6 +2014,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Setting up CSS Modules with React and Webpack",
             url: "https://javascriptplayground.com/css-modules-webpack-react/",
             favIconUrl: "https://javascriptplayground.com/favicon.ico"
@@ -1845,6 +2024,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - css-modules/css-modules: Documentation about css-modules",
             url: "https://github.com/css-modules/css-modules",
@@ -1855,6 +2035,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Ася Федотова",
             url: "https://vk.com/afedotova72",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -1864,6 +2045,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Коррекция на множественное тестирование — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5",
@@ -1874,6 +2056,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Мандрагора — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%D0%B3%D0%BE%D1%80%D0%B0#%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D1%82%D1%80%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5_%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0",
@@ -1884,6 +2067,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Text Fields · An Introduction to Elm",
             url:
               "https://guide.elm-lang.org/architecture/user_input/text_fields.html",
@@ -1894,6 +2078,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Redux",
             url: "https://redux.js.org/introduction/prior-art",
             favIconUrl: null
@@ -1903,6 +2088,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Cycle.js",
             url: "https://cycle.js.org/",
             favIconUrl: null
@@ -1912,6 +2098,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - minedeljkovic/redux-elmish: The Elm Architecture in Redux, statically checked using flow",
             url: "https://github.com/minedeljkovic/redux-elmish",
@@ -1922,6 +2109,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - brabadu/tanok: Elm Architecture-inspired wrapper for Rx.js+React",
             url: "https://github.com/brabadu/tanok",
@@ -1932,6 +2120,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - didierfranc/react-waterfall: React store built on top of the new context API",
             url: "https://github.com/didierfranc/react-waterfall",
@@ -1942,6 +2131,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у Apple iPad mini 3 16Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-3-16gb-wi-fi-cellular-0618d196",
@@ -1952,6 +2142,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Trade-in и продажа техники в Санкт-Петербурге. REFRESH your tech",
             url: "http://www.refreshyourtech.ru/",
@@ -1962,6 +2153,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у iPad mini 4 128Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-4-128gb-lte-0618d172",
@@ -1972,6 +2164,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad mini 4 128Gb Wi-Fi в интернет-магазинах — Планшеты — Яндекс.Маркет",
             url:
@@ -1983,6 +2176,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Apple iPad mini 4 128Gb Wi-Fi Silver",
             url:
               "http://www.pitergsm.ru/e-store/tablets/index.php?ELEMENT_ID=995&r1=&r2=&ymclid=319492699825359651400004",
@@ -1993,6 +2187,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -2004,6 +2199,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Apple iPad mini 4 Wi-Fi 128GB (серебристый) характеристики, техническое описание планшета - интернет-магазин Связной",
             url:
@@ -2015,6 +2211,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Планшеты Apple iPad – купить iPad по отличной цене",
             url: "https://www.tehnikalux.ru/spb/category/apple/ipad/",
             favIconUrl: "https://www.tehnikalux.ru/favicon.ico"
@@ -2024,6 +2221,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -2035,6 +2233,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=12859395&id=30015180&id=11153507",
@@ -2045,6 +2244,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=30015180&id=11153507",
@@ -2055,6 +2255,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad (2018) 32Gb Wi-Fi + Cellular — Планшеты — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -2066,6 +2267,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Compare Apple iPad mini 3 vs. Apple iPad mini 4 - GSMArena.com",
             url:
@@ -2077,6 +2279,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Платформы для сборки ПК - Компьютерные комплектующие",
             url: "https://www.ulmart.ru/catalog/assembly_bases",
             favIconUrl: "chrome://global/skin/icons/warning-16.png"
@@ -2086,6 +2289,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - (Опять странный вопрос) А существует же наверняка...",
             url: "https://www.facebook.com/adolin3/posts/10215523587299037",
@@ -2097,6 +2301,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Умер Клод Ланцман — режиссер «Шоа», важнейшего документального фильма про Холокост — Meduza",
             url:
@@ -2108,6 +2313,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sourcetree | Free Git GUI for Mac and Windows",
             url: "https://www.sourcetreeapp.com/",
             favIconUrl:
@@ -2118,6 +2324,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зои / Родина",
             url: "http://rodinakino.ru/films/soon/2018/06/20/02/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -2127,6 +2334,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mirrors Yamaha Y80 Y50 Y75 Y80 V50 V75 Japan Mint 689127704338 | eBay",
             url:
@@ -2138,6 +2346,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "windows 10 key | eBay",
             url:
               "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050430.m570.l1311.R1.TR12.TRC2.A0.H0.Xwindows+10+key.TRS0&_nkw=windows+10+key&_sacat=0",
@@ -2148,6 +2357,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "WINDOWS 7 Ultimate 32/64 Bit Activation key INSTANT DELIVERY 5MINT+DOWNLOAD Link | eBay",
             url:
@@ -2159,6 +2369,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Watch Out For These Dirty Tricks From Discounted Software Resellers",
             url:
@@ -2170,6 +2381,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Microsoft Windows 7 Ultimate 32/64 bit MS Activation Key Full Version Win 7 Ult 885370258851 | eBay",
             url:
@@ -2181,6 +2393,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Бизнес-линч за 14.09.2017",
             url:
               "https://www.artlebedev.ru/kovodstvo/business-lynch/2017/09/14/",
@@ -2191,6 +2404,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Новый органон — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%BE%D0%BD",
@@ -2201,6 +2415,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пылающий",
             url: "http://www.avrora.spb.ru/films/pilayushchiy",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -2210,6 +2425,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Список вопросов - дизайн - Miscellaneous - QW Confluence",
             url:
               "https://qworld.atlassian.net/wiki/spaces/TW/pages/347504649/-",
@@ -2221,6 +2437,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Осознанный хип-хоп — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%85%D0%B8%D0%BF-%D1%85%D0%BE%D0%BF",
@@ -2231,6 +2448,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "И я в моем теплом теле (Введенский) — Wikilivres.ru",
             url:
               "http://wikilivres.ru/%D0%98_%D1%8F_%D0%B2_%D0%BC%D0%BE%D0%B5%D0%BC_%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%BC_%D1%82%D0%B5%D0%BB%D0%B5_(%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9)",
@@ -2241,6 +2459,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Киноцентр Родина",
             url: "http://rodinakino.ru/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -2250,6 +2469,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Отзывы о торгово-сервисной компании Refresh your tech - Магазины - Санкт-Петербург",
             url:
@@ -2261,6 +2481,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "serve - npm",
             url: "https://www.npmjs.com/package/serve",
             favIconUrl:
@@ -2271,6 +2492,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Смартфон Digma VOX FIRE 4G — Мобильные телефоны — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -2282,6 +2504,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "tabs.remove() - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs/remove",
@@ -2293,6 +2516,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Your second extension - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_second_WebExtension",
@@ -2304,6 +2528,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging",
             favIconUrl: null
@@ -2313,6 +2538,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Firefox Is Back. It’s Time to Give It a Try. - The New York Times",
             url:
@@ -2325,6 +2551,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Владик on Twitter: "Короче, один лайк - один факт о реальной травматологии"',
             url: "https://twitter.com/glazzzvlad/status/1019490333158240257",
@@ -2335,6 +2562,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing FilterBubbler: A WebExtension built using React/Redux – Mozilla Hacks – the Web developer blog",
             url:
@@ -2347,6 +2575,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Close icons - Download 4829 free & premium icons on Iconfinder",
             url: "https://www.iconfinder.com/search/?q=close&price=free",
@@ -2358,6 +2587,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "lusakasa/saka-extension-boilerplate: Opinionated boilerplate for building extensions for Chrome and Firefox",
             url: "https://github.com/lusakasa/saka-extension-boilerplate",
@@ -2368,6 +2598,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Создание и вызов событий - Руководство Web-разработчика | MDN",
             url:
@@ -2380,6 +2611,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "medium.com | 502: Bad gateway",
             url:
               "https://medium.com/@LeoAref/simple-event-dispatcher-implementation-using-javascript-36d0eadf5a11",
@@ -2390,6 +2622,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Manager – Figma",
             url:
               "https://www.figma.com/file/TBPgVBHpN0yEZqoPRjDUXasM/Tabs-Manager?node-id=1%3A5",
@@ -2400,6 +2633,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "developit/preact: ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
             url: "https://github.com/developit/preact",
@@ -2410,6 +2644,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Brunch: Commands — Brunch",
             url: "http://brunch.io/docs/commands",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -2419,6 +2654,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Plugins — Brunch",
             url: "http://brunch.io/plugins",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -2428,6 +2664,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Node Security Platform | Advisory",
             url: "https://nodesecurity.io/advisories/146",
             favIconUrl: "https://nodesecurity.io/img/nodesecurity.png"
@@ -2437,6 +2674,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Keeper",
             url: "http://localhost:3333/",
             favIconUrl: null
@@ -2446,6 +2684,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Add-ons Manager",
             url: "about:addons",
             favIconUrl:
@@ -2456,6 +2695,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: true,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging#addons",
             favIconUrl: null
@@ -2481,6 +2721,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "bq | Latest",
             url: "https://bazqux.com/",
             favIconUrl: "https://bazqux.com/favicon.ico"
@@ -2490,6 +2731,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title:
               "Письмо «Nikolay, please add me to your LinkedIn network» — Женя Софронов — Яндекс.Почта",
             url:
@@ -2502,6 +2744,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "Диалоги",
             url: "https://vk.com/im?sel=-45728460",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_im_2x.ico?6"
@@ -2511,6 +2754,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "лекарства - Google Sheets",
             url:
               "https://docs.google.com/spreadsheets/d/1zJfc1q4VptJJLs5EDr4zHfYvPJes_r6qmR3vzj40bLU/edit#gid=1092909149",
@@ -2522,6 +2766,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "судьба ужина по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3132384.html",
             favIconUrl:
@@ -2532,6 +2777,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Network Dependencies · he-he-org/he-he-2",
             url: "https://github.com/he-he-org/he-he-2/network/dependencies",
             favIconUrl: "https://assets-cdn.github.com/favicon.ico"
@@ -2541,6 +2787,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "NVD - CVE-2018-3809",
             url: "https://nvd.nist.gov/vuln/detail/CVE-2018-3809",
             favIconUrl:
@@ -2551,6 +2798,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "(32) Новости",
             url:
               "https://vk.com/feed?z=photo-48872313_456242438%2Fwall-48872313_11365",
@@ -2561,6 +2809,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Хорошо прорисованные женщины: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1280049.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -2570,6 +2819,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: 'Живопись из фильма "Титаник": shakko_kitsune - Page 3',
             url: "https://shakko-kitsune.livejournal.com/1278640.html?page=3",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -2579,6 +2829,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем круты «Авиньонские девицы» Пикассо? | Шакко | Яндекс Дзен",
             url:
@@ -2590,6 +2841,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пабло Руис Пикассо - NeWestMuseum",
             url:
               "http://www.newestmuseum.ru/data/authors/p/picasso_pablo/index.php",
@@ -2600,6 +2852,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "кельтский камень - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130586.html",
             favIconUrl:
@@ -2610,6 +2863,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шаламов по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130308.html",
             favIconUrl:
@@ -2620,6 +2874,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зав. игровым салоном: ksoftware",
             url: "https://ksoftware.livejournal.com/383517.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -2629,6 +2884,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Музей истории техники в Ростове. Кайф: ksoftware",
             url: "https://ksoftware.livejournal.com/397536.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -2638,6 +2894,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Using achievement stats to estimate sales on steam – Tyler Glaiel – Medium",
             url:
@@ -2650,6 +2907,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Печали: akuklev",
             url: "https://akuklev.livejournal.com/1282902.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -2659,6 +2917,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fabrice Bellard - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Fabrice_Bellard",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -2668,6 +2927,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "открытая запись - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3129950.html",
             favIconUrl:
@@ -2678,6 +2938,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ну вот, maxim умучали и в твиторе. И чего вы его так все не любите,…: sorhed",
             url: "https://sorhed.livejournal.com/619253.html",
@@ -2688,6 +2949,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Почему я удалил все посты в ЖЖ и Твиттере: maxim",
             url: "https://maxim.livejournal.com/531021.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -2697,6 +2959,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Заголовок: lambdaterm1",
             url: "https://lambdaterm1.livejournal.com/730.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -2706,6 +2969,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-99523325_4368",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -2715,6 +2979,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ПитерФотоФест - 2018",
             url: "http://piterfotofest.ru/#rec16367493",
             favIconUrl:
@@ -2725,6 +2990,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Об Байеса - 2 - Не кинокритик. Не палеонтолог.",
             url: "https://plakhov.livejournal.com/227597.html",
             favIconUrl:
@@ -2735,6 +3001,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "другая америка - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3129470.html?page=2#comments",
             favIconUrl:
@@ -2745,6 +3012,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Course | DSE200x | edX",
             url:
               "https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/",
@@ -2756,6 +3024,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | шо за Шноль",
             url: "https://juan-gandhi.dreamwidth.org/4264984.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -2765,6 +3034,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пятое издание «Ководства» Лебедева",
             url: "https://www.artlebedev.ru/izdal/kovodstvo5/",
             favIconUrl: "https://img.artlebedev.ru/icons/favicon-set.ico"
@@ -2774,6 +3044,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Measure Performance with the RAIL Model  |  Web Fundamentals  |  Google Developers",
             url:
@@ -2786,6 +3057,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Update on Async Rendering - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html",
@@ -2796,6 +3068,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Duran - Публикации",
             url:
               "https://www.facebook.com/ArtByDuran/photos/a.2159449564069966.1073741829.318130841535190/2159452500736339/?type=3&theater",
@@ -2807,6 +3080,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -2817,6 +3091,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "афиша клуба",
             url: "https://vk.com/page-63477485_52138480",
             favIconUrl:
@@ -2827,6 +3102,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сергей Мардан",
             url: "https://www.facebook.com/sergeynudol?fref=jewel",
             favIconUrl:
@@ -2837,6 +3113,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fredegund: Assassination-obsessed Queen",
             url: "https://www.rejectedprincesses.com/princesses/fredegund",
             favIconUrl:
@@ -2847,6 +3124,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -2857,6 +3135,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "ШЛЮХА (рассказ) Приятель позвал в бар смотреть... - Максим Матковский",
             url:
@@ -2869,6 +3148,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Великие споры - InLiberty",
             url: "https://www.inliberty.ru/public/spory/",
             favIconUrl: "https://www.inliberty.ru/i/favicon/favicon-32x32.png"
@@ -2878,6 +3158,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | TIL from Duolingo",
             url: "https://juan-gandhi.dreamwidth.org/4260093.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -2887,6 +3168,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Слои пользы: ksoftware",
             url: "https://ksoftware.livejournal.com/396031.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -2896,6 +3178,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пикник «Афиши» 4 августа 2018 — официальный сайт фестиваля",
             url: "https://picnic.afisha.ru/faq",
             favIconUrl:
@@ -2906,6 +3189,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Вышел новый альбом Gorillaz. Послушайте его прямо сейчас — Meduza",
             url:
@@ -2917,6 +3201,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3578",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -2926,6 +3211,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ВИЗУАЛЬНАЯ МЕДИТАЦИЯ",
             url: "https://outcinema.ru/visual-meditation",
             favIconUrl:
@@ -2936,6 +3222,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Миротворец. Портрет Апхичатпхонга Вирасетакуна - Искусство кино",
             url: "http://kinoart.ru/archive/2010/11/n11-article12",
@@ -2946,6 +3233,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall2064116_418",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -2955,6 +3243,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Почему в России не надо повышать налоги? Экономический обозреватель Борис Грозовский отвечает заместителю главреда «Медузы» Александру Поливанову — Meduza",
             url:
@@ -2966,6 +3255,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Новая газета»: в Пскове поставили памятники на могилах десантников, погибших летом 2014 года — Meduza",
             url:
@@ -2977,6 +3267,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Андрей Ерёменко. Генерал против всех",
             url: "https://kartaistorii.ru/eremenko/history-map",
             favIconUrl:
@@ -2987,6 +3278,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шарик и кисет - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124708.html",
             favIconUrl:
@@ -2997,6 +3289,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "мимоза - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124074.html",
             favIconUrl:
@@ -3007,6 +3300,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "» Scoperto il primo dipinto firmato e autografato da Leonardo Da Vinci",
             url:
@@ -3019,6 +3313,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3509",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -3028,6 +3323,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сеанс кинотерапии. «Арарат», режиссер Атом Эгоян - Искусство кино",
             url: "http://www.kinoart.ru/archive/2002/12/n12-article7",
@@ -3038,6 +3334,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "panda-grammar - npm",
             url: "https://www.npmjs.com/package/panda-grammar",
             favIconUrl:
@@ -3048,6 +3345,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-3818033_17029",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -3057,6 +3355,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как приукрашивали портреты маслом после распространения фотографии: shakko_kitsune - Page 2",
             url: "https://shakko-kitsune.livejournal.com/1268839.html?page=2",
@@ -3067,6 +3366,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Насильник, грабитель, поп-звезда: Убит XXXTentacion. Он был самым парадоксальным молодым рэпером Америки — Meduza",
             url:
@@ -3078,6 +3378,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Recursive descent parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Recursive_descent_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -3087,6 +3388,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "LR parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/LR_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -3096,6 +3398,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "parsimmon/API.md at master · jneen/parsimmon · GitHub",
             url:
               "https://github.com/jneen/parsimmon/blob/master/API.md#terminology",
@@ -3106,6 +3409,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как в России будут повышать пенсионный возраст? И зачем? — Meduza",
             url:
@@ -3117,6 +3421,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Они хотят сделать дестабилизацию обстановки». СБУ показала «переговоры организаторов покушения на Бабченко»: Пытаемся это пересказать — Meduza",
             url:
@@ -3128,6 +3433,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-112289703_13361",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -3137,6 +3443,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-55155418_165878",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -3146,6 +3453,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-110501497_16688",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -3155,6 +3463,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "нет законов - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3119801.html?page=2#comments",
             favIconUrl:
@@ -3165,6 +3474,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Official page for Language Server Protocol",
             url: "https://microsoft.github.io/language-server-protocol/",
             favIconUrl:
@@ -3175,6 +3485,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/6410472941942767616/sharedKey/dlv2StPe/?midToken=AQHzSA83YkIhgg&trk=eml-email_m2m_invite_single_01-null-0-accept%7Ecta&trkEmail=eml-email_m2m_invite_single_01-null-0-accept%7Ecta-null-2yk8nm%7Eji4kturi%7Exc-null-neptune%2Fmynetwork%2Einvite%7Eaccept&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BDrAIZne2QOC0D%2BxJlH6RoA%3D%3D",
             url:
@@ -3186,6 +3497,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем целлюлит Рубенса отличается от целлюлита Ван Дейка и целлюлита Йорданса?: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1264148.html",
@@ -3196,6 +3508,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о конкурсах красоты - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3120316.html?page=2#comments",
             favIconUrl:
@@ -3206,6 +3519,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Бренда «Евросеть» больше не будет. Чем нам запомнится эта компания — Meduza",
             url:
@@ -3217,6 +3531,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Abstrakte Kunst Poster bei AllPosters.de",
             url:
               "https://www.allposters.de/-st/Abstrakte-Kunst-Poster_c86168_.htm",
@@ -3227,6 +3542,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "‎NimbusMind: Meditation & Calm on the App Store",
             url:
               "https://itunes.apple.com/us/app/nimbusmind-meditation-calm/id1278663918?mt=8",
@@ -3237,6 +3553,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Генрих Ягода. Грязная работа",
             url: "https://kartaistorii.ru/yagoda/history-map",
             favIconUrl:
@@ -3247,6 +3564,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, design systems will replace design jobs — DesignSystems.com",
             url:
@@ -3258,6 +3576,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как изучать негодяев • Arzamas",
             url: "https://arzamas.academy/radio/announcements/hlevniuk",
             favIconUrl: "https://arzamas.academy/favicon-32x32.png"
@@ -3267,6 +3586,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Считают своим моральным долгом потушить пожар»: как добровольные пожарные спасают огромные территории от огня — Такие Дела",
             url: "https://takiedela.ru/news/2018/04/22/firefighters/",
@@ -3278,6 +3598,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Error Boundaries - React",
             url:
               "https://reactjs.org/docs/error-boundaries.html#how-about-event-handlers",
@@ -3288,6 +3609,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - hlaueriksson/jamstack-cms: A JAMstack experiment with a Headless CMS",
             url: "https://github.com/hlaueriksson/jamstack-cms",
@@ -3298,6 +3620,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-72326580_646949",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -3307,6 +3630,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - Несравненный Эгон Шиле. 100 лет со дня... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215045413584993",
@@ -3318,6 +3642,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/arhstoyanie-2018",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -3327,6 +3652,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             url: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             favIconUrl: "https://solosale.ru/favicon.ico"
@@ -3336,6 +3662,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Гитлер пришел к власти | История | DW | 29.01.2013",
             url:
               "https://www.dw.com/ru/%D0%BA%D0%B0%D0%BA-%D0%B3%D0%B8%D1%82%D0%BB%D0%B5%D1%80-%D0%BF%D1%80%D0%B8%D1%88%D0%B5%D0%BB-%D0%BA-%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B8/a-1581471",
@@ -3346,6 +3673,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Фотограф, которого никто не знал",
             url:
               "https://www.adme.ru/tvorchestvo-fotografy/fotograf-kotorogo-nikto-ne-znal-480205/",
@@ -3356,6 +3684,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ФАКУЛЬТЕТЫ ИСКУССТВ - LES",
             url: "https://les.media/articles/584226-fakulbtety-iskusstv",
             favIconUrl: "https://les.media/favicon-32x32.png"
@@ -3365,6 +3694,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Александр Введенский — «В ленинградское отделение...»",
             url: "http://slova.org.ru/vvedenskiy/v_leningradskoe_otdelenie/",
             favIconUrl: "http://slova.org.ru/favicon.ico"
@@ -3374,6 +3704,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Побочные эффекты осознанности 1. У вас... - Sergey Shalashenko | Facebook",
             url:
@@ -3386,6 +3717,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Introducing GitFlow",
             url: "https://datasift.github.io/gitflow/IntroducingGitFlow.html",
             favIconUrl: "https://datasift.github.io/favicon.ico"
@@ -3395,6 +3727,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Application Performance Analysis — Part 1 – Chingu – Medium",
             url:
@@ -3407,6 +3740,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "How to Benchmark React Components: The Quick and Dirty Guide",
             url:
@@ -3419,6 +3753,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, Toilet Spray After You Flush Includes Poop Particles | SELF",
             url: "https://www.self.com/story/toilet-plume-poop-spray",
@@ -3429,6 +3764,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -3439,6 +3775,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Forwarding Refs - React",
             url: "https://reactjs.org/docs/forwarding-refs.html",
             favIconUrl: "https://reactjs.org/favicon.ico"
@@ -3448,6 +3785,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Gatsby + Apollo + GraphCool + Netlify: The Web’s Promised Land",
             url:
@@ -3460,6 +3798,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Björk's Vault of Dank Memes public group | Facebook",
             url:
               "https://www.facebook.com/groups/bvdom/permalink/613012339032202/",
@@ -3470,6 +3809,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Getting started - i18next documentation",
             url: "https://www.i18next.com/overview/getting-started",
             favIconUrl:
@@ -3480,6 +3820,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "The PRPL Pattern  |  Web Fundamentals  |  Google Developers",
             url:
@@ -3492,6 +3833,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Our insights into Technology and Business | Castle Digital Partners",
             url: "https://blog.castle.co/",
@@ -3503,6 +3845,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Не знаю, кому сказать спасибо, но маленькая... | Facebook",
             url:
@@ -3515,6 +3858,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Поздравляю всех причастных с Днём... - Владимир Манилов | Facebook",
             url:
@@ -3527,6 +3871,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Synchronize with the Server's Clock in the Browser",
             url: "https://www.nodeguy.com/serverdate/",
             favIconUrl: "https://www.nodeguy.com/favicon.ico"
@@ -3536,6 +3881,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о жизни и литературе - Поклонник деепричастий",
             url: "https://avva.livejournal.com/1921476.html",
             favIconUrl:
@@ -3546,6 +3892,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«АукцЫон». Единственный Летний Концерт в Aurora Concert Hall",
             url:
@@ -3558,6 +3905,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Юрий Осинин спас Питер: tema",
             url: "https://tema.livejournal.com/2775878.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -3567,6 +3915,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "78 Новости - Петербуржец Юрий Осинин по своему желанию...",
             url:
               "https://www.facebook.com/78channel/videos/1872484333047698/UzpfSTEwMDAwMjA1NDg5NDg5MDoxNjgzMTM5OTg4NDMxMTQ4/",
@@ -3578,6 +3927,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«100 лет дизайна» — кінопоказ у Москві — розклад на Яндекс.Афіші",
             url:
@@ -3589,6 +3939,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Архитектурная Керамика.",
             url: "https://vk.com/arhceramik",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -3598,6 +3949,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Экспонат без названия",
             url: "http://collectionerus.ru/collections/ceramicplate/31/",
             favIconUrl: "http://collectionerus.ru/static/favicon.ico"
@@ -3607,6 +3959,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Безумные миры Дэвида Линча — Кино на DTF",
             url: "https://dtf.ru/cinema/18427-bezumnye-miry-devida-lincha",
             favIconUrl:
@@ -3617,6 +3970,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Видеозаписи Поэмание",
             url: "https://vk.com/video-148655127_456239031",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -3626,6 +3980,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "«О восприятии и выявлении псевдо-интеллектуальной чуши»",
             url:
               "http://newochem.ru/nauka/o-vospriyatii-i-vyyavlenii-psevdo-intellektualnoj-chushi/",
@@ -3637,6 +3992,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -3646,6 +4002,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -3656,6 +4013,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - КИНОТАВР: МОИ ИТОГИ 1. Самый важный итог -... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215335520797492",
@@ -3667,6 +4025,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Home / The Art of Pants",
             url: "https://theartofpants.bigcartel.com/",
             favIconUrl: "https://theartofpants.bigcartel.com/favicon.ico"
@@ -3676,6 +4035,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Трудно быть богом (фильм, 2013) — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2013)",
@@ -3686,6 +4046,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - sindresorhus/query-string: Parse and stringify URL query strings",
             url: "https://github.com/sindresorhus/query-string",
@@ -3696,6 +4057,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Better exhaustiveness checking for variant type conditions · Issue #1374 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/1374",
@@ -3706,6 +4068,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Вода для чая",
             url: "https://cha-shop.ru/stuff/water/#",
             favIconUrl:
@@ -3716,6 +4079,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "react-jsx-parser - npm",
             url: "https://www.npmjs.com/package/react-jsx-parser",
             favIconUrl:
@@ -3726,6 +4090,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
             url: "https://github.com/ai/size-limit#applications",
@@ -3736,6 +4101,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog",
             url:
@@ -3748,6 +4114,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing MDXC: A new way to write Markdown for React - James K Nelson",
             url: "http://jamesknelson.com/introducing-mdxc/",
@@ -3758,6 +4125,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - Мне кажется, в ближайшее время у каждого... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606870769634",
@@ -3769,6 +4137,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Искусство для пацанчиков: Эдвард Мунк | Батенька, да вы трансформер",
             url: "https://batenka.ru/aesthetics/artshock/art4fellas-munk/",
@@ -3779,6 +4148,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - А вот и Питерфотофест. Конец августа.... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606494360224",
@@ -3790,6 +4160,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Födor Katasonov - Виленский был одним из самых крутых и... | Facebook",
             url:
@@ -3802,6 +4173,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Семимостье в Санкт-Петербурге",
             url: "https://kudago.com/spb/place/semimoste/",
             favIconUrl: "https://static-42149e88.kudago.com/img/favicon.png"
@@ -3811,6 +4183,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Книжный клуб",
             url: "http://www.avrora.spb.ru/films/knigniy-klub",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -3820,6 +4193,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -3830,6 +4204,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React.Element type is incompatible with object type · Issue #5547 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/5547",
@@ -3840,6 +4215,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "(3) Антон Долин - Большая удача – «Три сестры» Константин Богомолов...",
             url: "https://www.facebook.com/adolin3/posts/10215396076031335",
@@ -3851,6 +4227,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Кому выгодно повышение пенсионного возраста - РИА Новости, 19.06.2018",
             url: "https://ria.ru/analytics/20180619/1522873347.html",
@@ -3861,6 +4238,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Варлам Шаламов последние три года жизни... | Facebook",
             url:
@@ -3873,6 +4251,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ребята, last call for a trip to North... - Larisa Melnikova | Facebook",
             url:
@@ -3885,6 +4264,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - pandastrike/panda-grammar: Recursive descent parser combinators in JavaScript",
             url: "https://github.com/pandastrike/panda-grammar",
@@ -3895,6 +4275,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - reduxjs/react-redux: Official React bindings for Redux",
             url: "https://github.com/reduxjs/react-redux",
@@ -3905,6 +4286,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "You Probably Don't Need Derived State - React Blog",
             url:
               "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization",
@@ -3915,6 +4297,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "A deep dive into children in React - Max Stoibers Blog",
             url: "https://mxstbr.blog/2017/02/react-children-deepdive/",
             favIconUrl: "https://mxstbr.blog/favicon.png"
@@ -3924,6 +4307,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить билеты",
             url: "http://www.teatrvo.ru/kupit-bilety/",
             favIconUrl: "http://www.teatrvo.ru/static/favicon.ico"
@@ -3939,6 +4323,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга: "Омерзительное искусство. Юмор и хоррор шедевров живописи" - Софья Багдасарова. Купить книгу, читать рецензии | ISBN 978-5-04-088717-0 | Лабиринт',
             url: "https://www.labirint.ru/books/630406/",
@@ -3949,6 +4334,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Артемий Лебедев - Городской дизайн.",
             url:
               "https://www.facebook.com/temalebedev/videos/10156571532046095/",
@@ -3959,6 +4345,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Режим работы - Глазной диагностический центр №7 (Санкт-Петербург, Моховая 38)",
             url: "http://mohovaya38.ru/rezhim_raboty/",
@@ -3969,6 +4356,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Чехов А.П. (Author of Скучная история)",
             url:
               "https://www.goodreads.com/author/show/17920932._?from_search=true",
@@ -3979,6 +4367,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Что почитать Чехова?: chto_chitat",
             url: "https://chto-chitat.livejournal.com/4259351.html",
             favIconUrl: "https://www.livejournal.com/favicon.ico?v=2"
@@ -3988,6 +4377,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "QW Confluence",
             url: "https://qworld.atlassian.net/wiki/spaces/TW/pages/461963265",
             favIconUrl:
@@ -3998,6 +4388,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Mindful - healthy mind, healthy life",
             url: "https://www.mindful.org/",
             favIconUrl:
@@ -4008,6 +4399,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Кому на самом деле нужно плацебо: scinquisitor",
             url: "https://scinquisitor.livejournal.com/94919.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -4017,6 +4409,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Illusion mindfulness improves cancer survival | Mind the Brain",
             url:
@@ -4029,6 +4422,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mindfulness research's uninformative control groups | Mind the Brain",
             url:
@@ -4041,6 +4435,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Нейротеология: scinquisitor",
             url: "https://scinquisitor.livejournal.com/1922.html",
             favIconUrl:
@@ -4051,6 +4446,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стэнфордский тюремный эксперимент — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D0%BD%D1%84%D0%BE%D1%80%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D1%8E%D1%80%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9_%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82#cite_ref-7",
@@ -4061,6 +4457,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "The Lifespan of a Lie – Trust Issues – Medium",
             url:
               "https://medium.com/s/trustissues/the-lifespan-of-a-lie-d869212b1f62",
@@ -4072,6 +4469,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "How I Wait Years to Get My Photos",
             url:
               "https://petapixel.com/2018/06/18/how-i-wait-years-to-get-my-photos/",
@@ -4082,6 +4480,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "What is the best approach to design state? · Issue #1825 · reduxjs/redux · GitHub",
             url: "https://github.com/reduxjs/redux/issues/1825",
@@ -4092,6 +4491,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "10 Tips for Better Redux Architecture – JavaScript Scene – Medium",
             url:
@@ -4104,6 +4504,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Falcor: One Model Everywhere",
             url: "https://netflix.github.io/falcor/",
             favIconUrl:
@@ -4114,6 +4515,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Five Tips for Working with Redux in Large Applications",
             url:
               "https://techblog.appnexus.com/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb",
@@ -4125,6 +4527,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "reactjs - What is the core difference of redux & reflux in using react based application? - Stack Overflow",
             url:
@@ -4137,6 +4540,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Митинги против повышения пенсионного возраста — Meduza",
             url:
               "https://meduza.io/video/2018/07/01/protestnye-aktsii-protiv-povysheniya-pensionnogo-vozrasta",
@@ -4147,6 +4551,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сериал «Незнакомцы» от Facebook: реалистично, как «Девочки», смешно, как «Друзья» — Meduza",
             url:
@@ -4158,6 +4563,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга Журнал "Искусство кино" №5-6/2018 - купить в книжном интернет-магазине по цене 300 руб | Podpisnie.ru',
             url:
@@ -4169,6 +4575,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Лена Грачёва - редко что-то шарю, но это всё же хочу... | Facebook",
             url: "https://www.facebook.com/almamorenaya/posts/881811982007203",
@@ -4180,6 +4587,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -4190,6 +4598,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - А вообще, спасибо безвестному стукачу, из-за... | Facebook",
             url:
@@ -4202,6 +4611,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Stranger Things - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Stranger_Things",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -4211,6 +4621,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Creating Library Definitions | Flow",
             url: "https://flow.org/en/docs/libdefs/creation/",
             favIconUrl:
@@ -4221,6 +4632,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "flow-typed/definitions/npm at master · flow-typed/flow-typed · GitHub",
             url:
@@ -4232,6 +4644,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Roadmap to a v3.0.0 of flow-typed · Issue #1494 · flow-typed/flow-typed · GitHub",
             url: "https://github.com/flow-typed/flow-typed/issues/1494",
@@ -4242,6 +4655,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Which interfaces are already written? · Issue #13 · flow-typed/flow-typed · GitHub",
             url:
@@ -4253,6 +4667,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Intersection doesn't work for exact object types · Issue #2626 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/2626",
@@ -4263,6 +4678,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "That's so fetch! - JakeArchibald.com",
             url: "https://jakearchibald.com/2015/thats-so-fetch/",
             favIconUrl: "https://jakearchibald.com/favicon.ico"
@@ -4272,6 +4688,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "react-static/static.config.js at master · nozzle/react-static · GitHub",
             url:
@@ -4283,6 +4700,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Static - A progressive static-site framework for React @ OgdenJS - YouTube",
             url: "https://www.youtube.com/watch?v=OqbJ5swVpDQ",
@@ -4293,6 +4711,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Setting up CSS Modules with React and Webpack",
             url: "https://javascriptplayground.com/css-modules-webpack-react/",
             favIconUrl: "https://javascriptplayground.com/favicon.ico"
@@ -4302,6 +4721,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - css-modules/css-modules: Documentation about css-modules",
             url: "https://github.com/css-modules/css-modules",
@@ -4312,6 +4732,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Ася Федотова",
             url: "https://vk.com/afedotova72",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -4321,6 +4742,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Коррекция на множественное тестирование — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5",
@@ -4331,6 +4753,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Мандрагора — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%D0%B3%D0%BE%D1%80%D0%B0#%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D1%82%D1%80%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5_%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0",
@@ -4341,6 +4764,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Text Fields · An Introduction to Elm",
             url:
               "https://guide.elm-lang.org/architecture/user_input/text_fields.html",
@@ -4351,6 +4775,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Redux",
             url: "https://redux.js.org/introduction/prior-art",
             favIconUrl: null
@@ -4360,6 +4785,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Cycle.js",
             url: "https://cycle.js.org/",
             favIconUrl: null
@@ -4369,6 +4795,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - minedeljkovic/redux-elmish: The Elm Architecture in Redux, statically checked using flow",
             url: "https://github.com/minedeljkovic/redux-elmish",
@@ -4379,6 +4806,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - brabadu/tanok: Elm Architecture-inspired wrapper for Rx.js+React",
             url: "https://github.com/brabadu/tanok",
@@ -4389,6 +4817,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - didierfranc/react-waterfall: React store built on top of the new context API",
             url: "https://github.com/didierfranc/react-waterfall",
@@ -4399,6 +4828,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у Apple iPad mini 3 16Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-3-16gb-wi-fi-cellular-0618d196",
@@ -4409,6 +4839,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Trade-in и продажа техники в Санкт-Петербурге. REFRESH your tech",
             url: "http://www.refreshyourtech.ru/",
@@ -4419,6 +4850,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у iPad mini 4 128Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-4-128gb-lte-0618d172",
@@ -4429,6 +4861,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad mini 4 128Gb Wi-Fi в интернет-магазинах — Планшеты — Яндекс.Маркет",
             url:
@@ -4440,6 +4873,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Apple iPad mini 4 128Gb Wi-Fi Silver",
             url:
               "http://www.pitergsm.ru/e-store/tablets/index.php?ELEMENT_ID=995&r1=&r2=&ymclid=319492699825359651400004",
@@ -4450,6 +4884,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -4461,6 +4896,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Apple iPad mini 4 Wi-Fi 128GB (серебристый) характеристики, техническое описание планшета - интернет-магазин Связной",
             url:
@@ -4472,6 +4908,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Планшеты Apple iPad – купить iPad по отличной цене",
             url: "https://www.tehnikalux.ru/spb/category/apple/ipad/",
             favIconUrl: "https://www.tehnikalux.ru/favicon.ico"
@@ -4481,6 +4918,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -4492,6 +4930,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=12859395&id=30015180&id=11153507",
@@ -4502,6 +4941,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=30015180&id=11153507",
@@ -4512,6 +4952,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad (2018) 32Gb Wi-Fi + Cellular — Планшеты — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -4523,6 +4964,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Compare Apple iPad mini 3 vs. Apple iPad mini 4 - GSMArena.com",
             url:
@@ -4534,6 +4976,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Платформы для сборки ПК - Компьютерные комплектующие",
             url: "https://www.ulmart.ru/catalog/assembly_bases",
             favIconUrl: "chrome://global/skin/icons/warning-16.png"
@@ -4543,6 +4986,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - (Опять странный вопрос) А существует же наверняка...",
             url: "https://www.facebook.com/adolin3/posts/10215523587299037",
@@ -4554,6 +4998,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Умер Клод Ланцман — режиссер «Шоа», важнейшего документального фильма про Холокост — Meduza",
             url:
@@ -4565,6 +5010,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sourcetree | Free Git GUI for Mac and Windows",
             url: "https://www.sourcetreeapp.com/",
             favIconUrl:
@@ -4575,6 +5021,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зои / Родина",
             url: "http://rodinakino.ru/films/soon/2018/06/20/02/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -4584,6 +5031,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mirrors Yamaha Y80 Y50 Y75 Y80 V50 V75 Japan Mint 689127704338 | eBay",
             url:
@@ -4595,6 +5043,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "windows 10 key | eBay",
             url:
               "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050430.m570.l1311.R1.TR12.TRC2.A0.H0.Xwindows+10+key.TRS0&_nkw=windows+10+key&_sacat=0",
@@ -4605,6 +5054,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "WINDOWS 7 Ultimate 32/64 Bit Activation key INSTANT DELIVERY 5MINT+DOWNLOAD Link | eBay",
             url:
@@ -4616,6 +5066,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Watch Out For These Dirty Tricks From Discounted Software Resellers",
             url:
@@ -4627,6 +5078,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Microsoft Windows 7 Ultimate 32/64 bit MS Activation Key Full Version Win 7 Ult 885370258851 | eBay",
             url:
@@ -4638,6 +5090,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Бизнес-линч за 14.09.2017",
             url:
               "https://www.artlebedev.ru/kovodstvo/business-lynch/2017/09/14/",
@@ -4648,6 +5101,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Новый органон — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%BE%D0%BD",
@@ -4658,6 +5112,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пылающий",
             url: "http://www.avrora.spb.ru/films/pilayushchiy",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -4667,6 +5122,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Список вопросов - дизайн - Miscellaneous - QW Confluence",
             url:
               "https://qworld.atlassian.net/wiki/spaces/TW/pages/347504649/-",
@@ -4678,6 +5134,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Осознанный хип-хоп — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%85%D0%B8%D0%BF-%D1%85%D0%BE%D0%BF",
@@ -4688,6 +5145,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "И я в моем теплом теле (Введенский) — Wikilivres.ru",
             url:
               "http://wikilivres.ru/%D0%98_%D1%8F_%D0%B2_%D0%BC%D0%BE%D0%B5%D0%BC_%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%BC_%D1%82%D0%B5%D0%BB%D0%B5_(%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9)",
@@ -4698,6 +5156,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Киноцентр Родина",
             url: "http://rodinakino.ru/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -4707,6 +5166,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Отзывы о торгово-сервисной компании Refresh your tech - Магазины - Санкт-Петербург",
             url:
@@ -4718,6 +5178,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "serve - npm",
             url: "https://www.npmjs.com/package/serve",
             favIconUrl:
@@ -4728,6 +5189,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Смартфон Digma VOX FIRE 4G — Мобильные телефоны — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -4739,6 +5201,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "tabs.remove() - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs/remove",
@@ -4750,6 +5213,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Your second extension - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_second_WebExtension",
@@ -4761,6 +5225,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging",
             favIconUrl: null
@@ -4770,6 +5235,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Firefox Is Back. It’s Time to Give It a Try. - The New York Times",
             url:
@@ -4782,6 +5248,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Владик on Twitter: "Короче, один лайк - один факт о реальной травматологии"',
             url: "https://twitter.com/glazzzvlad/status/1019490333158240257",
@@ -4792,6 +5259,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing FilterBubbler: A WebExtension built using React/Redux – Mozilla Hacks – the Web developer blog",
             url:
@@ -4804,6 +5272,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Close icons - Download 4829 free & premium icons on Iconfinder",
             url: "https://www.iconfinder.com/search/?q=close&price=free",
@@ -4815,6 +5284,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "lusakasa/saka-extension-boilerplate: Opinionated boilerplate for building extensions for Chrome and Firefox",
             url: "https://github.com/lusakasa/saka-extension-boilerplate",
@@ -4825,6 +5295,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Создание и вызов событий - Руководство Web-разработчика | MDN",
             url:
@@ -4837,6 +5308,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "medium.com | 502: Bad gateway",
             url:
               "https://medium.com/@LeoAref/simple-event-dispatcher-implementation-using-javascript-36d0eadf5a11",
@@ -4847,6 +5319,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Manager – Figma",
             url:
               "https://www.figma.com/file/TBPgVBHpN0yEZqoPRjDUXasM/Tabs-Manager?node-id=1%3A5",
@@ -4857,6 +5330,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "developit/preact: ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
             url: "https://github.com/developit/preact",
@@ -4867,6 +5341,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Brunch: Commands — Brunch",
             url: "http://brunch.io/docs/commands",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -4876,6 +5351,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Plugins — Brunch",
             url: "http://brunch.io/plugins",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -4885,6 +5361,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Node Security Platform | Advisory",
             url: "https://nodesecurity.io/advisories/146",
             favIconUrl: "https://nodesecurity.io/img/nodesecurity.png"
@@ -4894,6 +5371,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Keeper",
             url: "http://localhost:3333/",
             favIconUrl: null
@@ -4903,6 +5381,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Add-ons Manager",
             url: "about:addons",
             favIconUrl:
@@ -4913,6 +5392,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: true,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging#addons",
             favIconUrl: null
@@ -4938,6 +5418,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "bq | Latest",
             url: "https://bazqux.com/",
             favIconUrl: "https://bazqux.com/favicon.ico"
@@ -4947,6 +5428,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title:
               "Письмо «Nikolay, please add me to your LinkedIn network» — Женя Софронов — Яндекс.Почта",
             url:
@@ -4959,6 +5441,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "Диалоги",
             url: "https://vk.com/im?sel=-45728460",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_im_2x.ico?6"
@@ -4968,6 +5451,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "лекарства - Google Sheets",
             url:
               "https://docs.google.com/spreadsheets/d/1zJfc1q4VptJJLs5EDr4zHfYvPJes_r6qmR3vzj40bLU/edit#gid=1092909149",
@@ -4979,6 +5463,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "судьба ужина по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3132384.html",
             favIconUrl:
@@ -4989,6 +5474,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Network Dependencies · he-he-org/he-he-2",
             url: "https://github.com/he-he-org/he-he-2/network/dependencies",
             favIconUrl: "https://assets-cdn.github.com/favicon.ico"
@@ -4998,6 +5484,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "NVD - CVE-2018-3809",
             url: "https://nvd.nist.gov/vuln/detail/CVE-2018-3809",
             favIconUrl:
@@ -5008,6 +5495,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "(32) Новости",
             url:
               "https://vk.com/feed?z=photo-48872313_456242438%2Fwall-48872313_11365",
@@ -5018,6 +5506,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Хорошо прорисованные женщины: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1280049.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -5027,6 +5516,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: 'Живопись из фильма "Титаник": shakko_kitsune - Page 3',
             url: "https://shakko-kitsune.livejournal.com/1278640.html?page=3",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -5036,6 +5526,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем круты «Авиньонские девицы» Пикассо? | Шакко | Яндекс Дзен",
             url:
@@ -5047,6 +5538,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пабло Руис Пикассо - NeWestMuseum",
             url:
               "http://www.newestmuseum.ru/data/authors/p/picasso_pablo/index.php",
@@ -5057,6 +5549,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "кельтский камень - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130586.html",
             favIconUrl:
@@ -5067,6 +5560,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шаламов по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130308.html",
             favIconUrl:
@@ -5077,6 +5571,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зав. игровым салоном: ksoftware",
             url: "https://ksoftware.livejournal.com/383517.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -5086,6 +5581,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Музей истории техники в Ростове. Кайф: ksoftware",
             url: "https://ksoftware.livejournal.com/397536.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -5095,6 +5591,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Using achievement stats to estimate sales on steam – Tyler Glaiel – Medium",
             url:
@@ -5107,6 +5604,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Печали: akuklev",
             url: "https://akuklev.livejournal.com/1282902.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -5116,6 +5614,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fabrice Bellard - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Fabrice_Bellard",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -5125,6 +5624,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "открытая запись - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3129950.html",
             favIconUrl:
@@ -5135,6 +5635,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ну вот, maxim умучали и в твиторе. И чего вы его так все не любите,…: sorhed",
             url: "https://sorhed.livejournal.com/619253.html",
@@ -5145,6 +5646,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Почему я удалил все посты в ЖЖ и Твиттере: maxim",
             url: "https://maxim.livejournal.com/531021.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -5154,6 +5656,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Заголовок: lambdaterm1",
             url: "https://lambdaterm1.livejournal.com/730.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -5163,6 +5666,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-99523325_4368",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5172,6 +5676,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ПитерФотоФест - 2018",
             url: "http://piterfotofest.ru/#rec16367493",
             favIconUrl:
@@ -5182,6 +5687,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Об Байеса - 2 - Не кинокритик. Не палеонтолог.",
             url: "https://plakhov.livejournal.com/227597.html",
             favIconUrl:
@@ -5192,6 +5698,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "другая америка - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3129470.html?page=2#comments",
             favIconUrl:
@@ -5202,6 +5709,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Course | DSE200x | edX",
             url:
               "https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/",
@@ -5213,6 +5721,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | шо за Шноль",
             url: "https://juan-gandhi.dreamwidth.org/4264984.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -5222,6 +5731,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пятое издание «Ководства» Лебедева",
             url: "https://www.artlebedev.ru/izdal/kovodstvo5/",
             favIconUrl: "https://img.artlebedev.ru/icons/favicon-set.ico"
@@ -5231,6 +5741,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Measure Performance with the RAIL Model  |  Web Fundamentals  |  Google Developers",
             url:
@@ -5243,6 +5754,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Update on Async Rendering - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html",
@@ -5253,6 +5765,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Duran - Публикации",
             url:
               "https://www.facebook.com/ArtByDuran/photos/a.2159449564069966.1073741829.318130841535190/2159452500736339/?type=3&theater",
@@ -5264,6 +5777,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -5274,6 +5788,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "афиша клуба",
             url: "https://vk.com/page-63477485_52138480",
             favIconUrl:
@@ -5284,6 +5799,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сергей Мардан",
             url: "https://www.facebook.com/sergeynudol?fref=jewel",
             favIconUrl:
@@ -5294,6 +5810,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fredegund: Assassination-obsessed Queen",
             url: "https://www.rejectedprincesses.com/princesses/fredegund",
             favIconUrl:
@@ -5304,6 +5821,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -5314,6 +5832,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "ШЛЮХА (рассказ) Приятель позвал в бар смотреть... - Максим Матковский",
             url:
@@ -5326,6 +5845,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Великие споры - InLiberty",
             url: "https://www.inliberty.ru/public/spory/",
             favIconUrl: "https://www.inliberty.ru/i/favicon/favicon-32x32.png"
@@ -5335,6 +5855,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | TIL from Duolingo",
             url: "https://juan-gandhi.dreamwidth.org/4260093.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -5344,6 +5865,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Слои пользы: ksoftware",
             url: "https://ksoftware.livejournal.com/396031.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -5353,6 +5875,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пикник «Афиши» 4 августа 2018 — официальный сайт фестиваля",
             url: "https://picnic.afisha.ru/faq",
             favIconUrl:
@@ -5363,6 +5886,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Вышел новый альбом Gorillaz. Послушайте его прямо сейчас — Meduza",
             url:
@@ -5374,6 +5898,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3578",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5383,6 +5908,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ВИЗУАЛЬНАЯ МЕДИТАЦИЯ",
             url: "https://outcinema.ru/visual-meditation",
             favIconUrl:
@@ -5393,6 +5919,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Миротворец. Портрет Апхичатпхонга Вирасетакуна - Искусство кино",
             url: "http://kinoart.ru/archive/2010/11/n11-article12",
@@ -5403,6 +5930,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall2064116_418",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5412,6 +5940,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Почему в России не надо повышать налоги? Экономический обозреватель Борис Грозовский отвечает заместителю главреда «Медузы» Александру Поливанову — Meduza",
             url:
@@ -5423,6 +5952,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Новая газета»: в Пскове поставили памятники на могилах десантников, погибших летом 2014 года — Meduza",
             url:
@@ -5434,6 +5964,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Андрей Ерёменко. Генерал против всех",
             url: "https://kartaistorii.ru/eremenko/history-map",
             favIconUrl:
@@ -5444,6 +5975,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шарик и кисет - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124708.html",
             favIconUrl:
@@ -5454,6 +5986,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "мимоза - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124074.html",
             favIconUrl:
@@ -5464,6 +5997,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "» Scoperto il primo dipinto firmato e autografato da Leonardo Da Vinci",
             url:
@@ -5476,6 +6010,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3509",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5485,6 +6020,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сеанс кинотерапии. «Арарат», режиссер Атом Эгоян - Искусство кино",
             url: "http://www.kinoart.ru/archive/2002/12/n12-article7",
@@ -5495,6 +6031,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "panda-grammar - npm",
             url: "https://www.npmjs.com/package/panda-grammar",
             favIconUrl:
@@ -5505,6 +6042,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-3818033_17029",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5514,6 +6052,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как приукрашивали портреты маслом после распространения фотографии: shakko_kitsune - Page 2",
             url: "https://shakko-kitsune.livejournal.com/1268839.html?page=2",
@@ -5524,6 +6063,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Насильник, грабитель, поп-звезда: Убит XXXTentacion. Он был самым парадоксальным молодым рэпером Америки — Meduza",
             url:
@@ -5535,6 +6075,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Recursive descent parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Recursive_descent_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -5544,6 +6085,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "LR parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/LR_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -5553,6 +6095,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "parsimmon/API.md at master · jneen/parsimmon · GitHub",
             url:
               "https://github.com/jneen/parsimmon/blob/master/API.md#terminology",
@@ -5563,6 +6106,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как в России будут повышать пенсионный возраст? И зачем? — Meduza",
             url:
@@ -5574,6 +6118,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Они хотят сделать дестабилизацию обстановки». СБУ показала «переговоры организаторов покушения на Бабченко»: Пытаемся это пересказать — Meduza",
             url:
@@ -5585,6 +6130,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-112289703_13361",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5594,6 +6140,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-55155418_165878",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5603,6 +6150,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-110501497_16688",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5612,6 +6160,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "нет законов - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3119801.html?page=2#comments",
             favIconUrl:
@@ -5622,6 +6171,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Official page for Language Server Protocol",
             url: "https://microsoft.github.io/language-server-protocol/",
             favIconUrl:
@@ -5632,6 +6182,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/6410472941942767616/sharedKey/dlv2StPe/?midToken=AQHzSA83YkIhgg&trk=eml-email_m2m_invite_single_01-null-0-accept%7Ecta&trkEmail=eml-email_m2m_invite_single_01-null-0-accept%7Ecta-null-2yk8nm%7Eji4kturi%7Exc-null-neptune%2Fmynetwork%2Einvite%7Eaccept&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BDrAIZne2QOC0D%2BxJlH6RoA%3D%3D",
             url:
@@ -5643,6 +6194,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем целлюлит Рубенса отличается от целлюлита Ван Дейка и целлюлита Йорданса?: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1264148.html",
@@ -5653,6 +6205,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о конкурсах красоты - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3120316.html?page=2#comments",
             favIconUrl:
@@ -5663,6 +6216,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Бренда «Евросеть» больше не будет. Чем нам запомнится эта компания — Meduza",
             url:
@@ -5674,6 +6228,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Abstrakte Kunst Poster bei AllPosters.de",
             url:
               "https://www.allposters.de/-st/Abstrakte-Kunst-Poster_c86168_.htm",
@@ -5684,6 +6239,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "‎NimbusMind: Meditation & Calm on the App Store",
             url:
               "https://itunes.apple.com/us/app/nimbusmind-meditation-calm/id1278663918?mt=8",
@@ -5694,6 +6250,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Генрих Ягода. Грязная работа",
             url: "https://kartaistorii.ru/yagoda/history-map",
             favIconUrl:
@@ -5704,6 +6261,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, design systems will replace design jobs — DesignSystems.com",
             url:
@@ -5715,6 +6273,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как изучать негодяев • Arzamas",
             url: "https://arzamas.academy/radio/announcements/hlevniuk",
             favIconUrl: "https://arzamas.academy/favicon-32x32.png"
@@ -5724,6 +6283,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Считают своим моральным долгом потушить пожар»: как добровольные пожарные спасают огромные территории от огня — Такие Дела",
             url: "https://takiedela.ru/news/2018/04/22/firefighters/",
@@ -5735,6 +6295,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Error Boundaries - React",
             url:
               "https://reactjs.org/docs/error-boundaries.html#how-about-event-handlers",
@@ -5745,6 +6306,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - hlaueriksson/jamstack-cms: A JAMstack experiment with a Headless CMS",
             url: "https://github.com/hlaueriksson/jamstack-cms",
@@ -5755,6 +6317,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-72326580_646949",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -5764,6 +6327,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - Несравненный Эгон Шиле. 100 лет со дня... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215045413584993",
@@ -5775,6 +6339,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/arhstoyanie-2018",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -5784,6 +6349,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             url: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             favIconUrl: "https://solosale.ru/favicon.ico"
@@ -5793,6 +6359,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Гитлер пришел к власти | История | DW | 29.01.2013",
             url:
               "https://www.dw.com/ru/%D0%BA%D0%B0%D0%BA-%D0%B3%D0%B8%D1%82%D0%BB%D0%B5%D1%80-%D0%BF%D1%80%D0%B8%D1%88%D0%B5%D0%BB-%D0%BA-%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B8/a-1581471",
@@ -5803,6 +6370,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Фотограф, которого никто не знал",
             url:
               "https://www.adme.ru/tvorchestvo-fotografy/fotograf-kotorogo-nikto-ne-znal-480205/",
@@ -5813,6 +6381,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ФАКУЛЬТЕТЫ ИСКУССТВ - LES",
             url: "https://les.media/articles/584226-fakulbtety-iskusstv",
             favIconUrl: "https://les.media/favicon-32x32.png"
@@ -5822,6 +6391,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Александр Введенский — «В ленинградское отделение...»",
             url: "http://slova.org.ru/vvedenskiy/v_leningradskoe_otdelenie/",
             favIconUrl: "http://slova.org.ru/favicon.ico"
@@ -5831,6 +6401,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Побочные эффекты осознанности 1. У вас... - Sergey Shalashenko | Facebook",
             url:
@@ -5843,6 +6414,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Introducing GitFlow",
             url: "https://datasift.github.io/gitflow/IntroducingGitFlow.html",
             favIconUrl: "https://datasift.github.io/favicon.ico"
@@ -5852,6 +6424,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Application Performance Analysis — Part 1 – Chingu – Medium",
             url:
@@ -5864,6 +6437,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "How to Benchmark React Components: The Quick and Dirty Guide",
             url:
@@ -5876,6 +6450,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, Toilet Spray After You Flush Includes Poop Particles | SELF",
             url: "https://www.self.com/story/toilet-plume-poop-spray",
@@ -5886,6 +6461,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -5896,6 +6472,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Forwarding Refs - React",
             url: "https://reactjs.org/docs/forwarding-refs.html",
             favIconUrl: "https://reactjs.org/favicon.ico"
@@ -5905,6 +6482,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Gatsby + Apollo + GraphCool + Netlify: The Web’s Promised Land",
             url:
@@ -5917,6 +6495,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Björk's Vault of Dank Memes public group | Facebook",
             url:
               "https://www.facebook.com/groups/bvdom/permalink/613012339032202/",
@@ -5927,6 +6506,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Getting started - i18next documentation",
             url: "https://www.i18next.com/overview/getting-started",
             favIconUrl:
@@ -5937,6 +6517,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "The PRPL Pattern  |  Web Fundamentals  |  Google Developers",
             url:
@@ -5949,6 +6530,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Our insights into Technology and Business | Castle Digital Partners",
             url: "https://blog.castle.co/",
@@ -5960,6 +6542,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Не знаю, кому сказать спасибо, но маленькая... | Facebook",
             url:
@@ -5972,6 +6555,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Поздравляю всех причастных с Днём... - Владимир Манилов | Facebook",
             url:
@@ -5984,6 +6568,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Synchronize with the Server's Clock in the Browser",
             url: "https://www.nodeguy.com/serverdate/",
             favIconUrl: "https://www.nodeguy.com/favicon.ico"
@@ -5993,6 +6578,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о жизни и литературе - Поклонник деепричастий",
             url: "https://avva.livejournal.com/1921476.html",
             favIconUrl:
@@ -6003,6 +6589,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«АукцЫон». Единственный Летний Концерт в Aurora Concert Hall",
             url:
@@ -6015,6 +6602,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Юрий Осинин спас Питер: tema",
             url: "https://tema.livejournal.com/2775878.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -6024,6 +6612,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "78 Новости - Петербуржец Юрий Осинин по своему желанию...",
             url:
               "https://www.facebook.com/78channel/videos/1872484333047698/UzpfSTEwMDAwMjA1NDg5NDg5MDoxNjgzMTM5OTg4NDMxMTQ4/",
@@ -6035,6 +6624,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«100 лет дизайна» — кінопоказ у Москві — розклад на Яндекс.Афіші",
             url:
@@ -6046,6 +6636,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Архитектурная Керамика.",
             url: "https://vk.com/arhceramik",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -6055,6 +6646,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Экспонат без названия",
             url: "http://collectionerus.ru/collections/ceramicplate/31/",
             favIconUrl: "http://collectionerus.ru/static/favicon.ico"
@@ -6064,6 +6656,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Безумные миры Дэвида Линча — Кино на DTF",
             url: "https://dtf.ru/cinema/18427-bezumnye-miry-devida-lincha",
             favIconUrl:
@@ -6074,6 +6667,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Видеозаписи Поэмание",
             url: "https://vk.com/video-148655127_456239031",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -6083,6 +6677,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "«О восприятии и выявлении псевдо-интеллектуальной чуши»",
             url:
               "http://newochem.ru/nauka/o-vospriyatii-i-vyyavlenii-psevdo-intellektualnoj-chushi/",
@@ -6094,6 +6689,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -6103,6 +6699,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -6113,6 +6710,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - КИНОТАВР: МОИ ИТОГИ 1. Самый важный итог -... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215335520797492",
@@ -6124,6 +6722,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Home / The Art of Pants",
             url: "https://theartofpants.bigcartel.com/",
             favIconUrl: "https://theartofpants.bigcartel.com/favicon.ico"
@@ -6133,6 +6732,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Трудно быть богом (фильм, 2013) — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2013)",
@@ -6143,6 +6743,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - sindresorhus/query-string: Parse and stringify URL query strings",
             url: "https://github.com/sindresorhus/query-string",
@@ -6153,6 +6754,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Better exhaustiveness checking for variant type conditions · Issue #1374 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/1374",
@@ -6163,6 +6765,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Вода для чая",
             url: "https://cha-shop.ru/stuff/water/#",
             favIconUrl:
@@ -6173,6 +6776,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "react-jsx-parser - npm",
             url: "https://www.npmjs.com/package/react-jsx-parser",
             favIconUrl:
@@ -6183,6 +6787,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
             url: "https://github.com/ai/size-limit#applications",
@@ -6193,6 +6798,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog",
             url:
@@ -6205,6 +6811,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing MDXC: A new way to write Markdown for React - James K Nelson",
             url: "http://jamesknelson.com/introducing-mdxc/",
@@ -6215,6 +6822,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - Мне кажется, в ближайшее время у каждого... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606870769634",
@@ -6226,6 +6834,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Искусство для пацанчиков: Эдвард Мунк | Батенька, да вы трансформер",
             url: "https://batenka.ru/aesthetics/artshock/art4fellas-munk/",
@@ -6236,6 +6845,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - А вот и Питерфотофест. Конец августа.... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606494360224",
@@ -6247,6 +6857,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Födor Katasonov - Виленский был одним из самых крутых и... | Facebook",
             url:
@@ -6259,6 +6870,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Семимостье в Санкт-Петербурге",
             url: "https://kudago.com/spb/place/semimoste/",
             favIconUrl: "https://static-42149e88.kudago.com/img/favicon.png"
@@ -6268,6 +6880,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Книжный клуб",
             url: "http://www.avrora.spb.ru/films/knigniy-klub",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -6277,6 +6890,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -6287,6 +6901,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React.Element type is incompatible with object type · Issue #5547 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/5547",
@@ -6297,6 +6912,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "(3) Антон Долин - Большая удача – «Три сестры» Константин Богомолов...",
             url: "https://www.facebook.com/adolin3/posts/10215396076031335",
@@ -6308,6 +6924,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Кому выгодно повышение пенсионного возраста - РИА Новости, 19.06.2018",
             url: "https://ria.ru/analytics/20180619/1522873347.html",
@@ -6318,6 +6935,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Варлам Шаламов последние три года жизни... | Facebook",
             url:
@@ -6330,6 +6948,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ребята, last call for a trip to North... - Larisa Melnikova | Facebook",
             url:
@@ -6342,6 +6961,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - pandastrike/panda-grammar: Recursive descent parser combinators in JavaScript",
             url: "https://github.com/pandastrike/panda-grammar",
@@ -6352,6 +6972,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - reduxjs/react-redux: Official React bindings for Redux",
             url: "https://github.com/reduxjs/react-redux",
@@ -6362,6 +6983,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "You Probably Don't Need Derived State - React Blog",
             url:
               "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization",
@@ -6372,6 +6994,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "A deep dive into children in React - Max Stoibers Blog",
             url: "https://mxstbr.blog/2017/02/react-children-deepdive/",
             favIconUrl: "https://mxstbr.blog/favicon.png"
@@ -6381,6 +7004,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить билеты",
             url: "http://www.teatrvo.ru/kupit-bilety/",
             favIconUrl: "http://www.teatrvo.ru/static/favicon.ico"
@@ -6396,6 +7020,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга: "Омерзительное искусство. Юмор и хоррор шедевров живописи" - Софья Багдасарова. Купить книгу, читать рецензии | ISBN 978-5-04-088717-0 | Лабиринт',
             url: "https://www.labirint.ru/books/630406/",
@@ -6406,6 +7031,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Артемий Лебедев - Городской дизайн.",
             url:
               "https://www.facebook.com/temalebedev/videos/10156571532046095/",
@@ -6416,6 +7042,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Режим работы - Глазной диагностический центр №7 (Санкт-Петербург, Моховая 38)",
             url: "http://mohovaya38.ru/rezhim_raboty/",
@@ -6426,6 +7053,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Чехов А.П. (Author of Скучная история)",
             url:
               "https://www.goodreads.com/author/show/17920932._?from_search=true",
@@ -6436,6 +7064,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Что почитать Чехова?: chto_chitat",
             url: "https://chto-chitat.livejournal.com/4259351.html",
             favIconUrl: "https://www.livejournal.com/favicon.ico?v=2"
@@ -6445,6 +7074,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "QW Confluence",
             url: "https://qworld.atlassian.net/wiki/spaces/TW/pages/461963265",
             favIconUrl:
@@ -6455,6 +7085,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Mindful - healthy mind, healthy life",
             url: "https://www.mindful.org/",
             favIconUrl:
@@ -6465,6 +7096,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Кому на самом деле нужно плацебо: scinquisitor",
             url: "https://scinquisitor.livejournal.com/94919.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -6474,6 +7106,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Illusion mindfulness improves cancer survival | Mind the Brain",
             url:
@@ -6486,6 +7119,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mindfulness research's uninformative control groups | Mind the Brain",
             url:
@@ -6498,6 +7132,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Нейротеология: scinquisitor",
             url: "https://scinquisitor.livejournal.com/1922.html",
             favIconUrl:
@@ -6508,6 +7143,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стэнфордский тюремный эксперимент — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D0%BD%D1%84%D0%BE%D1%80%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D1%8E%D1%80%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9_%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82#cite_ref-7",
@@ -6518,6 +7154,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "The Lifespan of a Lie – Trust Issues – Medium",
             url:
               "https://medium.com/s/trustissues/the-lifespan-of-a-lie-d869212b1f62",
@@ -6529,6 +7166,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "How I Wait Years to Get My Photos",
             url:
               "https://petapixel.com/2018/06/18/how-i-wait-years-to-get-my-photos/",
@@ -6539,6 +7177,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "What is the best approach to design state? · Issue #1825 · reduxjs/redux · GitHub",
             url: "https://github.com/reduxjs/redux/issues/1825",
@@ -6549,6 +7188,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "10 Tips for Better Redux Architecture – JavaScript Scene – Medium",
             url:
@@ -6561,6 +7201,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Falcor: One Model Everywhere",
             url: "https://netflix.github.io/falcor/",
             favIconUrl:
@@ -6571,6 +7212,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Five Tips for Working with Redux in Large Applications",
             url:
               "https://techblog.appnexus.com/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb",
@@ -6582,6 +7224,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "reactjs - What is the core difference of redux & reflux in using react based application? - Stack Overflow",
             url:
@@ -6594,6 +7237,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Митинги против повышения пенсионного возраста — Meduza",
             url:
               "https://meduza.io/video/2018/07/01/protestnye-aktsii-protiv-povysheniya-pensionnogo-vozrasta",
@@ -6604,6 +7248,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сериал «Незнакомцы» от Facebook: реалистично, как «Девочки», смешно, как «Друзья» — Meduza",
             url:
@@ -6615,6 +7260,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга Журнал "Искусство кино" №5-6/2018 - купить в книжном интернет-магазине по цене 300 руб | Podpisnie.ru',
             url:
@@ -6626,6 +7272,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Лена Грачёва - редко что-то шарю, но это всё же хочу... | Facebook",
             url: "https://www.facebook.com/almamorenaya/posts/881811982007203",
@@ -6637,6 +7284,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -6647,6 +7295,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - А вообще, спасибо безвестному стукачу, из-за... | Facebook",
             url:
@@ -6659,6 +7308,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Stranger Things - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Stranger_Things",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -6668,6 +7318,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Creating Library Definitions | Flow",
             url: "https://flow.org/en/docs/libdefs/creation/",
             favIconUrl:
@@ -6678,6 +7329,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "flow-typed/definitions/npm at master · flow-typed/flow-typed · GitHub",
             url:
@@ -6689,6 +7341,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Roadmap to a v3.0.0 of flow-typed · Issue #1494 · flow-typed/flow-typed · GitHub",
             url: "https://github.com/flow-typed/flow-typed/issues/1494",
@@ -6699,6 +7352,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Which interfaces are already written? · Issue #13 · flow-typed/flow-typed · GitHub",
             url:
@@ -6710,6 +7364,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Intersection doesn't work for exact object types · Issue #2626 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/2626",
@@ -6720,6 +7375,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "That's so fetch! - JakeArchibald.com",
             url: "https://jakearchibald.com/2015/thats-so-fetch/",
             favIconUrl: "https://jakearchibald.com/favicon.ico"
@@ -6729,6 +7385,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "react-static/static.config.js at master · nozzle/react-static · GitHub",
             url:
@@ -6740,6 +7397,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Static - A progressive static-site framework for React @ OgdenJS - YouTube",
             url: "https://www.youtube.com/watch?v=OqbJ5swVpDQ",
@@ -6750,6 +7408,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Setting up CSS Modules with React and Webpack",
             url: "https://javascriptplayground.com/css-modules-webpack-react/",
             favIconUrl: "https://javascriptplayground.com/favicon.ico"
@@ -6759,6 +7418,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - css-modules/css-modules: Documentation about css-modules",
             url: "https://github.com/css-modules/css-modules",
@@ -6769,6 +7429,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Ася Федотова",
             url: "https://vk.com/afedotova72",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -6778,6 +7439,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Коррекция на множественное тестирование — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5",
@@ -6788,6 +7450,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Мандрагора — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%D0%B3%D0%BE%D1%80%D0%B0#%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D1%82%D1%80%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5_%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0",
@@ -6798,6 +7461,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Text Fields · An Introduction to Elm",
             url:
               "https://guide.elm-lang.org/architecture/user_input/text_fields.html",
@@ -6808,6 +7472,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Redux",
             url: "https://redux.js.org/introduction/prior-art",
             favIconUrl: null
@@ -6817,6 +7482,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Cycle.js",
             url: "https://cycle.js.org/",
             favIconUrl: null
@@ -6826,6 +7492,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - minedeljkovic/redux-elmish: The Elm Architecture in Redux, statically checked using flow",
             url: "https://github.com/minedeljkovic/redux-elmish",
@@ -6836,6 +7503,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - brabadu/tanok: Elm Architecture-inspired wrapper for Rx.js+React",
             url: "https://github.com/brabadu/tanok",
@@ -6846,6 +7514,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - didierfranc/react-waterfall: React store built on top of the new context API",
             url: "https://github.com/didierfranc/react-waterfall",
@@ -6856,6 +7525,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у Apple iPad mini 3 16Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-3-16gb-wi-fi-cellular-0618d196",
@@ -6866,6 +7536,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Trade-in и продажа техники в Санкт-Петербурге. REFRESH your tech",
             url: "http://www.refreshyourtech.ru/",
@@ -6876,6 +7547,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у iPad mini 4 128Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-4-128gb-lte-0618d172",
@@ -6886,6 +7558,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad mini 4 128Gb Wi-Fi в интернет-магазинах — Планшеты — Яндекс.Маркет",
             url:
@@ -6897,6 +7570,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Apple iPad mini 4 128Gb Wi-Fi Silver",
             url:
               "http://www.pitergsm.ru/e-store/tablets/index.php?ELEMENT_ID=995&r1=&r2=&ymclid=319492699825359651400004",
@@ -6907,6 +7581,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -6918,6 +7593,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Apple iPad mini 4 Wi-Fi 128GB (серебристый) характеристики, техническое описание планшета - интернет-магазин Связной",
             url:
@@ -6929,6 +7605,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Планшеты Apple iPad – купить iPad по отличной цене",
             url: "https://www.tehnikalux.ru/spb/category/apple/ipad/",
             favIconUrl: "https://www.tehnikalux.ru/favicon.ico"
@@ -6938,6 +7615,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -6949,6 +7627,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=12859395&id=30015180&id=11153507",
@@ -6959,6 +7638,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=30015180&id=11153507",
@@ -6969,6 +7649,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad (2018) 32Gb Wi-Fi + Cellular — Планшеты — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -6980,6 +7661,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Compare Apple iPad mini 3 vs. Apple iPad mini 4 - GSMArena.com",
             url:
@@ -6991,6 +7673,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Платформы для сборки ПК - Компьютерные комплектующие",
             url: "https://www.ulmart.ru/catalog/assembly_bases",
             favIconUrl: "chrome://global/skin/icons/warning-16.png"
@@ -7000,6 +7683,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - (Опять странный вопрос) А существует же наверняка...",
             url: "https://www.facebook.com/adolin3/posts/10215523587299037",
@@ -7011,6 +7695,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Умер Клод Ланцман — режиссер «Шоа», важнейшего документального фильма про Холокост — Meduza",
             url:
@@ -7022,6 +7707,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sourcetree | Free Git GUI for Mac and Windows",
             url: "https://www.sourcetreeapp.com/",
             favIconUrl:
@@ -7032,6 +7718,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зои / Родина",
             url: "http://rodinakino.ru/films/soon/2018/06/20/02/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -7041,6 +7728,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mirrors Yamaha Y80 Y50 Y75 Y80 V50 V75 Japan Mint 689127704338 | eBay",
             url:
@@ -7052,6 +7740,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "windows 10 key | eBay",
             url:
               "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050430.m570.l1311.R1.TR12.TRC2.A0.H0.Xwindows+10+key.TRS0&_nkw=windows+10+key&_sacat=0",
@@ -7062,6 +7751,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "WINDOWS 7 Ultimate 32/64 Bit Activation key INSTANT DELIVERY 5MINT+DOWNLOAD Link | eBay",
             url:
@@ -7073,6 +7763,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Watch Out For These Dirty Tricks From Discounted Software Resellers",
             url:
@@ -7084,6 +7775,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Microsoft Windows 7 Ultimate 32/64 bit MS Activation Key Full Version Win 7 Ult 885370258851 | eBay",
             url:
@@ -7095,6 +7787,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Бизнес-линч за 14.09.2017",
             url:
               "https://www.artlebedev.ru/kovodstvo/business-lynch/2017/09/14/",
@@ -7105,6 +7798,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Новый органон — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%BE%D0%BD",
@@ -7115,6 +7809,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пылающий",
             url: "http://www.avrora.spb.ru/films/pilayushchiy",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -7124,6 +7819,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Список вопросов - дизайн - Miscellaneous - QW Confluence",
             url:
               "https://qworld.atlassian.net/wiki/spaces/TW/pages/347504649/-",
@@ -7135,6 +7831,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Осознанный хип-хоп — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%85%D0%B8%D0%BF-%D1%85%D0%BE%D0%BF",
@@ -7145,6 +7842,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "И я в моем теплом теле (Введенский) — Wikilivres.ru",
             url:
               "http://wikilivres.ru/%D0%98_%D1%8F_%D0%B2_%D0%BC%D0%BE%D0%B5%D0%BC_%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%BC_%D1%82%D0%B5%D0%BB%D0%B5_(%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9)",
@@ -7155,6 +7853,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Киноцентр Родина",
             url: "http://rodinakino.ru/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -7164,6 +7863,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Отзывы о торгово-сервисной компании Refresh your tech - Магазины - Санкт-Петербург",
             url:
@@ -7175,6 +7875,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "serve - npm",
             url: "https://www.npmjs.com/package/serve",
             favIconUrl:
@@ -7185,6 +7886,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Смартфон Digma VOX FIRE 4G — Мобильные телефоны — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -7196,6 +7898,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "tabs.remove() - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs/remove",
@@ -7207,6 +7910,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Your second extension - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_second_WebExtension",
@@ -7218,6 +7922,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging",
             favIconUrl: null
@@ -7227,6 +7932,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Firefox Is Back. It’s Time to Give It a Try. - The New York Times",
             url:
@@ -7239,6 +7945,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Владик on Twitter: "Короче, один лайк - один факт о реальной травматологии"',
             url: "https://twitter.com/glazzzvlad/status/1019490333158240257",
@@ -7249,6 +7956,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing FilterBubbler: A WebExtension built using React/Redux – Mozilla Hacks – the Web developer blog",
             url:
@@ -7261,6 +7969,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Close icons - Download 4829 free & premium icons on Iconfinder",
             url: "https://www.iconfinder.com/search/?q=close&price=free",
@@ -7272,6 +7981,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "lusakasa/saka-extension-boilerplate: Opinionated boilerplate for building extensions for Chrome and Firefox",
             url: "https://github.com/lusakasa/saka-extension-boilerplate",
@@ -7282,6 +7992,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Создание и вызов событий - Руководство Web-разработчика | MDN",
             url:
@@ -7294,6 +8005,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "medium.com | 502: Bad gateway",
             url:
               "https://medium.com/@LeoAref/simple-event-dispatcher-implementation-using-javascript-36d0eadf5a11",
@@ -7304,6 +8016,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Manager – Figma",
             url:
               "https://www.figma.com/file/TBPgVBHpN0yEZqoPRjDUXasM/Tabs-Manager?node-id=1%3A5",
@@ -7314,6 +8027,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "developit/preact: ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
             url: "https://github.com/developit/preact",
@@ -7324,6 +8038,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Brunch: Commands — Brunch",
             url: "http://brunch.io/docs/commands",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -7333,6 +8048,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Plugins — Brunch",
             url: "http://brunch.io/plugins",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -7342,6 +8058,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Node Security Platform | Advisory",
             url: "https://nodesecurity.io/advisories/146",
             favIconUrl: "https://nodesecurity.io/img/nodesecurity.png"
@@ -7351,6 +8068,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Keeper",
             url: "http://localhost:3333/",
             favIconUrl: null
@@ -7360,6 +8078,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Add-ons Manager",
             url: "about:addons",
             favIconUrl:
@@ -7370,6 +8089,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: true,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging#addons",
             favIconUrl: null
@@ -7395,6 +8115,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "bq | Latest",
             url: "https://bazqux.com/",
             favIconUrl: "https://bazqux.com/favicon.ico"
@@ -7404,6 +8125,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title:
               "Письмо «Nikolay, please add me to your LinkedIn network» — Женя Софронов — Яндекс.Почта",
             url:
@@ -7416,6 +8138,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "Диалоги",
             url: "https://vk.com/im?sel=-45728460",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_im_2x.ico?6"
@@ -7425,6 +8148,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "лекарства - Google Sheets",
             url:
               "https://docs.google.com/spreadsheets/d/1zJfc1q4VptJJLs5EDr4zHfYvPJes_r6qmR3vzj40bLU/edit#gid=1092909149",
@@ -7436,6 +8160,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Новая газета»: в Пскове поставили памятники на могилах десантников, погибших летом 2014 года — Meduza",
             url:
@@ -7447,6 +8172,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Андрей Ерёменко. Генерал против всех",
             url: "https://kartaistorii.ru/eremenko/history-map",
             favIconUrl:
@@ -7457,6 +8183,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шарик и кисет - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124708.html",
             favIconUrl:
@@ -7467,6 +8194,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "мимоза - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124074.html",
             favIconUrl:
@@ -7477,6 +8205,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "» Scoperto il primo dipinto firmato e autografato da Leonardo Da Vinci",
             url:
@@ -7489,6 +8218,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3509",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -7498,6 +8228,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сеанс кинотерапии. «Арарат», режиссер Атом Эгоян - Искусство кино",
             url: "http://www.kinoart.ru/archive/2002/12/n12-article7",
@@ -7508,6 +8239,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "panda-grammar - npm",
             url: "https://www.npmjs.com/package/panda-grammar",
             favIconUrl:
@@ -7518,6 +8250,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-3818033_17029",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -7527,6 +8260,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как приукрашивали портреты маслом после распространения фотографии: shakko_kitsune - Page 2",
             url: "https://shakko-kitsune.livejournal.com/1268839.html?page=2",
@@ -7537,6 +8271,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Насильник, грабитель, поп-звезда: Убит XXXTentacion. Он был самым парадоксальным молодым рэпером Америки — Meduza",
             url:
@@ -7548,6 +8283,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Recursive descent parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Recursive_descent_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -7557,6 +8293,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "LR parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/LR_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -7566,6 +8303,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "parsimmon/API.md at master · jneen/parsimmon · GitHub",
             url:
               "https://github.com/jneen/parsimmon/blob/master/API.md#terminology",
@@ -7576,6 +8314,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как в России будут повышать пенсионный возраст? И зачем? — Meduza",
             url:
@@ -7587,6 +8326,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Они хотят сделать дестабилизацию обстановки». СБУ показала «переговоры организаторов покушения на Бабченко»: Пытаемся это пересказать — Meduza",
             url:
@@ -7598,6 +8338,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-112289703_13361",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -7607,6 +8348,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-55155418_165878",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -7616,6 +8358,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-110501497_16688",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -7625,6 +8368,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "нет законов - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3119801.html?page=2#comments",
             favIconUrl:
@@ -7635,6 +8379,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Official page for Language Server Protocol",
             url: "https://microsoft.github.io/language-server-protocol/",
             favIconUrl:
@@ -7645,6 +8390,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/6410472941942767616/sharedKey/dlv2StPe/?midToken=AQHzSA83YkIhgg&trk=eml-email_m2m_invite_single_01-null-0-accept%7Ecta&trkEmail=eml-email_m2m_invite_single_01-null-0-accept%7Ecta-null-2yk8nm%7Eji4kturi%7Exc-null-neptune%2Fmynetwork%2Einvite%7Eaccept&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BDrAIZne2QOC0D%2BxJlH6RoA%3D%3D",
             url:
@@ -7656,6 +8402,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем целлюлит Рубенса отличается от целлюлита Ван Дейка и целлюлита Йорданса?: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1264148.html",
@@ -7666,6 +8413,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о конкурсах красоты - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3120316.html?page=2#comments",
             favIconUrl:
@@ -7676,6 +8424,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Бренда «Евросеть» больше не будет. Чем нам запомнится эта компания — Meduza",
             url:
@@ -7687,6 +8436,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Abstrakte Kunst Poster bei AllPosters.de",
             url:
               "https://www.allposters.de/-st/Abstrakte-Kunst-Poster_c86168_.htm",
@@ -7697,6 +8447,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "‎NimbusMind: Meditation & Calm on the App Store",
             url:
               "https://itunes.apple.com/us/app/nimbusmind-meditation-calm/id1278663918?mt=8",
@@ -7707,6 +8458,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Генрих Ягода. Грязная работа",
             url: "https://kartaistorii.ru/yagoda/history-map",
             favIconUrl:
@@ -7717,6 +8469,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, design systems will replace design jobs — DesignSystems.com",
             url:
@@ -7728,6 +8481,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как изучать негодяев • Arzamas",
             url: "https://arzamas.academy/radio/announcements/hlevniuk",
             favIconUrl: "https://arzamas.academy/favicon-32x32.png"
@@ -7737,6 +8491,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Считают своим моральным долгом потушить пожар»: как добровольные пожарные спасают огромные территории от огня — Такие Дела",
             url: "https://takiedela.ru/news/2018/04/22/firefighters/",
@@ -7748,6 +8503,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Error Boundaries - React",
             url:
               "https://reactjs.org/docs/error-boundaries.html#how-about-event-handlers",
@@ -7758,6 +8514,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - hlaueriksson/jamstack-cms: A JAMstack experiment with a Headless CMS",
             url: "https://github.com/hlaueriksson/jamstack-cms",
@@ -7768,6 +8525,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-72326580_646949",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -7777,6 +8535,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - Несравненный Эгон Шиле. 100 лет со дня... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215045413584993",
@@ -7788,6 +8547,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/arhstoyanie-2018",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -7797,6 +8557,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             url: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             favIconUrl: "https://solosale.ru/favicon.ico"
@@ -7806,6 +8567,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Гитлер пришел к власти | История | DW | 29.01.2013",
             url:
               "https://www.dw.com/ru/%D0%BA%D0%B0%D0%BA-%D0%B3%D0%B8%D1%82%D0%BB%D0%B5%D1%80-%D0%BF%D1%80%D0%B8%D1%88%D0%B5%D0%BB-%D0%BA-%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B8/a-1581471",
@@ -7816,6 +8578,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Фотограф, которого никто не знал",
             url:
               "https://www.adme.ru/tvorchestvo-fotografy/fotograf-kotorogo-nikto-ne-znal-480205/",
@@ -7826,6 +8589,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ФАКУЛЬТЕТЫ ИСКУССТВ - LES",
             url: "https://les.media/articles/584226-fakulbtety-iskusstv",
             favIconUrl: "https://les.media/favicon-32x32.png"
@@ -7835,6 +8599,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Александр Введенский — «В ленинградское отделение...»",
             url: "http://slova.org.ru/vvedenskiy/v_leningradskoe_otdelenie/",
             favIconUrl: "http://slova.org.ru/favicon.ico"
@@ -7844,6 +8609,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Побочные эффекты осознанности 1. У вас... - Sergey Shalashenko | Facebook",
             url:
@@ -7856,6 +8622,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Introducing GitFlow",
             url: "https://datasift.github.io/gitflow/IntroducingGitFlow.html",
             favIconUrl: "https://datasift.github.io/favicon.ico"
@@ -7865,6 +8632,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Application Performance Analysis — Part 1 – Chingu – Medium",
             url:
@@ -7877,6 +8645,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "How to Benchmark React Components: The Quick and Dirty Guide",
             url:
@@ -7889,6 +8658,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, Toilet Spray After You Flush Includes Poop Particles | SELF",
             url: "https://www.self.com/story/toilet-plume-poop-spray",
@@ -7899,6 +8669,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -7909,6 +8680,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Forwarding Refs - React",
             url: "https://reactjs.org/docs/forwarding-refs.html",
             favIconUrl: "https://reactjs.org/favicon.ico"
@@ -7918,6 +8690,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Gatsby + Apollo + GraphCool + Netlify: The Web’s Promised Land",
             url:
@@ -7930,6 +8703,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Björk's Vault of Dank Memes public group | Facebook",
             url:
               "https://www.facebook.com/groups/bvdom/permalink/613012339032202/",
@@ -7940,6 +8714,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Getting started - i18next documentation",
             url: "https://www.i18next.com/overview/getting-started",
             favIconUrl:
@@ -7950,6 +8725,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "The PRPL Pattern  |  Web Fundamentals  |  Google Developers",
             url:
@@ -7962,6 +8738,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Our insights into Technology and Business | Castle Digital Partners",
             url: "https://blog.castle.co/",
@@ -7973,6 +8750,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Не знаю, кому сказать спасибо, но маленькая... | Facebook",
             url:
@@ -7985,6 +8763,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Поздравляю всех причастных с Днём... - Владимир Манилов | Facebook",
             url:
@@ -7997,6 +8776,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Synchronize with the Server's Clock in the Browser",
             url: "https://www.nodeguy.com/serverdate/",
             favIconUrl: "https://www.nodeguy.com/favicon.ico"
@@ -8006,6 +8786,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о жизни и литературе - Поклонник деепричастий",
             url: "https://avva.livejournal.com/1921476.html",
             favIconUrl:
@@ -8016,6 +8797,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«АукцЫон». Единственный Летний Концерт в Aurora Concert Hall",
             url:
@@ -8028,6 +8810,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Юрий Осинин спас Питер: tema",
             url: "https://tema.livejournal.com/2775878.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -8037,6 +8820,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "78 Новости - Петербуржец Юрий Осинин по своему желанию...",
             url:
               "https://www.facebook.com/78channel/videos/1872484333047698/UzpfSTEwMDAwMjA1NDg5NDg5MDoxNjgzMTM5OTg4NDMxMTQ4/",
@@ -8048,6 +8832,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«100 лет дизайна» — кінопоказ у Москві — розклад на Яндекс.Афіші",
             url:
@@ -8059,6 +8844,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Архитектурная Керамика.",
             url: "https://vk.com/arhceramik",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -8068,6 +8854,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Экспонат без названия",
             url: "http://collectionerus.ru/collections/ceramicplate/31/",
             favIconUrl: "http://collectionerus.ru/static/favicon.ico"
@@ -8077,6 +8864,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Безумные миры Дэвида Линча — Кино на DTF",
             url: "https://dtf.ru/cinema/18427-bezumnye-miry-devida-lincha",
             favIconUrl:
@@ -8087,6 +8875,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Видеозаписи Поэмание",
             url: "https://vk.com/video-148655127_456239031",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -8096,6 +8885,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "«О восприятии и выявлении псевдо-интеллектуальной чуши»",
             url:
               "http://newochem.ru/nauka/o-vospriyatii-i-vyyavlenii-psevdo-intellektualnoj-chushi/",
@@ -8107,6 +8897,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -8116,6 +8907,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -8126,6 +8918,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - КИНОТАВР: МОИ ИТОГИ 1. Самый важный итог -... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215335520797492",
@@ -8137,6 +8930,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Home / The Art of Pants",
             url: "https://theartofpants.bigcartel.com/",
             favIconUrl: "https://theartofpants.bigcartel.com/favicon.ico"
@@ -8146,6 +8940,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Трудно быть богом (фильм, 2013) — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2013)",
@@ -8156,6 +8951,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - sindresorhus/query-string: Parse and stringify URL query strings",
             url: "https://github.com/sindresorhus/query-string",
@@ -8166,6 +8962,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Better exhaustiveness checking for variant type conditions · Issue #1374 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/1374",
@@ -8176,6 +8973,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Вода для чая",
             url: "https://cha-shop.ru/stuff/water/#",
             favIconUrl:
@@ -8186,6 +8984,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "react-jsx-parser - npm",
             url: "https://www.npmjs.com/package/react-jsx-parser",
             favIconUrl:
@@ -8196,6 +8995,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
             url: "https://github.com/ai/size-limit#applications",
@@ -8206,6 +9006,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog",
             url:
@@ -8218,6 +9019,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing MDXC: A new way to write Markdown for React - James K Nelson",
             url: "http://jamesknelson.com/introducing-mdxc/",
@@ -8228,6 +9030,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - Мне кажется, в ближайшее время у каждого... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606870769634",
@@ -8239,6 +9042,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Искусство для пацанчиков: Эдвард Мунк | Батенька, да вы трансформер",
             url: "https://batenka.ru/aesthetics/artshock/art4fellas-munk/",
@@ -8249,6 +9053,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - А вот и Питерфотофест. Конец августа.... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606494360224",
@@ -8260,6 +9065,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Födor Katasonov - Виленский был одним из самых крутых и... | Facebook",
             url:
@@ -8272,6 +9078,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Семимостье в Санкт-Петербурге",
             url: "https://kudago.com/spb/place/semimoste/",
             favIconUrl: "https://static-42149e88.kudago.com/img/favicon.png"
@@ -8281,6 +9088,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Книжный клуб",
             url: "http://www.avrora.spb.ru/films/knigniy-klub",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -8290,6 +9098,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -8300,6 +9109,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React.Element type is incompatible with object type · Issue #5547 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/5547",
@@ -8310,6 +9120,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "(3) Антон Долин - Большая удача – «Три сестры» Константин Богомолов...",
             url: "https://www.facebook.com/adolin3/posts/10215396076031335",
@@ -8321,6 +9132,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Кому выгодно повышение пенсионного возраста - РИА Новости, 19.06.2018",
             url: "https://ria.ru/analytics/20180619/1522873347.html",
@@ -8331,6 +9143,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Варлам Шаламов последние три года жизни... | Facebook",
             url:
@@ -8343,6 +9156,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ребята, last call for a trip to North... - Larisa Melnikova | Facebook",
             url:
@@ -8355,6 +9169,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - pandastrike/panda-grammar: Recursive descent parser combinators in JavaScript",
             url: "https://github.com/pandastrike/panda-grammar",
@@ -8365,6 +9180,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - reduxjs/react-redux: Official React bindings for Redux",
             url: "https://github.com/reduxjs/react-redux",
@@ -8375,6 +9191,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "You Probably Don't Need Derived State - React Blog",
             url:
               "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization",
@@ -8385,6 +9202,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "A deep dive into children in React - Max Stoibers Blog",
             url: "https://mxstbr.blog/2017/02/react-children-deepdive/",
             favIconUrl: "https://mxstbr.blog/favicon.png"
@@ -8394,6 +9212,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить билеты",
             url: "http://www.teatrvo.ru/kupit-bilety/",
             favIconUrl: "http://www.teatrvo.ru/static/favicon.ico"
@@ -8409,6 +9228,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга: "Омерзительное искусство. Юмор и хоррор шедевров живописи" - Софья Багдасарова. Купить книгу, читать рецензии | ISBN 978-5-04-088717-0 | Лабиринт',
             url: "https://www.labirint.ru/books/630406/",
@@ -8419,6 +9239,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Артемий Лебедев - Городской дизайн.",
             url:
               "https://www.facebook.com/temalebedev/videos/10156571532046095/",
@@ -8429,6 +9250,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Режим работы - Глазной диагностический центр №7 (Санкт-Петербург, Моховая 38)",
             url: "http://mohovaya38.ru/rezhim_raboty/",
@@ -8439,6 +9261,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Чехов А.П. (Author of Скучная история)",
             url:
               "https://www.goodreads.com/author/show/17920932._?from_search=true",
@@ -8449,6 +9272,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Что почитать Чехова?: chto_chitat",
             url: "https://chto-chitat.livejournal.com/4259351.html",
             favIconUrl: "https://www.livejournal.com/favicon.ico?v=2"
@@ -8458,6 +9282,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "QW Confluence",
             url: "https://qworld.atlassian.net/wiki/spaces/TW/pages/461963265",
             favIconUrl:
@@ -8468,6 +9293,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Mindful - healthy mind, healthy life",
             url: "https://www.mindful.org/",
             favIconUrl:
@@ -8478,6 +9304,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Кому на самом деле нужно плацебо: scinquisitor",
             url: "https://scinquisitor.livejournal.com/94919.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -8487,6 +9314,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Illusion mindfulness improves cancer survival | Mind the Brain",
             url:
@@ -8499,6 +9327,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mindfulness research's uninformative control groups | Mind the Brain",
             url:
@@ -8511,6 +9340,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Нейротеология: scinquisitor",
             url: "https://scinquisitor.livejournal.com/1922.html",
             favIconUrl:
@@ -8521,6 +9351,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стэнфордский тюремный эксперимент — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D0%BD%D1%84%D0%BE%D1%80%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D1%8E%D1%80%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9_%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82#cite_ref-7",
@@ -8531,6 +9362,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "The Lifespan of a Lie – Trust Issues – Medium",
             url:
               "https://medium.com/s/trustissues/the-lifespan-of-a-lie-d869212b1f62",
@@ -8542,6 +9374,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "How I Wait Years to Get My Photos",
             url:
               "https://petapixel.com/2018/06/18/how-i-wait-years-to-get-my-photos/",
@@ -8552,6 +9385,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "What is the best approach to design state? · Issue #1825 · reduxjs/redux · GitHub",
             url: "https://github.com/reduxjs/redux/issues/1825",
@@ -8562,6 +9396,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "10 Tips for Better Redux Architecture – JavaScript Scene – Medium",
             url:
@@ -8574,6 +9409,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Falcor: One Model Everywhere",
             url: "https://netflix.github.io/falcor/",
             favIconUrl:
@@ -8584,6 +9420,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Five Tips for Working with Redux in Large Applications",
             url:
               "https://techblog.appnexus.com/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb",
@@ -8595,6 +9432,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "reactjs - What is the core difference of redux & reflux in using react based application? - Stack Overflow",
             url:
@@ -8607,6 +9445,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Митинги против повышения пенсионного возраста — Meduza",
             url:
               "https://meduza.io/video/2018/07/01/protestnye-aktsii-protiv-povysheniya-pensionnogo-vozrasta",
@@ -8617,6 +9456,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сериал «Незнакомцы» от Facebook: реалистично, как «Девочки», смешно, как «Друзья» — Meduza",
             url:
@@ -8628,6 +9468,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга Журнал "Искусство кино" №5-6/2018 - купить в книжном интернет-магазине по цене 300 руб | Podpisnie.ru',
             url:
@@ -8639,6 +9480,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Лена Грачёва - редко что-то шарю, но это всё же хочу... | Facebook",
             url: "https://www.facebook.com/almamorenaya/posts/881811982007203",
@@ -8650,6 +9492,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -8660,6 +9503,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - А вообще, спасибо безвестному стукачу, из-за... | Facebook",
             url:
@@ -8672,6 +9516,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Stranger Things - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Stranger_Things",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -8681,6 +9526,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Creating Library Definitions | Flow",
             url: "https://flow.org/en/docs/libdefs/creation/",
             favIconUrl:
@@ -8691,6 +9537,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "flow-typed/definitions/npm at master · flow-typed/flow-typed · GitHub",
             url:
@@ -8702,6 +9549,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Roadmap to a v3.0.0 of flow-typed · Issue #1494 · flow-typed/flow-typed · GitHub",
             url: "https://github.com/flow-typed/flow-typed/issues/1494",
@@ -8712,6 +9560,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Which interfaces are already written? · Issue #13 · flow-typed/flow-typed · GitHub",
             url:
@@ -8723,6 +9572,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Intersection doesn't work for exact object types · Issue #2626 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/2626",
@@ -8733,6 +9583,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "That's so fetch! - JakeArchibald.com",
             url: "https://jakearchibald.com/2015/thats-so-fetch/",
             favIconUrl: "https://jakearchibald.com/favicon.ico"
@@ -8742,6 +9593,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "react-static/static.config.js at master · nozzle/react-static · GitHub",
             url:
@@ -8753,6 +9605,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Static - A progressive static-site framework for React @ OgdenJS - YouTube",
             url: "https://www.youtube.com/watch?v=OqbJ5swVpDQ",
@@ -8763,6 +9616,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Setting up CSS Modules with React and Webpack",
             url: "https://javascriptplayground.com/css-modules-webpack-react/",
             favIconUrl: "https://javascriptplayground.com/favicon.ico"
@@ -8772,6 +9626,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - css-modules/css-modules: Documentation about css-modules",
             url: "https://github.com/css-modules/css-modules",
@@ -8782,6 +9637,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Ася Федотова",
             url: "https://vk.com/afedotova72",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -8791,6 +9647,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Коррекция на множественное тестирование — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5",
@@ -8801,6 +9658,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Мандрагора — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%D0%B3%D0%BE%D1%80%D0%B0#%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D1%82%D1%80%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5_%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0",
@@ -8811,6 +9669,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Text Fields · An Introduction to Elm",
             url:
               "https://guide.elm-lang.org/architecture/user_input/text_fields.html",
@@ -8821,6 +9680,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Redux",
             url: "https://redux.js.org/introduction/prior-art",
             favIconUrl: null
@@ -8830,6 +9690,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Cycle.js",
             url: "https://cycle.js.org/",
             favIconUrl: null
@@ -8839,6 +9700,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - minedeljkovic/redux-elmish: The Elm Architecture in Redux, statically checked using flow",
             url: "https://github.com/minedeljkovic/redux-elmish",
@@ -8849,6 +9711,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - brabadu/tanok: Elm Architecture-inspired wrapper for Rx.js+React",
             url: "https://github.com/brabadu/tanok",
@@ -8859,6 +9722,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - didierfranc/react-waterfall: React store built on top of the new context API",
             url: "https://github.com/didierfranc/react-waterfall",
@@ -8869,6 +9733,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у Apple iPad mini 3 16Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-3-16gb-wi-fi-cellular-0618d196",
@@ -8879,6 +9744,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Trade-in и продажа техники в Санкт-Петербурге. REFRESH your tech",
             url: "http://www.refreshyourtech.ru/",
@@ -8889,6 +9755,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у iPad mini 4 128Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-4-128gb-lte-0618d172",
@@ -8899,6 +9766,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad mini 4 128Gb Wi-Fi в интернет-магазинах — Планшеты — Яндекс.Маркет",
             url:
@@ -8910,6 +9778,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Apple iPad mini 4 128Gb Wi-Fi Silver",
             url:
               "http://www.pitergsm.ru/e-store/tablets/index.php?ELEMENT_ID=995&r1=&r2=&ymclid=319492699825359651400004",
@@ -8920,6 +9789,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -8931,6 +9801,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Apple iPad mini 4 Wi-Fi 128GB (серебристый) характеристики, техническое описание планшета - интернет-магазин Связной",
             url:
@@ -8942,6 +9813,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Планшеты Apple iPad – купить iPad по отличной цене",
             url: "https://www.tehnikalux.ru/spb/category/apple/ipad/",
             favIconUrl: "https://www.tehnikalux.ru/favicon.ico"
@@ -8951,6 +9823,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -8962,6 +9835,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=12859395&id=30015180&id=11153507",
@@ -8972,6 +9846,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=30015180&id=11153507",
@@ -8982,6 +9857,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad (2018) 32Gb Wi-Fi + Cellular — Планшеты — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -8993,6 +9869,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Compare Apple iPad mini 3 vs. Apple iPad mini 4 - GSMArena.com",
             url:
@@ -9004,6 +9881,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Платформы для сборки ПК - Компьютерные комплектующие",
             url: "https://www.ulmart.ru/catalog/assembly_bases",
             favIconUrl: "chrome://global/skin/icons/warning-16.png"
@@ -9013,6 +9891,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - (Опять странный вопрос) А существует же наверняка...",
             url: "https://www.facebook.com/adolin3/posts/10215523587299037",
@@ -9024,6 +9903,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Умер Клод Ланцман — режиссер «Шоа», важнейшего документального фильма про Холокост — Meduza",
             url:
@@ -9035,6 +9915,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sourcetree | Free Git GUI for Mac and Windows",
             url: "https://www.sourcetreeapp.com/",
             favIconUrl:
@@ -9045,6 +9926,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зои / Родина",
             url: "http://rodinakino.ru/films/soon/2018/06/20/02/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -9054,6 +9936,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mirrors Yamaha Y80 Y50 Y75 Y80 V50 V75 Japan Mint 689127704338 | eBay",
             url:
@@ -9065,6 +9948,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "windows 10 key | eBay",
             url:
               "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050430.m570.l1311.R1.TR12.TRC2.A0.H0.Xwindows+10+key.TRS0&_nkw=windows+10+key&_sacat=0",
@@ -9075,6 +9959,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "WINDOWS 7 Ultimate 32/64 Bit Activation key INSTANT DELIVERY 5MINT+DOWNLOAD Link | eBay",
             url:
@@ -9086,6 +9971,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Watch Out For These Dirty Tricks From Discounted Software Resellers",
             url:
@@ -9097,6 +9983,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Microsoft Windows 7 Ultimate 32/64 bit MS Activation Key Full Version Win 7 Ult 885370258851 | eBay",
             url:
@@ -9108,6 +9995,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Бизнес-линч за 14.09.2017",
             url:
               "https://www.artlebedev.ru/kovodstvo/business-lynch/2017/09/14/",
@@ -9118,6 +10006,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Новый органон — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%BE%D0%BD",
@@ -9128,6 +10017,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пылающий",
             url: "http://www.avrora.spb.ru/films/pilayushchiy",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -9137,6 +10027,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Список вопросов - дизайн - Miscellaneous - QW Confluence",
             url:
               "https://qworld.atlassian.net/wiki/spaces/TW/pages/347504649/-",
@@ -9148,6 +10039,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Осознанный хип-хоп — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%85%D0%B8%D0%BF-%D1%85%D0%BE%D0%BF",
@@ -9158,6 +10050,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "И я в моем теплом теле (Введенский) — Wikilivres.ru",
             url:
               "http://wikilivres.ru/%D0%98_%D1%8F_%D0%B2_%D0%BC%D0%BE%D0%B5%D0%BC_%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%BC_%D1%82%D0%B5%D0%BB%D0%B5_(%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9)",
@@ -9168,6 +10061,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Киноцентр Родина",
             url: "http://rodinakino.ru/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -9177,6 +10071,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Отзывы о торгово-сервисной компании Refresh your tech - Магазины - Санкт-Петербург",
             url:
@@ -9188,6 +10083,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "serve - npm",
             url: "https://www.npmjs.com/package/serve",
             favIconUrl:
@@ -9198,6 +10094,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Смартфон Digma VOX FIRE 4G — Мобильные телефоны — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -9209,6 +10106,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "tabs.remove() - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs/remove",
@@ -9220,6 +10118,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Your second extension - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_second_WebExtension",
@@ -9231,6 +10130,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging",
             favIconUrl: null
@@ -9240,6 +10140,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Firefox Is Back. It’s Time to Give It a Try. - The New York Times",
             url:
@@ -9252,6 +10153,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Владик on Twitter: "Короче, один лайк - один факт о реальной травматологии"',
             url: "https://twitter.com/glazzzvlad/status/1019490333158240257",
@@ -9262,6 +10164,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing FilterBubbler: A WebExtension built using React/Redux – Mozilla Hacks – the Web developer blog",
             url:
@@ -9274,6 +10177,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Close icons - Download 4829 free & premium icons on Iconfinder",
             url: "https://www.iconfinder.com/search/?q=close&price=free",
@@ -9285,6 +10189,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "lusakasa/saka-extension-boilerplate: Opinionated boilerplate for building extensions for Chrome and Firefox",
             url: "https://github.com/lusakasa/saka-extension-boilerplate",
@@ -9295,6 +10200,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Создание и вызов событий - Руководство Web-разработчика | MDN",
             url:
@@ -9307,6 +10213,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "medium.com | 502: Bad gateway",
             url:
               "https://medium.com/@LeoAref/simple-event-dispatcher-implementation-using-javascript-36d0eadf5a11",
@@ -9317,6 +10224,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Manager – Figma",
             url:
               "https://www.figma.com/file/TBPgVBHpN0yEZqoPRjDUXasM/Tabs-Manager?node-id=1%3A5",
@@ -9327,6 +10235,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "developit/preact: ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
             url: "https://github.com/developit/preact",
@@ -9337,6 +10246,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Brunch: Commands — Brunch",
             url: "http://brunch.io/docs/commands",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -9346,6 +10256,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Plugins — Brunch",
             url: "http://brunch.io/plugins",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -9355,6 +10266,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Node Security Platform | Advisory",
             url: "https://nodesecurity.io/advisories/146",
             favIconUrl: "https://nodesecurity.io/img/nodesecurity.png"
@@ -9364,6 +10276,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Keeper",
             url: "http://localhost:3333/",
             favIconUrl: null
@@ -9373,6 +10286,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Add-ons Manager",
             url: "about:addons",
             favIconUrl:
@@ -9383,6 +10297,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: true,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging#addons",
             favIconUrl: null
@@ -9408,6 +10323,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "bq | Latest",
             url: "https://bazqux.com/",
             favIconUrl: "https://bazqux.com/favicon.ico"
@@ -9417,6 +10333,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Introducing GitFlow",
             url: "https://datasift.github.io/gitflow/IntroducingGitFlow.html",
             favIconUrl: "https://datasift.github.io/favicon.ico"
@@ -9426,6 +10343,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Application Performance Analysis — Part 1 – Chingu – Medium",
             url:
@@ -9438,6 +10356,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "How to Benchmark React Components: The Quick and Dirty Guide",
             url:
@@ -9450,6 +10369,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, Toilet Spray After You Flush Includes Poop Particles | SELF",
             url: "https://www.self.com/story/toilet-plume-poop-spray",
@@ -9460,6 +10380,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -9470,6 +10391,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Forwarding Refs - React",
             url: "https://reactjs.org/docs/forwarding-refs.html",
             favIconUrl: "https://reactjs.org/favicon.ico"
@@ -9479,6 +10401,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Gatsby + Apollo + GraphCool + Netlify: The Web’s Promised Land",
             url:
@@ -9491,6 +10414,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Björk's Vault of Dank Memes public group | Facebook",
             url:
               "https://www.facebook.com/groups/bvdom/permalink/613012339032202/",
@@ -9501,6 +10425,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Getting started - i18next documentation",
             url: "https://www.i18next.com/overview/getting-started",
             favIconUrl:
@@ -9511,6 +10436,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "The PRPL Pattern  |  Web Fundamentals  |  Google Developers",
             url:
@@ -9523,6 +10449,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Our insights into Technology and Business | Castle Digital Partners",
             url: "https://blog.castle.co/",
@@ -9534,6 +10461,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Не знаю, кому сказать спасибо, но маленькая... | Facebook",
             url:
@@ -9546,6 +10474,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Поздравляю всех причастных с Днём... - Владимир Манилов | Facebook",
             url:
@@ -9558,6 +10487,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Synchronize with the Server's Clock in the Browser",
             url: "https://www.nodeguy.com/serverdate/",
             favIconUrl: "https://www.nodeguy.com/favicon.ico"
@@ -9567,6 +10497,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о жизни и литературе - Поклонник деепричастий",
             url: "https://avva.livejournal.com/1921476.html",
             favIconUrl:
@@ -9577,6 +10508,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«АукцЫон». Единственный Летний Концерт в Aurora Concert Hall",
             url:
@@ -9589,6 +10521,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Юрий Осинин спас Питер: tema",
             url: "https://tema.livejournal.com/2775878.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -9598,6 +10531,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "78 Новости - Петербуржец Юрий Осинин по своему желанию...",
             url:
               "https://www.facebook.com/78channel/videos/1872484333047698/UzpfSTEwMDAwMjA1NDg5NDg5MDoxNjgzMTM5OTg4NDMxMTQ4/",
@@ -9609,6 +10543,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«100 лет дизайна» — кінопоказ у Москві — розклад на Яндекс.Афіші",
             url:
@@ -9620,6 +10555,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Архитектурная Керамика.",
             url: "https://vk.com/arhceramik",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -9629,6 +10565,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Экспонат без названия",
             url: "http://collectionerus.ru/collections/ceramicplate/31/",
             favIconUrl: "http://collectionerus.ru/static/favicon.ico"
@@ -9638,6 +10575,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Безумные миры Дэвида Линча — Кино на DTF",
             url: "https://dtf.ru/cinema/18427-bezumnye-miry-devida-lincha",
             favIconUrl:
@@ -9648,6 +10586,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Видеозаписи Поэмание",
             url: "https://vk.com/video-148655127_456239031",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -9657,6 +10596,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "«О восприятии и выявлении псевдо-интеллектуальной чуши»",
             url:
               "http://newochem.ru/nauka/o-vospriyatii-i-vyyavlenii-psevdo-intellektualnoj-chushi/",
@@ -9668,6 +10608,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -9677,6 +10618,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -9687,6 +10629,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - КИНОТАВР: МОИ ИТОГИ 1. Самый важный итог -... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215335520797492",
@@ -9698,6 +10641,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Home / The Art of Pants",
             url: "https://theartofpants.bigcartel.com/",
             favIconUrl: "https://theartofpants.bigcartel.com/favicon.ico"
@@ -9707,6 +10651,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Трудно быть богом (фильм, 2013) — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2013)",
@@ -9717,6 +10662,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - sindresorhus/query-string: Parse and stringify URL query strings",
             url: "https://github.com/sindresorhus/query-string",
@@ -9727,6 +10673,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Better exhaustiveness checking for variant type conditions · Issue #1374 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/1374",
@@ -9737,6 +10684,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Вода для чая",
             url: "https://cha-shop.ru/stuff/water/#",
             favIconUrl:
@@ -9747,6 +10695,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "react-jsx-parser - npm",
             url: "https://www.npmjs.com/package/react-jsx-parser",
             favIconUrl:
@@ -9757,6 +10706,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
             url: "https://github.com/ai/size-limit#applications",
@@ -9767,6 +10717,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog",
             url:
@@ -9779,6 +10730,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing MDXC: A new way to write Markdown for React - James K Nelson",
             url: "http://jamesknelson.com/introducing-mdxc/",
@@ -9789,6 +10741,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - Мне кажется, в ближайшее время у каждого... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606870769634",
@@ -9800,6 +10753,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Искусство для пацанчиков: Эдвард Мунк | Батенька, да вы трансформер",
             url: "https://batenka.ru/aesthetics/artshock/art4fellas-munk/",
@@ -9810,6 +10764,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - А вот и Питерфотофест. Конец августа.... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606494360224",
@@ -9821,6 +10776,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Födor Katasonov - Виленский был одним из самых крутых и... | Facebook",
             url:
@@ -9833,6 +10789,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Семимостье в Санкт-Петербурге",
             url: "https://kudago.com/spb/place/semimoste/",
             favIconUrl: "https://static-42149e88.kudago.com/img/favicon.png"
@@ -9842,6 +10799,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Книжный клуб",
             url: "http://www.avrora.spb.ru/films/knigniy-klub",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -9851,6 +10809,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -9861,6 +10820,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React.Element type is incompatible with object type · Issue #5547 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/5547",
@@ -9871,6 +10831,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "(3) Антон Долин - Большая удача – «Три сестры» Константин Богомолов...",
             url: "https://www.facebook.com/adolin3/posts/10215396076031335",
@@ -9882,6 +10843,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Кому выгодно повышение пенсионного возраста - РИА Новости, 19.06.2018",
             url: "https://ria.ru/analytics/20180619/1522873347.html",
@@ -9892,6 +10854,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Варлам Шаламов последние три года жизни... | Facebook",
             url:
@@ -9904,6 +10867,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ребята, last call for a trip to North... - Larisa Melnikova | Facebook",
             url:
@@ -9916,6 +10880,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - pandastrike/panda-grammar: Recursive descent parser combinators in JavaScript",
             url: "https://github.com/pandastrike/panda-grammar",
@@ -9926,6 +10891,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - reduxjs/react-redux: Official React bindings for Redux",
             url: "https://github.com/reduxjs/react-redux",
@@ -9936,6 +10902,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "You Probably Don't Need Derived State - React Blog",
             url:
               "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization",
@@ -9946,6 +10913,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "A deep dive into children in React - Max Stoibers Blog",
             url: "https://mxstbr.blog/2017/02/react-children-deepdive/",
             favIconUrl: "https://mxstbr.blog/favicon.png"
@@ -9955,6 +10923,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить билеты",
             url: "http://www.teatrvo.ru/kupit-bilety/",
             favIconUrl: "http://www.teatrvo.ru/static/favicon.ico"
@@ -9970,6 +10939,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга: "Омерзительное искусство. Юмор и хоррор шедевров живописи" - Софья Багдасарова. Купить книгу, читать рецензии | ISBN 978-5-04-088717-0 | Лабиринт',
             url: "https://www.labirint.ru/books/630406/",
@@ -9980,6 +10950,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Артемий Лебедев - Городской дизайн.",
             url:
               "https://www.facebook.com/temalebedev/videos/10156571532046095/",
@@ -9990,6 +10961,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Режим работы - Глазной диагностический центр №7 (Санкт-Петербург, Моховая 38)",
             url: "http://mohovaya38.ru/rezhim_raboty/",
@@ -10000,6 +10972,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Чехов А.П. (Author of Скучная история)",
             url:
               "https://www.goodreads.com/author/show/17920932._?from_search=true",
@@ -10010,6 +10983,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Что почитать Чехова?: chto_chitat",
             url: "https://chto-chitat.livejournal.com/4259351.html",
             favIconUrl: "https://www.livejournal.com/favicon.ico?v=2"
@@ -10019,6 +10993,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "QW Confluence",
             url: "https://qworld.atlassian.net/wiki/spaces/TW/pages/461963265",
             favIconUrl:
@@ -10029,6 +11004,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Mindful - healthy mind, healthy life",
             url: "https://www.mindful.org/",
             favIconUrl:
@@ -10039,6 +11015,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Кому на самом деле нужно плацебо: scinquisitor",
             url: "https://scinquisitor.livejournal.com/94919.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -10048,6 +11025,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Illusion mindfulness improves cancer survival | Mind the Brain",
             url:
@@ -10060,6 +11038,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mindfulness research's uninformative control groups | Mind the Brain",
             url:
@@ -10072,6 +11051,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Нейротеология: scinquisitor",
             url: "https://scinquisitor.livejournal.com/1922.html",
             favIconUrl:
@@ -10082,6 +11062,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стэнфордский тюремный эксперимент — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D0%BD%D1%84%D0%BE%D1%80%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D1%8E%D1%80%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9_%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82#cite_ref-7",
@@ -10092,6 +11073,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "The Lifespan of a Lie – Trust Issues – Medium",
             url:
               "https://medium.com/s/trustissues/the-lifespan-of-a-lie-d869212b1f62",
@@ -10103,6 +11085,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "How I Wait Years to Get My Photos",
             url:
               "https://petapixel.com/2018/06/18/how-i-wait-years-to-get-my-photos/",
@@ -10113,6 +11096,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "What is the best approach to design state? · Issue #1825 · reduxjs/redux · GitHub",
             url: "https://github.com/reduxjs/redux/issues/1825",
@@ -10123,6 +11107,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "10 Tips for Better Redux Architecture – JavaScript Scene – Medium",
             url:
@@ -10135,6 +11120,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Falcor: One Model Everywhere",
             url: "https://netflix.github.io/falcor/",
             favIconUrl:
@@ -10145,6 +11131,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Five Tips for Working with Redux in Large Applications",
             url:
               "https://techblog.appnexus.com/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb",
@@ -10156,6 +11143,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "reactjs - What is the core difference of redux & reflux in using react based application? - Stack Overflow",
             url:
@@ -10168,6 +11156,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Митинги против повышения пенсионного возраста — Meduza",
             url:
               "https://meduza.io/video/2018/07/01/protestnye-aktsii-protiv-povysheniya-pensionnogo-vozrasta",
@@ -10178,6 +11167,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сериал «Незнакомцы» от Facebook: реалистично, как «Девочки», смешно, как «Друзья» — Meduza",
             url:
@@ -10189,6 +11179,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга Журнал "Искусство кино" №5-6/2018 - купить в книжном интернет-магазине по цене 300 руб | Podpisnie.ru',
             url:
@@ -10200,6 +11191,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Лена Грачёва - редко что-то шарю, но это всё же хочу... | Facebook",
             url: "https://www.facebook.com/almamorenaya/posts/881811982007203",
@@ -10211,6 +11203,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -10221,6 +11214,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - А вообще, спасибо безвестному стукачу, из-за... | Facebook",
             url:
@@ -10233,6 +11227,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Stranger Things - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Stranger_Things",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -10242,6 +11237,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Creating Library Definitions | Flow",
             url: "https://flow.org/en/docs/libdefs/creation/",
             favIconUrl:
@@ -10252,6 +11248,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "flow-typed/definitions/npm at master · flow-typed/flow-typed · GitHub",
             url:
@@ -10263,6 +11260,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Roadmap to a v3.0.0 of flow-typed · Issue #1494 · flow-typed/flow-typed · GitHub",
             url: "https://github.com/flow-typed/flow-typed/issues/1494",
@@ -10273,6 +11271,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Which interfaces are already written? · Issue #13 · flow-typed/flow-typed · GitHub",
             url:
@@ -10284,6 +11283,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Intersection doesn't work for exact object types · Issue #2626 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/2626",
@@ -10294,6 +11294,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "That's so fetch! - JakeArchibald.com",
             url: "https://jakearchibald.com/2015/thats-so-fetch/",
             favIconUrl: "https://jakearchibald.com/favicon.ico"
@@ -10303,6 +11304,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "react-static/static.config.js at master · nozzle/react-static · GitHub",
             url:
@@ -10314,6 +11316,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Static - A progressive static-site framework for React @ OgdenJS - YouTube",
             url: "https://www.youtube.com/watch?v=OqbJ5swVpDQ",
@@ -10324,6 +11327,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Setting up CSS Modules with React and Webpack",
             url: "https://javascriptplayground.com/css-modules-webpack-react/",
             favIconUrl: "https://javascriptplayground.com/favicon.ico"
@@ -10333,6 +11337,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - css-modules/css-modules: Documentation about css-modules",
             url: "https://github.com/css-modules/css-modules",
@@ -10343,6 +11348,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Ася Федотова",
             url: "https://vk.com/afedotova72",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -10352,6 +11358,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Коррекция на множественное тестирование — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5",
@@ -10362,6 +11369,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Мандрагора — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%D0%B3%D0%BE%D1%80%D0%B0#%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D1%82%D1%80%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5_%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0",
@@ -10372,6 +11380,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Text Fields · An Introduction to Elm",
             url:
               "https://guide.elm-lang.org/architecture/user_input/text_fields.html",
@@ -10382,6 +11391,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Redux",
             url: "https://redux.js.org/introduction/prior-art",
             favIconUrl: null
@@ -10391,6 +11401,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Cycle.js",
             url: "https://cycle.js.org/",
             favIconUrl: null
@@ -10400,6 +11411,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - minedeljkovic/redux-elmish: The Elm Architecture in Redux, statically checked using flow",
             url: "https://github.com/minedeljkovic/redux-elmish",
@@ -10410,6 +11422,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - brabadu/tanok: Elm Architecture-inspired wrapper for Rx.js+React",
             url: "https://github.com/brabadu/tanok",
@@ -10420,6 +11433,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - didierfranc/react-waterfall: React store built on top of the new context API",
             url: "https://github.com/didierfranc/react-waterfall",
@@ -10430,6 +11444,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у Apple iPad mini 3 16Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-3-16gb-wi-fi-cellular-0618d196",
@@ -10440,6 +11455,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Trade-in и продажа техники в Санкт-Петербурге. REFRESH your tech",
             url: "http://www.refreshyourtech.ru/",
@@ -10450,6 +11466,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить б/у iPad mini 4 128Gb Wi-Fi + Cellular. Цена.",
             url:
               "http://www.refreshyourtech.ru/planshety/ipad-mini-4-128gb-lte-0618d172",
@@ -10460,6 +11477,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad mini 4 128Gb Wi-Fi в интернет-магазинах — Планшеты — Яндекс.Маркет",
             url:
@@ -10471,6 +11489,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Apple iPad mini 4 128Gb Wi-Fi Silver",
             url:
               "http://www.pitergsm.ru/e-store/tablets/index.php?ELEMENT_ID=995&r1=&r2=&ymclid=319492699825359651400004",
@@ -10481,6 +11500,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -10492,6 +11512,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Apple iPad mini 4 Wi-Fi 128GB (серебристый) характеристики, техническое описание планшета - интернет-магазин Связной",
             url:
@@ -10503,6 +11524,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Планшеты Apple iPad – купить iPad по отличной цене",
             url: "https://www.tehnikalux.ru/spb/category/apple/ipad/",
             favIconUrl: "https://www.tehnikalux.ru/favicon.ico"
@@ -10512,6 +11534,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Купить iPad mini 4 Wi-Fi 128gb Space Gray в фирменном магазине savensale.ru",
             url:
@@ -10523,6 +11546,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=12859395&id=30015180&id=11153507",
@@ -10533,6 +11557,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сравнение товаров — Яндекс.Маркет",
             url:
               "https://market.yandex.ru/compare/aFtjUT7JtMeu1sLMhgKM6FdEwNK?hid=6427100&id=30015180&id=11153507",
@@ -10543,6 +11568,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Планшет Apple iPad (2018) 32Gb Wi-Fi + Cellular — Планшеты — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -10554,6 +11580,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Compare Apple iPad mini 3 vs. Apple iPad mini 4 - GSMArena.com",
             url:
@@ -10565,6 +11592,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Платформы для сборки ПК - Компьютерные комплектующие",
             url: "https://www.ulmart.ru/catalog/assembly_bases",
             favIconUrl: "chrome://global/skin/icons/warning-16.png"
@@ -10574,6 +11602,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - (Опять странный вопрос) А существует же наверняка...",
             url: "https://www.facebook.com/adolin3/posts/10215523587299037",
@@ -10585,6 +11614,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Умер Клод Ланцман — режиссер «Шоа», важнейшего документального фильма про Холокост — Meduza",
             url:
@@ -10596,6 +11626,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sourcetree | Free Git GUI for Mac and Windows",
             url: "https://www.sourcetreeapp.com/",
             favIconUrl:
@@ -10606,6 +11637,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зои / Родина",
             url: "http://rodinakino.ru/films/soon/2018/06/20/02/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -10615,6 +11647,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Mirrors Yamaha Y80 Y50 Y75 Y80 V50 V75 Japan Mint 689127704338 | eBay",
             url:
@@ -10626,6 +11659,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "windows 10 key | eBay",
             url:
               "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050430.m570.l1311.R1.TR12.TRC2.A0.H0.Xwindows+10+key.TRS0&_nkw=windows+10+key&_sacat=0",
@@ -10636,6 +11670,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "WINDOWS 7 Ultimate 32/64 Bit Activation key INSTANT DELIVERY 5MINT+DOWNLOAD Link | eBay",
             url:
@@ -10647,6 +11682,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Watch Out For These Dirty Tricks From Discounted Software Resellers",
             url:
@@ -10658,6 +11694,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Microsoft Windows 7 Ultimate 32/64 bit MS Activation Key Full Version Win 7 Ult 885370258851 | eBay",
             url:
@@ -10669,6 +11706,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Бизнес-линч за 14.09.2017",
             url:
               "https://www.artlebedev.ru/kovodstvo/business-lynch/2017/09/14/",
@@ -10679,6 +11717,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Новый органон — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%BE%D0%BD",
@@ -10689,6 +11728,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пылающий",
             url: "http://www.avrora.spb.ru/films/pilayushchiy",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -10698,6 +11738,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Список вопросов - дизайн - Miscellaneous - QW Confluence",
             url:
               "https://qworld.atlassian.net/wiki/spaces/TW/pages/347504649/-",
@@ -10709,6 +11750,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Осознанный хип-хоп — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%85%D0%B8%D0%BF-%D1%85%D0%BE%D0%BF",
@@ -10719,6 +11761,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "И я в моем теплом теле (Введенский) — Wikilivres.ru",
             url:
               "http://wikilivres.ru/%D0%98_%D1%8F_%D0%B2_%D0%BC%D0%BE%D0%B5%D0%BC_%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%BC_%D1%82%D0%B5%D0%BB%D0%B5_(%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9)",
@@ -10729,6 +11772,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Киноцентр Родина",
             url: "http://rodinakino.ru/",
             favIconUrl: "http://rodinakino.ru/favicon.ico"
@@ -10738,6 +11782,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Отзывы о торгово-сервисной компании Refresh your tech - Магазины - Санкт-Петербург",
             url:
@@ -10749,6 +11794,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "serve - npm",
             url: "https://www.npmjs.com/package/serve",
             favIconUrl:
@@ -10759,6 +11805,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Смартфон Digma VOX FIRE 4G — Мобильные телефоны — купить по выгодной цене на Яндекс.Маркете",
             url:
@@ -10770,6 +11817,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "tabs.remove() - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs/remove",
@@ -10781,6 +11829,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Your second extension - Mozilla | MDN",
             url:
               "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_second_WebExtension",
@@ -10792,6 +11841,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging",
             favIconUrl: null
@@ -10801,6 +11851,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Firefox Is Back. It’s Time to Give It a Try. - The New York Times",
             url:
@@ -10813,6 +11864,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Владик on Twitter: "Короче, один лайк - один факт о реальной травматологии"',
             url: "https://twitter.com/glazzzvlad/status/1019490333158240257",
@@ -10823,6 +11875,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing FilterBubbler: A WebExtension built using React/Redux – Mozilla Hacks – the Web developer blog",
             url:
@@ -10835,6 +11888,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Close icons - Download 4829 free & premium icons on Iconfinder",
             url: "https://www.iconfinder.com/search/?q=close&price=free",
@@ -10846,6 +11900,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "lusakasa/saka-extension-boilerplate: Opinionated boilerplate for building extensions for Chrome and Firefox",
             url: "https://github.com/lusakasa/saka-extension-boilerplate",
@@ -10856,6 +11911,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Создание и вызов событий - Руководство Web-разработчика | MDN",
             url:
@@ -10868,6 +11924,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "medium.com | 502: Bad gateway",
             url:
               "https://medium.com/@LeoAref/simple-event-dispatcher-implementation-using-javascript-36d0eadf5a11",
@@ -10878,6 +11935,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Manager – Figma",
             url:
               "https://www.figma.com/file/TBPgVBHpN0yEZqoPRjDUXasM/Tabs-Manager?node-id=1%3A5",
@@ -10888,6 +11946,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "developit/preact: ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
             url: "https://github.com/developit/preact",
@@ -10898,6 +11957,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Brunch: Commands — Brunch",
             url: "http://brunch.io/docs/commands",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -10907,6 +11967,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Plugins — Brunch",
             url: "http://brunch.io/plugins",
             favIconUrl: "http://brunch.io/favicon.ico"
@@ -10916,6 +11977,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Node Security Platform | Advisory",
             url: "https://nodesecurity.io/advisories/146",
             favIconUrl: "https://nodesecurity.io/img/nodesecurity.png"
@@ -10925,6 +11987,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Tabs Keeper",
             url: "http://localhost:3333/",
             favIconUrl: null
@@ -10934,6 +11997,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Add-ons Manager",
             url: "about:addons",
             favIconUrl:
@@ -10944,6 +12008,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: true,
             pinned: false,
+            discarded: false,
             title: "Debugging with Firefox Developer Tools",
             url: "about:debugging#addons",
             favIconUrl: null
@@ -10969,6 +12034,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "bq | Latest",
             url: "https://bazqux.com/",
             favIconUrl: "https://bazqux.com/favicon.ico"
@@ -10978,6 +12044,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title:
               "Письмо «Nikolay, please add me to your LinkedIn network» — Женя Софронов — Яндекс.Почта",
             url:
@@ -10990,6 +12057,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "Диалоги",
             url: "https://vk.com/im?sel=-45728460",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_im_2x.ico?6"
@@ -10999,6 +12067,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "лекарства - Google Sheets",
             url:
               "https://docs.google.com/spreadsheets/d/1zJfc1q4VptJJLs5EDr4zHfYvPJes_r6qmR3vzj40bLU/edit#gid=1092909149",
@@ -11010,6 +12079,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "судьба ужина по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3132384.html",
             favIconUrl:
@@ -11020,6 +12090,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Network Dependencies · he-he-org/he-he-2",
             url: "https://github.com/he-he-org/he-he-2/network/dependencies",
             favIconUrl: "https://assets-cdn.github.com/favicon.ico"
@@ -11029,6 +12100,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "NVD - CVE-2018-3809",
             url: "https://nvd.nist.gov/vuln/detail/CVE-2018-3809",
             favIconUrl:
@@ -11039,6 +12111,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "(32) Новости",
             url:
               "https://vk.com/feed?z=photo-48872313_456242438%2Fwall-48872313_11365",
@@ -11049,6 +12122,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Хорошо прорисованные женщины: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1280049.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -11058,6 +12132,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: 'Живопись из фильма "Титаник": shakko_kitsune - Page 3',
             url: "https://shakko-kitsune.livejournal.com/1278640.html?page=3",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -11067,6 +12142,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем круты «Авиньонские девицы» Пикассо? | Шакко | Яндекс Дзен",
             url:
@@ -11078,6 +12154,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пабло Руис Пикассо - NeWestMuseum",
             url:
               "http://www.newestmuseum.ru/data/authors/p/picasso_pablo/index.php",
@@ -11088,6 +12165,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "кельтский камень - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130586.html",
             favIconUrl:
@@ -11098,6 +12176,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шаламов по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130308.html",
             favIconUrl:
@@ -11108,6 +12187,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зав. игровым салоном: ksoftware",
             url: "https://ksoftware.livejournal.com/383517.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -11117,6 +12197,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Музей истории техники в Ростове. Кайф: ksoftware",
             url: "https://ksoftware.livejournal.com/397536.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -11126,6 +12207,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Using achievement stats to estimate sales on steam – Tyler Glaiel – Medium",
             url:
@@ -11138,6 +12220,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Печали: akuklev",
             url: "https://akuklev.livejournal.com/1282902.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -11147,6 +12230,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fabrice Bellard - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Fabrice_Bellard",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -11156,6 +12240,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "открытая запись - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3129950.html",
             favIconUrl:
@@ -11166,6 +12251,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ну вот, maxim умучали и в твиторе. И чего вы его так все не любите,…: sorhed",
             url: "https://sorhed.livejournal.com/619253.html",
@@ -11176,6 +12262,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Почему я удалил все посты в ЖЖ и Твиттере: maxim",
             url: "https://maxim.livejournal.com/531021.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -11185,6 +12272,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Заголовок: lambdaterm1",
             url: "https://lambdaterm1.livejournal.com/730.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -11194,6 +12282,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-99523325_4368",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11203,6 +12292,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ПитерФотоФест - 2018",
             url: "http://piterfotofest.ru/#rec16367493",
             favIconUrl:
@@ -11213,6 +12303,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Об Байеса - 2 - Не кинокритик. Не палеонтолог.",
             url: "https://plakhov.livejournal.com/227597.html",
             favIconUrl:
@@ -11223,6 +12314,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "другая америка - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3129470.html?page=2#comments",
             favIconUrl:
@@ -11233,6 +12325,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Course | DSE200x | edX",
             url:
               "https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/",
@@ -11244,6 +12337,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | шо за Шноль",
             url: "https://juan-gandhi.dreamwidth.org/4264984.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -11253,6 +12347,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пятое издание «Ководства» Лебедева",
             url: "https://www.artlebedev.ru/izdal/kovodstvo5/",
             favIconUrl: "https://img.artlebedev.ru/icons/favicon-set.ico"
@@ -11262,6 +12357,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Measure Performance with the RAIL Model  |  Web Fundamentals  |  Google Developers",
             url:
@@ -11274,6 +12370,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Update on Async Rendering - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html",
@@ -11284,6 +12381,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Duran - Публикации",
             url:
               "https://www.facebook.com/ArtByDuran/photos/a.2159449564069966.1073741829.318130841535190/2159452500736339/?type=3&theater",
@@ -11295,6 +12393,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -11305,6 +12404,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "афиша клуба",
             url: "https://vk.com/page-63477485_52138480",
             favIconUrl:
@@ -11315,6 +12415,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сергей Мардан",
             url: "https://www.facebook.com/sergeynudol?fref=jewel",
             favIconUrl:
@@ -11325,6 +12426,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fredegund: Assassination-obsessed Queen",
             url: "https://www.rejectedprincesses.com/princesses/fredegund",
             favIconUrl:
@@ -11335,6 +12437,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -11345,6 +12448,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "ШЛЮХА (рассказ) Приятель позвал в бар смотреть... - Максим Матковский",
             url:
@@ -11357,6 +12461,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Великие споры - InLiberty",
             url: "https://www.inliberty.ru/public/spory/",
             favIconUrl: "https://www.inliberty.ru/i/favicon/favicon-32x32.png"
@@ -11366,6 +12471,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | TIL from Duolingo",
             url: "https://juan-gandhi.dreamwidth.org/4260093.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -11375,6 +12481,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Слои пользы: ksoftware",
             url: "https://ksoftware.livejournal.com/396031.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -11384,6 +12491,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пикник «Афиши» 4 августа 2018 — официальный сайт фестиваля",
             url: "https://picnic.afisha.ru/faq",
             favIconUrl:
@@ -11394,6 +12502,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Вышел новый альбом Gorillaz. Послушайте его прямо сейчас — Meduza",
             url:
@@ -11405,6 +12514,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3578",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11414,6 +12524,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ВИЗУАЛЬНАЯ МЕДИТАЦИЯ",
             url: "https://outcinema.ru/visual-meditation",
             favIconUrl:
@@ -11424,6 +12535,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Миротворец. Портрет Апхичатпхонга Вирасетакуна - Искусство кино",
             url: "http://kinoart.ru/archive/2010/11/n11-article12",
@@ -11434,6 +12546,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall2064116_418",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11443,6 +12556,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Почему в России не надо повышать налоги? Экономический обозреватель Борис Грозовский отвечает заместителю главреда «Медузы» Александру Поливанову — Meduza",
             url:
@@ -11454,6 +12568,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Новая газета»: в Пскове поставили памятники на могилах десантников, погибших летом 2014 года — Meduza",
             url:
@@ -11465,6 +12580,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Андрей Ерёменко. Генерал против всех",
             url: "https://kartaistorii.ru/eremenko/history-map",
             favIconUrl:
@@ -11475,6 +12591,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шарик и кисет - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124708.html",
             favIconUrl:
@@ -11485,6 +12602,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "мимоза - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124074.html",
             favIconUrl:
@@ -11495,6 +12613,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "» Scoperto il primo dipinto firmato e autografato da Leonardo Da Vinci",
             url:
@@ -11507,6 +12626,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3509",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11516,6 +12636,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сеанс кинотерапии. «Арарат», режиссер Атом Эгоян - Искусство кино",
             url: "http://www.kinoart.ru/archive/2002/12/n12-article7",
@@ -11526,6 +12647,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "panda-grammar - npm",
             url: "https://www.npmjs.com/package/panda-grammar",
             favIconUrl:
@@ -11536,6 +12658,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-3818033_17029",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11545,6 +12668,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как приукрашивали портреты маслом после распространения фотографии: shakko_kitsune - Page 2",
             url: "https://shakko-kitsune.livejournal.com/1268839.html?page=2",
@@ -11555,6 +12679,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Насильник, грабитель, поп-звезда: Убит XXXTentacion. Он был самым парадоксальным молодым рэпером Америки — Meduza",
             url:
@@ -11566,6 +12691,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Recursive descent parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Recursive_descent_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -11575,6 +12701,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "LR parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/LR_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -11584,6 +12711,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "parsimmon/API.md at master · jneen/parsimmon · GitHub",
             url:
               "https://github.com/jneen/parsimmon/blob/master/API.md#terminology",
@@ -11594,6 +12722,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как в России будут повышать пенсионный возраст? И зачем? — Meduza",
             url:
@@ -11605,6 +12734,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Они хотят сделать дестабилизацию обстановки». СБУ показала «переговоры организаторов покушения на Бабченко»: Пытаемся это пересказать — Meduza",
             url:
@@ -11616,6 +12746,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-112289703_13361",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11625,6 +12756,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-55155418_165878",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11634,6 +12766,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-110501497_16688",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11643,6 +12776,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "нет законов - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3119801.html?page=2#comments",
             favIconUrl:
@@ -11653,6 +12787,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Official page for Language Server Protocol",
             url: "https://microsoft.github.io/language-server-protocol/",
             favIconUrl:
@@ -11663,6 +12798,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/6410472941942767616/sharedKey/dlv2StPe/?midToken=AQHzSA83YkIhgg&trk=eml-email_m2m_invite_single_01-null-0-accept%7Ecta&trkEmail=eml-email_m2m_invite_single_01-null-0-accept%7Ecta-null-2yk8nm%7Eji4kturi%7Exc-null-neptune%2Fmynetwork%2Einvite%7Eaccept&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BDrAIZne2QOC0D%2BxJlH6RoA%3D%3D",
             url:
@@ -11674,6 +12810,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем целлюлит Рубенса отличается от целлюлита Ван Дейка и целлюлита Йорданса?: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1264148.html",
@@ -11684,6 +12821,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о конкурсах красоты - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3120316.html?page=2#comments",
             favIconUrl:
@@ -11694,6 +12832,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Бренда «Евросеть» больше не будет. Чем нам запомнится эта компания — Meduza",
             url:
@@ -11705,6 +12844,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Abstrakte Kunst Poster bei AllPosters.de",
             url:
               "https://www.allposters.de/-st/Abstrakte-Kunst-Poster_c86168_.htm",
@@ -11715,6 +12855,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "‎NimbusMind: Meditation & Calm on the App Store",
             url:
               "https://itunes.apple.com/us/app/nimbusmind-meditation-calm/id1278663918?mt=8",
@@ -11725,6 +12866,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Генрих Ягода. Грязная работа",
             url: "https://kartaistorii.ru/yagoda/history-map",
             favIconUrl:
@@ -11735,6 +12877,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, design systems will replace design jobs — DesignSystems.com",
             url:
@@ -11746,6 +12889,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как изучать негодяев • Arzamas",
             url: "https://arzamas.academy/radio/announcements/hlevniuk",
             favIconUrl: "https://arzamas.academy/favicon-32x32.png"
@@ -11755,6 +12899,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Считают своим моральным долгом потушить пожар»: как добровольные пожарные спасают огромные территории от огня — Такие Дела",
             url: "https://takiedela.ru/news/2018/04/22/firefighters/",
@@ -11766,6 +12911,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Error Boundaries - React",
             url:
               "https://reactjs.org/docs/error-boundaries.html#how-about-event-handlers",
@@ -11776,6 +12922,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - hlaueriksson/jamstack-cms: A JAMstack experiment with a Headless CMS",
             url: "https://github.com/hlaueriksson/jamstack-cms",
@@ -11786,6 +12933,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-72326580_646949",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -11795,6 +12943,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - Несравненный Эгон Шиле. 100 лет со дня... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215045413584993",
@@ -11806,6 +12955,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/arhstoyanie-2018",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -11815,6 +12965,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             url: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             favIconUrl: "https://solosale.ru/favicon.ico"
@@ -11824,6 +12975,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Гитлер пришел к власти | История | DW | 29.01.2013",
             url:
               "https://www.dw.com/ru/%D0%BA%D0%B0%D0%BA-%D0%B3%D0%B8%D1%82%D0%BB%D0%B5%D1%80-%D0%BF%D1%80%D0%B8%D1%88%D0%B5%D0%BB-%D0%BA-%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B8/a-1581471",
@@ -11834,6 +12986,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Фотограф, которого никто не знал",
             url:
               "https://www.adme.ru/tvorchestvo-fotografy/fotograf-kotorogo-nikto-ne-znal-480205/",
@@ -11844,6 +12997,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ФАКУЛЬТЕТЫ ИСКУССТВ - LES",
             url: "https://les.media/articles/584226-fakulbtety-iskusstv",
             favIconUrl: "https://les.media/favicon-32x32.png"
@@ -11853,6 +13007,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Александр Введенский — «В ленинградское отделение...»",
             url: "http://slova.org.ru/vvedenskiy/v_leningradskoe_otdelenie/",
             favIconUrl: "http://slova.org.ru/favicon.ico"
@@ -11862,6 +13017,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Побочные эффекты осознанности 1. У вас... - Sergey Shalashenko | Facebook",
             url:
@@ -11874,6 +13030,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Introducing GitFlow",
             url: "https://datasift.github.io/gitflow/IntroducingGitFlow.html",
             favIconUrl: "https://datasift.github.io/favicon.ico"
@@ -11883,6 +13040,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Application Performance Analysis — Part 1 – Chingu – Medium",
             url:
@@ -11895,6 +13053,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "How to Benchmark React Components: The Quick and Dirty Guide",
             url:
@@ -11907,6 +13066,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, Toilet Spray After You Flush Includes Poop Particles | SELF",
             url: "https://www.self.com/story/toilet-plume-poop-spray",
@@ -11917,6 +13077,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -11927,6 +13088,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Forwarding Refs - React",
             url: "https://reactjs.org/docs/forwarding-refs.html",
             favIconUrl: "https://reactjs.org/favicon.ico"
@@ -11936,6 +13098,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Gatsby + Apollo + GraphCool + Netlify: The Web’s Promised Land",
             url:
@@ -11948,6 +13111,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Björk's Vault of Dank Memes public group | Facebook",
             url:
               "https://www.facebook.com/groups/bvdom/permalink/613012339032202/",
@@ -11958,6 +13122,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Getting started - i18next documentation",
             url: "https://www.i18next.com/overview/getting-started",
             favIconUrl:
@@ -11968,6 +13133,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "The PRPL Pattern  |  Web Fundamentals  |  Google Developers",
             url:
@@ -11980,6 +13146,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Our insights into Technology and Business | Castle Digital Partners",
             url: "https://blog.castle.co/",
@@ -11991,6 +13158,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Не знаю, кому сказать спасибо, но маленькая... | Facebook",
             url:
@@ -12003,6 +13171,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Поздравляю всех причастных с Днём... - Владимир Манилов | Facebook",
             url:
@@ -12015,6 +13184,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Synchronize with the Server's Clock in the Browser",
             url: "https://www.nodeguy.com/serverdate/",
             favIconUrl: "https://www.nodeguy.com/favicon.ico"
@@ -12024,6 +13194,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о жизни и литературе - Поклонник деепричастий",
             url: "https://avva.livejournal.com/1921476.html",
             favIconUrl:
@@ -12034,6 +13205,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«АукцЫон». Единственный Летний Концерт в Aurora Concert Hall",
             url:
@@ -12046,6 +13218,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Юрий Осинин спас Питер: tema",
             url: "https://tema.livejournal.com/2775878.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -12055,6 +13228,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "78 Новости - Петербуржец Юрий Осинин по своему желанию...",
             url:
               "https://www.facebook.com/78channel/videos/1872484333047698/UzpfSTEwMDAwMjA1NDg5NDg5MDoxNjgzMTM5OTg4NDMxMTQ4/",
@@ -12066,6 +13240,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«100 лет дизайна» — кінопоказ у Москві — розклад на Яндекс.Афіші",
             url:
@@ -12077,6 +13252,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Архитектурная Керамика.",
             url: "https://vk.com/arhceramik",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -12086,6 +13262,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Экспонат без названия",
             url: "http://collectionerus.ru/collections/ceramicplate/31/",
             favIconUrl: "http://collectionerus.ru/static/favicon.ico"
@@ -12095,6 +13272,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Безумные миры Дэвида Линча — Кино на DTF",
             url: "https://dtf.ru/cinema/18427-bezumnye-miry-devida-lincha",
             favIconUrl:
@@ -12105,6 +13283,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Видеозаписи Поэмание",
             url: "https://vk.com/video-148655127_456239031",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -12114,6 +13293,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "«О восприятии и выявлении псевдо-интеллектуальной чуши»",
             url:
               "http://newochem.ru/nauka/o-vospriyatii-i-vyyavlenii-psevdo-intellektualnoj-chushi/",
@@ -12125,6 +13305,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -12134,6 +13315,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -12144,6 +13326,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - КИНОТАВР: МОИ ИТОГИ 1. Самый важный итог -... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215335520797492",
@@ -12155,6 +13338,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Home / The Art of Pants",
             url: "https://theartofpants.bigcartel.com/",
             favIconUrl: "https://theartofpants.bigcartel.com/favicon.ico"
@@ -12164,6 +13348,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Трудно быть богом (фильм, 2013) — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2013)",
@@ -12174,6 +13359,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - sindresorhus/query-string: Parse and stringify URL query strings",
             url: "https://github.com/sindresorhus/query-string",
@@ -12184,6 +13370,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Better exhaustiveness checking for variant type conditions · Issue #1374 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/1374",
@@ -12194,6 +13381,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Вода для чая",
             url: "https://cha-shop.ru/stuff/water/#",
             favIconUrl:
@@ -12204,6 +13392,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "react-jsx-parser - npm",
             url: "https://www.npmjs.com/package/react-jsx-parser",
             favIconUrl:
@@ -12214,6 +13403,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
             url: "https://github.com/ai/size-limit#applications",
@@ -12224,6 +13414,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog",
             url:
@@ -12236,6 +13427,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing MDXC: A new way to write Markdown for React - James K Nelson",
             url: "http://jamesknelson.com/introducing-mdxc/",
@@ -12246,6 +13438,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - Мне кажется, в ближайшее время у каждого... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606870769634",
@@ -12257,6 +13450,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Искусство для пацанчиков: Эдвард Мунк | Батенька, да вы трансформер",
             url: "https://batenka.ru/aesthetics/artshock/art4fellas-munk/",
@@ -12267,6 +13461,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - А вот и Питерфотофест. Конец августа.... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606494360224",
@@ -12278,6 +13473,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Födor Katasonov - Виленский был одним из самых крутых и... | Facebook",
             url:
@@ -12290,6 +13486,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Семимостье в Санкт-Петербурге",
             url: "https://kudago.com/spb/place/semimoste/",
             favIconUrl: "https://static-42149e88.kudago.com/img/favicon.png"
@@ -12299,6 +13496,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Книжный клуб",
             url: "http://www.avrora.spb.ru/films/knigniy-klub",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -12308,6 +13506,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -12318,6 +13517,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React.Element type is incompatible with object type · Issue #5547 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/5547",
@@ -12328,6 +13528,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "(3) Антон Долин - Большая удача – «Три сестры» Константин Богомолов...",
             url: "https://www.facebook.com/adolin3/posts/10215396076031335",
@@ -12339,6 +13540,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Кому выгодно повышение пенсионного возраста - РИА Новости, 19.06.2018",
             url: "https://ria.ru/analytics/20180619/1522873347.html",
@@ -12349,6 +13551,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Варлам Шаламов последние три года жизни... | Facebook",
             url:
@@ -12361,6 +13564,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ребята, last call for a trip to North... - Larisa Melnikova | Facebook",
             url:
@@ -12373,6 +13577,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - pandastrike/panda-grammar: Recursive descent parser combinators in JavaScript",
             url: "https://github.com/pandastrike/panda-grammar",
@@ -12383,6 +13588,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - reduxjs/react-redux: Official React bindings for Redux",
             url: "https://github.com/reduxjs/react-redux",
@@ -12393,6 +13599,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "You Probably Don't Need Derived State - React Blog",
             url:
               "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization",
@@ -12403,6 +13610,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "A deep dive into children in React - Max Stoibers Blog",
             url: "https://mxstbr.blog/2017/02/react-children-deepdive/",
             favIconUrl: "https://mxstbr.blog/favicon.png"
@@ -12412,6 +13620,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить билеты",
             url: "http://www.teatrvo.ru/kupit-bilety/",
             favIconUrl: "http://www.teatrvo.ru/static/favicon.ico"
@@ -12437,6 +13646,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "bq | Latest",
             url: "https://bazqux.com/",
             favIconUrl: "https://bazqux.com/favicon.ico"
@@ -12446,6 +13656,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title:
               "Письмо «Nikolay, please add me to your LinkedIn network» — Женя Софронов — Яндекс.Почта",
             url:
@@ -12458,6 +13669,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "Диалоги",
             url: "https://vk.com/im?sel=-45728460",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_im_2x.ico?6"
@@ -12467,6 +13679,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "лекарства - Google Sheets",
             url:
               "https://docs.google.com/spreadsheets/d/1zJfc1q4VptJJLs5EDr4zHfYvPJes_r6qmR3vzj40bLU/edit#gid=1092909149",
@@ -12478,6 +13691,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "судьба ужина по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3132384.html",
             favIconUrl:
@@ -12488,6 +13702,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Network Dependencies · he-he-org/he-he-2",
             url: "https://github.com/he-he-org/he-he-2/network/dependencies",
             favIconUrl: "https://assets-cdn.github.com/favicon.ico"
@@ -12497,6 +13712,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "NVD - CVE-2018-3809",
             url: "https://nvd.nist.gov/vuln/detail/CVE-2018-3809",
             favIconUrl:
@@ -12507,6 +13723,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "(32) Новости",
             url:
               "https://vk.com/feed?z=photo-48872313_456242438%2Fwall-48872313_11365",
@@ -12517,6 +13734,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Хорошо прорисованные женщины: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1280049.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -12526,6 +13744,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: 'Живопись из фильма "Титаник": shakko_kitsune - Page 3',
             url: "https://shakko-kitsune.livejournal.com/1278640.html?page=3",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -12535,6 +13754,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем круты «Авиньонские девицы» Пикассо? | Шакко | Яндекс Дзен",
             url:
@@ -12546,6 +13766,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пабло Руис Пикассо - NeWestMuseum",
             url:
               "http://www.newestmuseum.ru/data/authors/p/picasso_pablo/index.php",
@@ -12556,6 +13777,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "кельтский камень - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130586.html",
             favIconUrl:
@@ -12566,6 +13788,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шаламов по-английски - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3130308.html",
             favIconUrl:
@@ -12576,6 +13799,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Зав. игровым салоном: ksoftware",
             url: "https://ksoftware.livejournal.com/383517.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -12585,6 +13809,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Музей истории техники в Ростове. Кайф: ksoftware",
             url: "https://ksoftware.livejournal.com/397536.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -12594,6 +13819,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Using achievement stats to estimate sales on steam – Tyler Glaiel – Medium",
             url:
@@ -12606,6 +13832,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Печали: akuklev",
             url: "https://akuklev.livejournal.com/1282902.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -12615,6 +13842,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fabrice Bellard - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Fabrice_Bellard",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -12624,6 +13852,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "открытая запись - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3129950.html",
             favIconUrl:
@@ -12634,6 +13863,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ну вот, maxim умучали и в твиторе. И чего вы его так все не любите,…: sorhed",
             url: "https://sorhed.livejournal.com/619253.html",
@@ -12644,6 +13874,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Почему я удалил все посты в ЖЖ и Твиттере: maxim",
             url: "https://maxim.livejournal.com/531021.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -12653,6 +13884,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Заголовок: lambdaterm1",
             url: "https://lambdaterm1.livejournal.com/730.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -12662,6 +13894,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-99523325_4368",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -12671,6 +13904,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ПитерФотоФест - 2018",
             url: "http://piterfotofest.ru/#rec16367493",
             favIconUrl:
@@ -12681,6 +13915,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Об Байеса - 2 - Не кинокритик. Не палеонтолог.",
             url: "https://plakhov.livejournal.com/227597.html",
             favIconUrl:
@@ -12691,6 +13926,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "другая америка - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3129470.html?page=2#comments",
             favIconUrl:
@@ -12701,6 +13937,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Course | DSE200x | edX",
             url:
               "https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/",
@@ -12712,6 +13949,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | шо за Шноль",
             url: "https://juan-gandhi.dreamwidth.org/4264984.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -12721,6 +13959,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пятое издание «Ководства» Лебедева",
             url: "https://www.artlebedev.ru/izdal/kovodstvo5/",
             favIconUrl: "https://img.artlebedev.ru/icons/favicon-set.ico"
@@ -12730,6 +13969,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Measure Performance with the RAIL Model  |  Web Fundamentals  |  Google Developers",
             url:
@@ -12742,6 +13982,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Update on Async Rendering - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html",
@@ -12752,6 +13993,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Duran - Публикации",
             url:
               "https://www.facebook.com/ArtByDuran/photos/a.2159449564069966.1073741829.318130841535190/2159452500736339/?type=3&theater",
@@ -12763,6 +14005,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -12773,6 +14016,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "афиша клуба",
             url: "https://vk.com/page-63477485_52138480",
             favIconUrl:
@@ -12783,6 +14027,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Сергей Мардан",
             url: "https://www.facebook.com/sergeynudol?fref=jewel",
             favIconUrl:
@@ -12793,6 +14038,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Fredegund: Assassination-obsessed Queen",
             url: "https://www.rejectedprincesses.com/princesses/fredegund",
             favIconUrl:
@@ -12803,6 +14049,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Facebook",
             url: "https://www.facebook.com/",
             favIconUrl:
@@ -12813,6 +14060,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "ШЛЮХА (рассказ) Приятель позвал в бар смотреть... - Максим Матковский",
             url:
@@ -12825,6 +14073,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Великие споры - InLiberty",
             url: "https://www.inliberty.ru/public/spory/",
             favIconUrl: "https://www.inliberty.ru/i/favicon/favicon-32x32.png"
@@ -12834,6 +14083,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "juan_gandhi | TIL from Duolingo",
             url: "https://juan-gandhi.dreamwidth.org/4260093.html",
             favIconUrl: "https://juan-gandhi.dreamwidth.org/favicon.ico"
@@ -12843,6 +14093,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Слои пользы: ksoftware",
             url: "https://ksoftware.livejournal.com/396031.html",
             favIconUrl: "https://l-stat.livejournal.net/img/userinfo.ico"
@@ -12852,6 +14103,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Пикник «Афиши» 4 августа 2018 — официальный сайт фестиваля",
             url: "https://picnic.afisha.ru/faq",
             favIconUrl:
@@ -12862,6 +14114,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Вышел новый альбом Gorillaz. Послушайте его прямо сейчас — Meduza",
             url:
@@ -12873,6 +14126,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3578",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -12882,6 +14136,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ВИЗУАЛЬНАЯ МЕДИТАЦИЯ",
             url: "https://outcinema.ru/visual-meditation",
             favIconUrl:
@@ -12892,6 +14147,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Миротворец. Портрет Апхичатпхонга Вирасетакуна - Искусство кино",
             url: "http://kinoart.ru/archive/2010/11/n11-article12",
@@ -12902,6 +14158,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall2064116_418",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -12911,6 +14168,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Почему в России не надо повышать налоги? Экономический обозреватель Борис Грозовский отвечает заместителю главреда «Медузы» Александру Поливанову — Meduza",
             url:
@@ -12922,6 +14180,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Новая газета»: в Пскове поставили памятники на могилах десантников, погибших летом 2014 года — Meduza",
             url:
@@ -12933,6 +14192,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Андрей Ерёменко. Генерал против всех",
             url: "https://kartaistorii.ru/eremenko/history-map",
             favIconUrl:
@@ -12943,6 +14203,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "шарик и кисет - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124708.html",
             favIconUrl:
@@ -12953,6 +14214,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "мимоза - Поклонник деепричастий",
             url: "https://avva.livejournal.com/3124074.html",
             favIconUrl:
@@ -12963,6 +14225,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "» Scoperto il primo dipinto firmato e autografato da Leonardo Da Vinci",
             url:
@@ -12975,6 +14238,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-109629378_3509",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -12984,6 +14248,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Сеанс кинотерапии. «Арарат», режиссер Атом Эгоян - Искусство кино",
             url: "http://www.kinoart.ru/archive/2002/12/n12-article7",
@@ -12994,6 +14259,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "panda-grammar - npm",
             url: "https://www.npmjs.com/package/panda-grammar",
             favIconUrl:
@@ -13004,6 +14270,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-3818033_17029",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -13013,6 +14280,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как приукрашивали портреты маслом после распространения фотографии: shakko_kitsune - Page 2",
             url: "https://shakko-kitsune.livejournal.com/1268839.html?page=2",
@@ -13023,6 +14291,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Насильник, грабитель, поп-звезда: Убит XXXTentacion. Он был самым парадоксальным молодым рэпером Америки — Meduza",
             url:
@@ -13034,6 +14303,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Recursive descent parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/Recursive_descent_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -13043,6 +14313,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "LR parser - Wikipedia",
             url: "https://en.wikipedia.org/wiki/LR_parser",
             favIconUrl: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
@@ -13052,6 +14323,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "parsimmon/API.md at master · jneen/parsimmon · GitHub",
             url:
               "https://github.com/jneen/parsimmon/blob/master/API.md#terminology",
@@ -13062,6 +14334,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Как в России будут повышать пенсионный возраст? И зачем? — Meduza",
             url:
@@ -13073,6 +14346,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Они хотят сделать дестабилизацию обстановки». СБУ показала «переговоры организаторов покушения на Бабченко»: Пытаемся это пересказать — Meduza",
             url:
@@ -13084,6 +14358,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-112289703_13361",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -13093,6 +14368,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-55155418_165878",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -13102,6 +14378,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-110501497_16688",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -13111,6 +14388,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "нет законов - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3119801.html?page=2#comments",
             favIconUrl:
@@ -13121,6 +14399,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Official page for Language Server Protocol",
             url: "https://microsoft.github.io/language-server-protocol/",
             favIconUrl:
@@ -13131,6 +14410,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/6410472941942767616/sharedKey/dlv2StPe/?midToken=AQHzSA83YkIhgg&trk=eml-email_m2m_invite_single_01-null-0-accept%7Ecta&trkEmail=eml-email_m2m_invite_single_01-null-0-accept%7Ecta-null-2yk8nm%7Eji4kturi%7Exc-null-neptune%2Fmynetwork%2Einvite%7Eaccept&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BDrAIZne2QOC0D%2BxJlH6RoA%3D%3D",
             url:
@@ -13142,6 +14422,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Чем целлюлит Рубенса отличается от целлюлита Ван Дейка и целлюлита Йорданса?: shakko_kitsune",
             url: "https://shakko-kitsune.livejournal.com/1264148.html",
@@ -13152,6 +14433,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о конкурсах красоты - Поклонник деепричастий Page 2",
             url: "https://avva.livejournal.com/3120316.html?page=2#comments",
             favIconUrl:
@@ -13162,6 +14444,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Бренда «Евросеть» больше не будет. Чем нам запомнится эта компания — Meduza",
             url:
@@ -13173,6 +14456,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Abstrakte Kunst Poster bei AllPosters.de",
             url:
               "https://www.allposters.de/-st/Abstrakte-Kunst-Poster_c86168_.htm",
@@ -13183,6 +14467,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "‎NimbusMind: Meditation & Calm on the App Store",
             url:
               "https://itunes.apple.com/us/app/nimbusmind-meditation-calm/id1278663918?mt=8",
@@ -13193,6 +14478,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Генрих Ягода. Грязная работа",
             url: "https://kartaistorii.ru/yagoda/history-map",
             favIconUrl:
@@ -13203,6 +14489,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, design systems will replace design jobs — DesignSystems.com",
             url:
@@ -13214,6 +14501,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как изучать негодяев • Arzamas",
             url: "https://arzamas.academy/radio/announcements/hlevniuk",
             favIconUrl: "https://arzamas.academy/favicon-32x32.png"
@@ -13223,6 +14511,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«Считают своим моральным долгом потушить пожар»: как добровольные пожарные спасают огромные территории от огня — Такие Дела",
             url: "https://takiedela.ru/news/2018/04/22/firefighters/",
@@ -13234,6 +14523,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Error Boundaries - React",
             url:
               "https://reactjs.org/docs/error-boundaries.html#how-about-event-handlers",
@@ -13244,6 +14534,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - hlaueriksson/jamstack-cms: A JAMstack experiment with a Headless CMS",
             url: "https://github.com/hlaueriksson/jamstack-cms",
@@ -13254,6 +14545,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Стена",
             url: "https://vk.com/wall-72326580_646949",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -13263,6 +14555,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - Несравненный Эгон Шиле. 100 лет со дня... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215045413584993",
@@ -13274,6 +14567,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/arhstoyanie-2018",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -13283,6 +14577,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             url: "https://solosale.ru/page/arch.stoyanie.tickets/p145/",
             favIconUrl: "https://solosale.ru/favicon.ico"
@@ -13292,6 +14587,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Гитлер пришел к власти | История | DW | 29.01.2013",
             url:
               "https://www.dw.com/ru/%D0%BA%D0%B0%D0%BA-%D0%B3%D0%B8%D1%82%D0%BB%D0%B5%D1%80-%D0%BF%D1%80%D0%B8%D1%88%D0%B5%D0%BB-%D0%BA-%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B8/a-1581471",
@@ -13302,6 +14598,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Фотограф, которого никто не знал",
             url:
               "https://www.adme.ru/tvorchestvo-fotografy/fotograf-kotorogo-nikto-ne-znal-480205/",
@@ -13312,6 +14609,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "ФАКУЛЬТЕТЫ ИСКУССТВ - LES",
             url: "https://les.media/articles/584226-fakulbtety-iskusstv",
             favIconUrl: "https://les.media/favicon-32x32.png"
@@ -13321,6 +14619,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Александр Введенский — «В ленинградское отделение...»",
             url: "http://slova.org.ru/vvedenskiy/v_leningradskoe_otdelenie/",
             favIconUrl: "http://slova.org.ru/favicon.ico"
@@ -13330,6 +14629,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Побочные эффекты осознанности 1. У вас... - Sergey Shalashenko | Facebook",
             url:
@@ -13342,6 +14642,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Introducing GitFlow",
             url: "https://datasift.github.io/gitflow/IntroducingGitFlow.html",
             favIconUrl: "https://datasift.github.io/favicon.ico"
@@ -13351,6 +14652,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React Application Performance Analysis — Part 1 – Chingu – Medium",
             url:
@@ -13363,6 +14665,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "How to Benchmark React Components: The Quick and Dirty Guide",
             url:
@@ -13375,6 +14678,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Yes, Toilet Spray After You Flush Includes Poop Particles | SELF",
             url: "https://www.self.com/story/toilet-plume-poop-spray",
@@ -13385,6 +14689,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -13395,6 +14700,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Forwarding Refs - React",
             url: "https://reactjs.org/docs/forwarding-refs.html",
             favIconUrl: "https://reactjs.org/favicon.ico"
@@ -13404,6 +14710,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Gatsby + Apollo + GraphCool + Netlify: The Web’s Promised Land",
             url:
@@ -13416,6 +14723,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Björk's Vault of Dank Memes public group | Facebook",
             url:
               "https://www.facebook.com/groups/bvdom/permalink/613012339032202/",
@@ -13426,6 +14734,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Getting started - i18next documentation",
             url: "https://www.i18next.com/overview/getting-started",
             favIconUrl:
@@ -13436,6 +14745,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "The PRPL Pattern  |  Web Fundamentals  |  Google Developers",
             url:
@@ -13448,6 +14758,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Our insights into Technology and Business | Castle Digital Partners",
             url: "https://blog.castle.co/",
@@ -13459,6 +14770,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Не знаю, кому сказать спасибо, но маленькая... | Facebook",
             url:
@@ -13471,6 +14783,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Поздравляю всех причастных с Днём... - Владимир Манилов | Facebook",
             url:
@@ -13483,6 +14796,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Synchronize with the Server's Clock in the Browser",
             url: "https://www.nodeguy.com/serverdate/",
             favIconUrl: "https://www.nodeguy.com/favicon.ico"
@@ -13492,6 +14806,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "о жизни и литературе - Поклонник деепричастий",
             url: "https://avva.livejournal.com/1921476.html",
             favIconUrl:
@@ -13502,6 +14817,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«АукцЫон». Единственный Летний Концерт в Aurora Concert Hall",
             url:
@@ -13514,6 +14830,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Как Юрий Осинин спас Питер: tema",
             url: "https://tema.livejournal.com/2775878.html",
             favIconUrl: "https://www.livejournal.com/img/userinfo.ico"
@@ -13523,6 +14840,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "78 Новости - Петербуржец Юрий Осинин по своему желанию...",
             url:
               "https://www.facebook.com/78channel/videos/1872484333047698/UzpfSTEwMDAwMjA1NDg5NDg5MDoxNjgzMTM5OTg4NDMxMTQ4/",
@@ -13534,6 +14852,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "«100 лет дизайна» — кінопоказ у Москві — розклад на Яндекс.Афіші",
             url:
@@ -13545,6 +14864,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Архитектурная Керамика.",
             url: "https://vk.com/arhceramik",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -13554,6 +14874,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Экспонат без названия",
             url: "http://collectionerus.ru/collections/ceramicplate/31/",
             favIconUrl: "http://collectionerus.ru/static/favicon.ico"
@@ -13563,6 +14884,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Безумные миры Дэвида Линча — Кино на DTF",
             url: "https://dtf.ru/cinema/18427-bezumnye-miry-devida-lincha",
             favIconUrl:
@@ -13573,6 +14895,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Видеозаписи Поэмание",
             url: "https://vk.com/video-148655127_456239031",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_logo_2x.ico?6"
@@ -13582,6 +14905,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "«О восприятии и выявлении псевдо-интеллектуальной чуши»",
             url:
               "http://newochem.ru/nauka/o-vospriyatii-i-vyyavlenii-psevdo-intellektualnoj-chushi/",
@@ -13593,6 +14917,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "АРХСТОЯНИЕ 2018",
             url: "https://www.stoyanie.com/",
             favIconUrl: "https://static.parastorage.com/client/pfavico.ico"
@@ -13602,6 +14927,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Sneak Peek: Beyond React 16 - React Blog",
             url:
               "https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html",
@@ -13612,6 +14938,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Антон Долин - КИНОТАВР: МОИ ИТОГИ 1. Самый важный итог -... | Facebook",
             url: "https://www.facebook.com/adolin3/posts/10215335520797492",
@@ -13623,6 +14950,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Home / The Art of Pants",
             url: "https://theartofpants.bigcartel.com/",
             favIconUrl: "https://theartofpants.bigcartel.com/favicon.ico"
@@ -13632,6 +14960,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Трудно быть богом (фильм, 2013) — Википедия",
             url:
               "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2013)",
@@ -13642,6 +14971,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - sindresorhus/query-string: Parse and stringify URL query strings",
             url: "https://github.com/sindresorhus/query-string",
@@ -13652,6 +14982,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Better exhaustiveness checking for variant type conditions · Issue #1374 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/1374",
@@ -13662,6 +14993,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Вода для чая",
             url: "https://cha-shop.ru/stuff/water/#",
             favIconUrl:
@@ -13672,6 +15004,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "react-jsx-parser - npm",
             url: "https://www.npmjs.com/package/react-jsx-parser",
             favIconUrl:
@@ -13682,6 +15015,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
             url: "https://github.com/ai/size-limit#applications",
@@ -13692,6 +15026,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog",
             url:
@@ -13704,6 +15039,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Introducing MDXC: A new way to write Markdown for React - James K Nelson",
             url: "http://jamesknelson.com/introducing-mdxc/",
@@ -13714,6 +15050,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - Мне кажется, в ближайшее время у каждого... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606870769634",
@@ -13725,6 +15062,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Искусство для пацанчиков: Эдвард Мунк | Батенька, да вы трансформер",
             url: "https://batenka.ru/aesthetics/artshock/art4fellas-munk/",
@@ -13735,6 +15073,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Artem Chernov - А вот и Питерфотофест. Конец августа.... | Facebook",
             url: "https://www.facebook.com/chernovv/posts/10204606494360224",
@@ -13746,6 +15085,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Födor Katasonov - Виленский был одним из самых крутых и... | Facebook",
             url:
@@ -13758,6 +15098,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Семимостье в Санкт-Петербурге",
             url: "https://kudago.com/spb/place/semimoste/",
             favIconUrl: "https://static-42149e88.kudago.com/img/favicon.png"
@@ -13767,6 +15108,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Книжный клуб",
             url: "http://www.avrora.spb.ru/films/knigniy-klub",
             favIconUrl: "http://www.avrora.spb.ru/favicon.ico"
@@ -13776,6 +15118,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - jneen/parsimmon: A monadic LL(infinity) parser combinator library for javascript",
             url: "https://github.com/jneen/parsimmon",
@@ -13786,6 +15129,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "React.Element type is incompatible with object type · Issue #5547 · facebook/flow · GitHub",
             url: "https://github.com/facebook/flow/issues/5547",
@@ -13796,6 +15140,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "(3) Антон Долин - Большая удача – «Три сестры» Константин Богомолов...",
             url: "https://www.facebook.com/adolin3/posts/10215396076031335",
@@ -13807,6 +15152,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Кому выгодно повышение пенсионного возраста - РИА Новости, 19.06.2018",
             url: "https://ria.ru/analytics/20180619/1522873347.html",
@@ -13817,6 +15163,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Татьяна Мэй - Варлам Шаламов последние три года жизни... | Facebook",
             url:
@@ -13829,6 +15176,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "Ребята, last call for a trip to North... - Larisa Melnikova | Facebook",
             url:
@@ -13841,6 +15189,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - pandastrike/panda-grammar: Recursive descent parser combinators in JavaScript",
             url: "https://github.com/pandastrike/panda-grammar",
@@ -13851,6 +15200,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               "GitHub - reduxjs/react-redux: Official React bindings for Redux",
             url: "https://github.com/reduxjs/react-redux",
@@ -13861,6 +15211,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "You Probably Don't Need Derived State - React Blog",
             url:
               "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization",
@@ -13871,6 +15222,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "A deep dive into children in React - Max Stoibers Blog",
             url: "https://mxstbr.blog/2017/02/react-children-deepdive/",
             favIconUrl: "https://mxstbr.blog/favicon.png"
@@ -13880,6 +15232,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: false,
+            discarded: false,
             title: "Купить билеты",
             url: "http://www.teatrvo.ru/kupit-bilety/",
             favIconUrl: "http://www.teatrvo.ru/static/favicon.ico"
@@ -13905,6 +15258,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "bq | Latest",
             url: "https://bazqux.com/",
             favIconUrl: "https://bazqux.com/favicon.ico"
@@ -13914,6 +15268,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title:
               "Письмо «Nikolay, please add me to your LinkedIn network» — Женя Софронов — Яндекс.Почта",
             url:
@@ -13926,6 +15281,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 1,
             active: false,
             pinned: true,
+            discarded: false,
             title: "Диалоги",
             url: "https://vk.com/im?sel=-45728460",
             favIconUrl: "https://vk.com/images/icons/favicons/fav_im_2x.ico?6"
@@ -13941,6 +15297,7 @@ let DEBUG_SESSIONS: ISavedSession[] = [
             windowId: 2,
             active: false,
             pinned: false,
+            discarded: false,
             title:
               'Книга: "Омерзительное искусство. Юмор и хоррор шедевров живописи" - Софья Багдасарова. Купить книгу, читать рецензии | ISBN 978-5-04-088717-0 | Лабиринт',
             url: "https://www.labirint.ru/books/630406/",

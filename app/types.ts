@@ -29,7 +29,7 @@ export interface INewTab {
   pinned: boolean;
   // status: "complete",
   // hidden: boolean,
-  // discarded: boolean,
+  discarded: boolean;
   // incognito: boolean,
   // width: number,
   // height: number,

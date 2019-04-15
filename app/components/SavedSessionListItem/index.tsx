@@ -4,6 +4,7 @@ import { ISavedSession, ISavedSessionHeader } from "../../types";
 import * as dateHelper from "../../helpers/date";
 import plural from "../../helpers/plural";
 import CloseIcon from "../CloseIcon";
+import Icon from "../Icon";
 
 const styles = require("./index.less");
 
@@ -34,7 +35,8 @@ export default class extends Component<IProps> {
           {plural(savedSessionHeader.windowsCount, "window")},{" "}
           {savedSessionHeader.tabsCount}{" "}
           {plural(savedSessionHeader.tabsCount, "tab")}
-          <CloseIcon
+          <Icon
+            src={'/icons/close-icon.svg'}
             className={styles.closeIcon}
             onClick={e => {
               e.stopPropagation();

@@ -2,6 +2,9 @@ import { Component, h } from "preact";
 import { ISavedSessionHeader, IWindow } from "../../types";
 import cn from "classnames";
 import plural from "../../helpers/plural";
+import GroupOperations from "../GroupOperations";
+import MainOperations from "../MainOperations";
+import { ISelection } from "../../helpers/selection";
 
 const styles = require("./index.less");
 
@@ -11,11 +14,20 @@ interface IProps {
   activeUITab: UITab;
   windows: IWindow[];
   savedSessionHeaders: ISavedSessionHeader[];
+  search: string;
+  selection: ISelection;
+  isSelectionMode: boolean;
+  onSelectionClose: () => void;
+  onSelectionDiscard: () => void;
+  onSelectionInvert: () => void;
+  onSelectionAddAll: () => void;
+  onSelectionRemoveAll: () => void;
+  onChangeSearch: (search: string) => void;
   onSwitchUITab: (uiTab: UITab) => void;
-  onClickSaveCurrent: () => void;
+  onClickSelectionMode: () => void;
 }
 
-export const HEIGHT = 48;
+export const HEIGHT = 58;
 
 export default class extends Component<IProps> {
   renderTabs() {
@@ -44,17 +56,26 @@ export default class extends Component<IProps> {
   }
 
   renderCurrentSessionInfo() {
-    const windowsCount = this.props.windows.length;
-    const tabsCount = this.props.windows
-      .map(({ tabs }) => tabs.length)
-      .reduce((acc, x) => acc + x, 0);
     return (
       <div className={styles.info}>
-        <div>
-          {windowsCount} {plural(windowsCount, "window")}, {tabsCount}{" "}
-          {plural(windowsCount, "tab")}
-        </div>
-        <button onClick={this.props.onClickSaveCurrent}>Save</button>
+        <MainOperations
+          search={this.props.search}
+          isSelectionMode={this.props.isSelectionMode}
+          onClickSelectionMode={this.props.onClickSelectionMode}
+          onChangeSearch={this.props.onChangeSearch}
+        />
+        {this.props.isSelectionMode && (
+          <GroupOperations
+            windows={this.props.windows}
+            selection={this.props.selection}
+            isSelectionMode={this.props.isSelectionMode}
+            onClose={this.props.onSelectionClose}
+            onDiscard={this.props.onSelectionDiscard}
+            onInvert={this.props.onSelectionInvert}
+            onAddAll={this.props.onSelectionAddAll}
+            onRemoveAll={this.props.onSelectionRemoveAll}
+          />
+        )}
       </div>
     );
   }
@@ -63,7 +84,9 @@ export default class extends Component<IProps> {
     const sessionsCount = this.props.savedSessionHeaders.length;
     return (
       <div className={styles.info}>
-        {sessionsCount} {plural(sessionsCount, "saved session")}
+        <div className={styles.savedSessionsInfo}>
+          {sessionsCount} {plural(sessionsCount, "saved session")}
+        </div>
       </div>
     );
   }
@@ -81,7 +104,7 @@ export default class extends Component<IProps> {
 
   render() {
     return (
-      <div className={styles.root} style={{ height: `${HEIGHT}px` }}>
+      <div className={styles.root} style={{ minHeight: HEIGHT }}>
         {this.renderTabs()}
         {this.renderInfo()}
       </div>
