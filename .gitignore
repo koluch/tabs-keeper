@@ -102,3 +102,4 @@ dist
 *.zip
 app/**/*.js
 app/**/*.js.map
+!app/assets/**/*.js
