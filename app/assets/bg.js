@@ -8,5 +8,5 @@ browser.runtime.onInstalled.addListener(() => {
     mediaQueryList.addEventListener("change", e => {
         setIcon(e.matches);
     });
-    setIcon(true);
+    setIcon(mediaQueryList.matches);
 });
