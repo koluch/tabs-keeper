@@ -32,7 +32,7 @@
     "@typescript-eslint/parser": "^1.5.0",
     "babel-brunch": "^6.1.1",
     "babel-preset-env": "^1.7.0",
-    "brunch": "^2.10.17",
+    "brunch": "^4.0.0",
     "clean-css-brunch": "^2",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.1.0",
